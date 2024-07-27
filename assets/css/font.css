@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Rama Gothic';
+    src: url('../font/RamaGothicRoundedM-Bold.eot');
+    src: url('../font/RamaGothicRoundedM-Bold.eot') format('embedded-opentype'),
+        url('../font/RamaGothicRoundedM-Bold.woff2') format('woff2'),
+        url('../font/RamaGothicRoundedM-Bold.woff') format('woff'),
+        url('../font/RamaGothicRoundedM-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rama Gothic';
+    src: url('../font/RamaGothicRoundedM-Heavy.eot');
+    src: url('../font/RamaGothicRoundedM-Heavy.eot') format('embedded-opentype'),
+        url('../font/RamaGothicRoundedM-Heavy.woff2') format('woff2'),
+        url('../font/RamaGothicRoundedM-Heavy.woff') format('woff'),
+        url('../font/RamaGothicRoundedM-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rama Gothic';
+    src: url('../font/RamaGothicRoundedM-Regular.eot');
+    src: url('../font/RamaGothicRoundedM-Regular.eot') format('embedded-opentype'),
+        url('../font/RamaGothicRoundedM-Regular.woff2') format('woff2'),
+        url('../font/RamaGothicRoundedM-Regular.woff') format('woff'),
+        url('../font/RamaGothicRoundedM-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
