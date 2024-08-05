@@ -13,9 +13,9 @@
 // common css
 
 .common-main-title {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 35px;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
@@ -33,7 +33,7 @@
 
 .center-title-mdiv {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -218,7 +218,7 @@ header {
 }
 
 .header-bottom-mdiv {
-    border: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     .navbar-nav {
         gap: 20px;
         margin: 0 auto;
@@ -328,6 +328,11 @@ header {
         height: 350px;
         overflow: hidden;
         display: flex;
+        position: relative;
+        .product-img-link {
+            width: 100%;
+            height: 100%;
+        }
         .product-img {
             width: 100%;
             height: 100%;
@@ -350,6 +355,9 @@ header {
             color: #000;
             margin-bottom: 0;
             font-weight: 600;
+            .discount-price {
+                color: $success;
+            }
         }
     }
     .add-cart-link {
@@ -359,9 +367,10 @@ header {
         align-items: center;
         gap: 10px;
         font-size: 16px;
+        line-height: 16px;
         color: #000;
         border-radius: 7px;
-        padding: 7px 10px;
+        padding: 10px;
         margin: 0 auto;
         position: absolute;
         top: 330px;
@@ -375,7 +384,7 @@ header {
         line-height: 14px;
         font-weight: 600;
         color: #4c4c4c;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
         background: #f1f1f1;
         padding: 5px 7px;
         border-radius: 4px;
@@ -392,6 +401,7 @@ header {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+        z-index: 3;
     }
     .product-floatright-div {
         max-width: fit-content;
@@ -404,6 +414,7 @@ header {
         flex-direction: column;
         align-items: flex-end;
         gap: 10px;
+        z-index: 3;
     }
     .like-product-icon {
         width: 30px;
@@ -423,15 +434,29 @@ header {
         padding: 5px 10px;
         background: green;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 16px;
         color: #fff;
         font-weight: 400;
     }
+    .product-rating-mdiv {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+        gap: 3px;
+    }
+    .product-rating-icon {
+        font-size: 16px;
+        color: #ddd;
+        &.rated {
+            color: #ffe234;
+        }
+    }
 
     &:hover {
         .add-cart-link {
-            top: 290px;
+            top: 300px;
             opacity: 1;
         }
     }
