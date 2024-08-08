@@ -12,12 +12,34 @@
 
 // common css
 
+.common-btn {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid $primary;
+    border-radius: 6px;
+    font-size: 16px;
+    color: $primary;
+    line-height: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    &:hover {
+        background: $primary;
+        color: #fff;
+    }
+}
+
 .common-main-title {
     font-size: 28px;
     font-weight: 500;
     line-height: 28px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    min-width: fit-content;
 }
 
 .common-desc {
@@ -91,12 +113,30 @@ i {
     line-height: 0;
 }
 .common-bg {
-    background: #ddd;
+    background: #f4f6fa;
 }
 
 .section-padding {
     padding: 70px 0;
     position: relative;
+}
+.row-gap20 {
+    row-gap: 20px;
+}
+
+.view-all-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-width: fit-content;
+    color: #000;
+    transition: 0.5s ease;
+    &:hover {
+        color: $primary;
+    }
 }
 .row-gap20 {
     row-gap: 20px;
@@ -297,6 +337,55 @@ header {
                     width: 100%;
                 }
             }
+        }
+    }
+}
+
+// main slider
+
+.slider-item {
+    position: relative;
+    min-height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    &::before {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        // background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(9, 9, 121, 0) 40%, rgba(0, 212, 255, 0) 100%);
+        content: "";
+    }
+    .slider-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .container {
+        position: relative;
+        z-index: 3;
+    }
+    .slider-title-small {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: $primary;
+        margin-bottom: 15px;
+    }
+    .slider-title {
+        font-family: "Aleo", serif;
+        font-size: 55px;
+        line-height: 65px;
+        font-family: 700;
+        color: #fff;
+        text-transform: capitalize;
+        span {
+            color: $primary;
         }
     }
 }
@@ -611,11 +700,12 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    min-width: fit-content;
     .common-arrow {
         min-width: 45px;
         width: 45px;
         height: 45px;
-        background: #ddd;
+        background: #f4f6fa;
         border-radius: 100px;
         display: flex;
         align-items: center;
@@ -637,10 +727,30 @@ header {
         }
     }
 }
+.categories-section {
+    background: $primary;
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+    .categories-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.2;
+    }
+    .common-main-title {
+        color: #fff;
+    }
+}
 .categories-item {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     background: #f4f6fa;
     border-radius: 10px;
@@ -653,14 +763,17 @@ header {
         background: #fff;
     }
     .categories-icon-div {
-        width: 100%;
-        height: 70px;
+        width: 110px;
+        height: 110px;
+        border-radius: 1000px;
+        background: rgba(37, 169, 225, 0.2);
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 5px;
         .categories-icon {
-            width: 100%;
-            height: 100%;
+            width: 60px;
+            height: 60px;
             object-fit: contain;
         }
     }
@@ -669,5 +782,39 @@ header {
         font-weight: 500;
         line-height: 20px;
         text-align: center;
+        color: #000;
+    }
+}
+
+.discount-item {
+    min-height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .discount-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .discount-content {
+        position: relative;
+        z-index: 2;
+        .discount-titel {
+            font-size: 35px;
+            line-height: 40px;
+            font-weight: 600;
+            color: #fff;
+            span {
+                color: #000;
+            }
+        }
     }
 }
