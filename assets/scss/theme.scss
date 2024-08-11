@@ -40,6 +40,14 @@
         }
     }
 }
+.swiper-button-lock {
+    pointer-events: none;
+    opacity: 0.8;
+}
+.swiper-wrapper.swiper-wrapper-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .common-main-title {
     font-size: 28px;
@@ -400,14 +408,11 @@ header {
 // blog-section
 
 .blog-section {
-    .swiper-slide {
-        padding: 10px 0;
-    }
     .blog-item {
         width: 100%;
         padding: 15px;
         background: #ffffff;
-        box-shadow: 0px 0px 20px rgba(33, 37, 41, 0.1);
+        box-shadow: 0px 0px 15px 2px #0000000f;
         border-radius: 10px;
         height: 100%;
         display: flex;
@@ -559,6 +564,10 @@ header {
         transform: translateX(-50%);
         opacity: 0;
         transition: 0.3s ease;
+        &:hover {
+            background: $primary;
+            color: #fff;
+        }
     }
     .product-category {
         font-size: 14px;
@@ -605,9 +614,23 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: 0.3s ease;
         i {
             font-size: 16px;
             color: #000;
+            transition: 0.3s ease;
+        }
+        &.liked {
+            background: $secondary;
+            i {
+                color: #fff;
+            }
+        }
+        &:hover {
+            background: $secondary;
+            i {
+                color: #fff;
+            }
         }
     }
     .product-badges {
@@ -795,8 +818,8 @@ header {
         padding: 5px;
         transition: 0.3s ease;
         .categories-icon {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             object-fit: contain;
         }
     }
@@ -904,143 +927,38 @@ header {
     }
 }
 
-.footer {
-    background: #f4f7f9;
-    border-top: 5px solid $secondary;
-    .footer-top-container {
-        padding: 70px 0;
-        border-bottom: 1px solid #ddd;
-    }
-    .footer-logo-link {
-        height: 64px;
-        width: fit-content;
-        max-width: 250px;
-        display: flex;
-        margin-bottom: 20px;
-        .footer-logo-img {
-            height: 100%;
-            width: 100%;
-            object-fit: contain;
-        }
-    }
-    .social-icon-div {
+.social-icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+    .social-icon-link {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
-        margin-top: 15px;
-        .social-icon-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 38px;
-            height: 38px;
-            line-height: 38px;
-            text-align: center;
-            background: #ffffff;
-            box-shadow: 0px 1px 1px rgba(1, 15, 28, 0.2);
-            border-radius: 6px;
-            transition: 0.3s ease;
-            .social-icon {
-                font-size: 20px;
-                line-height: 0;
-                color: $primary;
-                transition: 0.3s ease;
-            }
-            &:hover {
-                background: $primary;
-                i {
-                    color: #fff;
-                }
-            }
-        }
-    }
-    .footer-title {
-        font-size: 24px;
-        line-height: 28px;
-        font-weight: 600;
-        margin-bottom: 15px;
-        color: #000;
-    }
-    .footer-link-ul {
-        padding: 0;
-        margin: 0;
-        .footer-link-li {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-bottom: 10px;
-            &:last-of-type {
-                margin-bottom: 0;
-            }
-            .footer-link {
-                font-size: 16px;
-                line-height: 20px;
-                font-weight: 500;
-                color: #555555;
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                gap: 5px;
-                i {
-                    line-height: 0;
-                }
-                &:hover {
-                    color: $primary;
-                }
-            }
-        }
-    }
-    .footer-contact-div {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 5px;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 500;
-        color: #555555;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        background: #ffffff;
+        box-shadow: 0px 1px 1px rgba(1, 15, 28, 0.2);
+        border-radius: 6px;
         transition: 0.3s ease;
-        margin-bottom: 15px;
-        i {
+        .social-icon {
+            font-size: 20px;
             line-height: 0;
-        }
-    }
-    a.footer-contact-div {
-        &:hover {
             color: $primary;
+            transition: 0.3s ease;
         }
-    }
-    .footer-bottom-container {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        .copyright-text {
-            font-size: 16px;
-            line-height: 20px;
-            font-weight: 500;
-            color: #555555;
-        }
-        .payment-icon-div {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            gap: 5px;
-            .payment-icon {
-                width: 60px;
-                height: 30px;
-                background: #fff;
-                padding: 5px;
-                border-radius: 5px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                box-shadow: 0px 0px 20px rgba(33, 37, 41, 0.1);
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: contain;
-                }
+        &:hover {
+            background: $primary;
+            i {
+                color: #fff;
             }
         }
     }
 }
+
+@import "footer";
+@import "login";

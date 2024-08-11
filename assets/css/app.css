@@ -15219,6 +15219,14 @@ textarea.form-control-lg {
       background: #fe5488;
       color: #fff; }
 
+.swiper-button-lock {
+  pointer-events: none;
+  opacity: 0.8; }
+
+.swiper-wrapper.swiper-wrapper-padding {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 .common-main-title {
   font-size: 28px;
   font-weight: 500;
@@ -15510,14 +15518,11 @@ header {
     .slider-item .slider-title span {
       color: #fe5488; }
 
-.blog-section .swiper-slide {
-  padding: 10px 0; }
-
 .blog-section .blog-item {
   width: 100%;
   padding: 15px;
   background: #ffffff;
-  box-shadow: 0px 0px 20px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 0px 15px 2px #0000000f;
   border-radius: 10px;
   height: 100%;
   display: flex;
@@ -15645,6 +15650,9 @@ header {
     transform: translateX(-50%);
     opacity: 0;
     transition: 0.3s ease; }
+    .product-item .add-cart-link:hover {
+      background: #25aae1;
+      color: #fff; }
   .product-item .product-category {
     font-size: 14px;
     line-height: 14px;
@@ -15686,10 +15694,20 @@ header {
     border-radius: 100px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    transition: 0.3s ease; }
     .product-item .like-product-icon i {
       font-size: 16px;
-      color: #000; }
+      color: #000;
+      transition: 0.3s ease; }
+    .product-item .like-product-icon.liked {
+      background: #fe5488; }
+      .product-item .like-product-icon.liked i {
+        color: #fff; }
+    .product-item .like-product-icon:hover {
+      background: #fe5488; }
+      .product-item .like-product-icon:hover i {
+        color: #fff; }
   .product-item .product-badges {
     width: fit-content;
     padding: 5px 10px;
@@ -15843,8 +15861,8 @@ header {
     padding: 5px;
     transition: 0.3s ease; }
     .categories-item .categories-icon-div .categories-icon {
-      width: 60px;
-      height: 60px;
+      width: 80px;
+      height: 80px;
       object-fit: contain; }
   .categories-item .categories-name {
     font-size: 16px;
@@ -15931,12 +15949,45 @@ header {
       height: 100%;
       object-fit: contain; }
 
+.social-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 15px; }
+  .social-icon-div .social-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 1px 1px rgba(1, 15, 28, 0.2);
+    border-radius: 6px;
+    transition: 0.3s ease; }
+    .social-icon-div .social-icon-link .social-icon {
+      font-size: 20px;
+      line-height: 0;
+      color: #25aae1;
+      transition: 0.3s ease; }
+    .social-icon-div .social-icon-link:hover {
+      background: #25aae1; }
+      .social-icon-div .social-icon-link:hover i {
+        color: #fff; }
+
 .footer {
   background: #f4f7f9;
   border-top: 5px solid #fe5488; }
   .footer .footer-top-container {
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
     border-bottom: 1px solid #ddd; }
+    @media (max-width: 991px) {
+      .footer .footer-top-container {
+        padding-top: 40px;
+        padding-bottom: 40px; } }
   .footer .footer-logo-link {
     height: 64px;
     width: fit-content;
@@ -15947,39 +15998,17 @@ header {
       height: 100%;
       width: 100%;
       object-fit: contain; }
-  .footer .social-icon-div {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    margin-top: 15px; }
-    .footer .social-icon-div .social-icon-link {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 38px;
-      height: 38px;
-      line-height: 38px;
-      text-align: center;
-      background: #ffffff;
-      box-shadow: 0px 1px 1px rgba(1, 15, 28, 0.2);
-      border-radius: 6px;
-      transition: 0.3s ease; }
-      .footer .social-icon-div .social-icon-link .social-icon {
-        font-size: 20px;
-        line-height: 0;
-        color: #25aae1;
-        transition: 0.3s ease; }
-      .footer .social-icon-div .social-icon-link:hover {
-        background: #25aae1; }
-        .footer .social-icon-div .social-icon-link:hover i {
-          color: #fff; }
   .footer .footer-title {
     font-size: 24px;
     line-height: 28px;
     font-weight: 600;
     margin-bottom: 15px;
     color: #000; }
+    @media (max-width: 576px) {
+      .footer .footer-title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px; } }
   .footer .footer-link-ul {
     padding: 0;
     margin: 0; }
@@ -16026,11 +16055,17 @@ header {
       line-height: 20px;
       font-weight: 500;
       color: #555555; }
+      @media (max-width: 991px) {
+        .footer .footer-bottom-container .copyright-text {
+          text-align: center; } }
     .footer .footer-bottom-container .payment-icon-div {
       display: flex;
       align-items: center;
       justify-content: flex-end;
       gap: 5px; }
+      @media (max-width: 991px) {
+        .footer .footer-bottom-container .payment-icon-div {
+          justify-content: center; } }
       .footer .footer-bottom-container .payment-icon-div .payment-icon {
         width: 60px;
         height: 30px;
@@ -16045,3 +16080,129 @@ header {
           width: 100%;
           height: 100%;
           object-fit: contain; }
+
+.login-section {
+  background-size: contain; }
+
+.login-item {
+  padding: 30px 20px;
+  background: #fff; }
+
+.login-header {
+  margin-bottom: 20px; }
+  .login-header .login-header-content {
+    text-align: center; }
+    .login-header .login-header-content .login-title {
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 40px;
+      color: #25aae1;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+    .login-header .login-header-content .login-icon {
+      height: 100px;
+      object-fit: contain; }
+
+.login-mdiv {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background: #fff; }
+  .login-mdiv .login-footer {
+    margin-top: 30px; }
+    .login-mdiv .login-footer .common-main-title {
+      font-size: 20px;
+      line-height: 26px;
+      text-transform: capitalize;
+      padding-inline: 20px; }
+    .login-mdiv .login-footer .social-icon-div {
+      justify-content: center;
+      margin-bottom: 30px; }
+      .login-mdiv .login-footer .social-icon-div .social-icon-link {
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+        box-shadow: none;
+        transition: 0.3s ease; }
+        .login-mdiv .login-footer .social-icon-div .social-icon-link:hover {
+          background: #fff;
+          box-shadow: 0px 0px 2px rgba(1, 15, 28, 0.2); }
+        .login-mdiv .login-footer .social-icon-div .social-icon-link .social-icon {
+          object-fit: contain;
+          width: 100%;
+          height: 100%; }
+  .login-mdiv .signup-link {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+    text-align: center; }
+    .login-mdiv .signup-link a {
+      color: #25aae1;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px; }
+      .login-mdiv .signup-link a:hover {
+        text-decoration: underline; }
+    .login-mdiv .signup-link.forgot-password-link {
+      margin-top: 15px; }
+
+.backto-login-link {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #25aae1;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #25aae1;
+  margin-inline: auto;
+  text-align: center;
+  width: fit-content;
+  margin-top: 15px; }
+  .backto-login-link:hover {
+    color: #25aae1; }
+    .backto-login-link:hover span {
+      text-decoration: underline; }
+
+.otp-mdiv {
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+  gap: 10px; }
+  .otp-mdiv .form-control {
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px; }
+
+.form-label {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 4px; }
+
+.form-control {
+  padding: 10px;
+  font-size: 16px; }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #25aae1; }
+  .form-control.input-password {
+    padding-right: 35px; }
+
+.form-group {
+  margin-bottom: 15px; }
+
+.password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer; }
+
+.submit-btn {
+  width: 100%; }
