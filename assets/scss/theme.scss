@@ -51,11 +51,14 @@
 
 .common-main-title {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 28px;
     text-transform: uppercase;
     margin-bottom: 15px;
     min-width: fit-content;
+    span {
+        color: $secondary;
+    }
 }
 
 .common-desc {
@@ -364,6 +367,8 @@ header {
     min-height: calc(100vh - 150px);
     display: flex;
     align-items: center;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
     &::before {
         width: 100%;
         height: 100%;
@@ -372,6 +377,18 @@ header {
         left: 0;
         z-index: 1;
         background: linear-gradient(90deg, rgba(216, 216, 216, 0.28) 34%, rgba(0, 212, 255, 0) 77%);
+        content: "";
+        display: none;
+    }
+    &::after {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background: url("../images/cloud-bg.svg") no-repeat;
+        background-size: cover;
         content: "";
     }
     .slider-img {
@@ -396,7 +413,7 @@ header {
     .slider-title {
         font-size: 55px;
         line-height: 65px;
-        font-family: 700;
+        font-weight: 800;
         color: #000;
         text-transform: capitalize;
         span {
@@ -503,11 +520,22 @@ header {
 
 // product
 
+.product-section {
+    .product-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 .product-item {
     box-shadow: 0px 3px 15px 0px #0000000f;
     position: relative;
     background: #fff;
-    border-radius: 7px;
+    border-radius: 15px;
     overflow: hidden;
     .product-img-div {
         width: 100%;
@@ -529,20 +557,29 @@ header {
         padding: 15px;
         text-align: left;
         .product-name {
-            font-size: 16px;
+            font-size: 18px;
             line-height: 20px;
             color: #000;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             font-weight: 600;
+            display: block;
         }
         .product-price {
-            font-size: 16px;
+            font-size: 20px;
             line-height: 20px;
             color: #000;
             margin-bottom: 0;
             font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 15px;
             .discount-price {
-                color: $success;
+                color: $secondary;
+            }
+            del {
+                font-size: 16px;
+                color: #555;
             }
         }
     }
@@ -573,11 +610,8 @@ header {
         font-size: 14px;
         line-height: 14px;
         font-weight: 600;
-        color: #4c4c4c;
-        margin-bottom: 7px;
-        background: #f1f1f1;
-        padding: 5px 7px;
-        border-radius: 4px;
+        color: #555;
+        margin-bottom: 10px;
         width: fit-content;
     }
     .product-floatleft-div {
@@ -657,7 +691,7 @@ header {
         font-size: 16px;
         color: #ddd;
         &.rated {
-            color: #ffe234;
+            color: $secondary;
         }
     }
 
@@ -778,7 +812,36 @@ header {
 }
 
 .categories-section {
-    background: $primary;
+    background: rgba(254, 84, 135, 0.3);
+    padding: 110px 0;
+    overflow: hidden;
+    hr {
+        border-color: #fff;
+    }
+    &::after {
+        width: calc(100% + 60px);
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: url("../images/cloud-bg-top.svg") no-repeat bottom;
+        background-size: cover;
+        content: "";
+        animation: cloudAnimation 3s linear both alternate infinite;
+    }
+    &::before {
+        width: calc(100% + 50px);
+        height: 150px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background: url("../images/cloud-bg.svg") no-repeat;
+        background-size: cover;
+        content: "";
+        animation: cloudAnimation 3s linear both alternate infinite;
+    }
     .container {
         position: relative;
         z-index: 2;
@@ -790,10 +853,19 @@ header {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity: 0.2;
+        // opacity: 0.2;
     }
     .common-main-title {
         color: #fff;
+    }
+}
+
+@keyframes cloudAnimation {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-25px);
     }
 }
 .categories-item {
@@ -811,7 +883,9 @@ header {
         width: 110px;
         height: 110px;
         border-radius: 1000px;
-        background: rgba(37, 169, 225, 0.2);
+        // background: rgba(37, 169, 225, 0.2);
+        background: url("../images/blob.svg") no-repeat center;
+        background-size: 110px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -835,7 +909,7 @@ header {
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
         background: #fff;
         .categories-icon-div {
-            background: rgba(254, 84, 136, 0.2);
+            background-size: 160px;
         }
     }
 }

@@ -55,7 +55,7 @@
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="left-title-mdiv">
-            <h2 class="common-main-title">New Launches</h2>
+            <h2 class="common-main-title">New <span>Launches</span></h2>
             <hr>
             <div class="common-slider-arrow-div">
               <a href="javascript:void(0)" class="common-arrow new-launches-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
@@ -87,6 +87,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -94,8 +96,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price"><del>₹40</del> <span class="discount-price">₹30</span></p>
                   </div>
                 </div>
               </div>
@@ -223,7 +223,7 @@
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
         </div>
       </div>
     </div>
@@ -232,7 +232,7 @@
   <!-- categories-section -->
 
   <section class="section-padding categories-section">
-    <img src="./assets/images/bg-1.jpg" alt="" class="categories-bg">
+    <!-- <img src="./assets/images/bg3.jpg" alt="" class="categories-bg"> -->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
