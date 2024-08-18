@@ -11,15 +11,14 @@
                 <div class="slider-item">
                   <img src="./assets/images/demo-img-4.jpg" alt="slider" class="slider-img">
                   <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-center">
                       <div class="col-7">
                         <div class="slider-content-div">
-                          <span class="slider-title-small">Lorem ipsum</span>
-                          <h2 class="slider-title">Lorem ipsum dolor sit amet consectetur adipisicing <span>elit Tenetur</span></h2>
-                          <a href="javascript:void(0)" title="View Product" class="common-btn">View Product</a>
+                          <span class="slider-title-small text-center d-block">Lorem ipsum</span>
+                          <h2 class="slider-title text-center">Lorem ipsum dolor sit <span>elit Tenetur</span></h2>
+                          <a href="javascript:void(0)" title="View Product" class="common-btn mx-auto">View Product</a>
                         </div>
                       </div>
-                      <div class="col-5"></div>
                     </div>
                   </div>
                 </div>
@@ -51,23 +50,23 @@
 <!-- new product-section -->
 
   <section class="section-padding product-section">
+    <img src="./assets/images/icon-1.svg" alt="icon 1" class="float-icon-1">
+    <img src="./assets/images/icon-2.svg" alt="icon 1" class="float-icon-2">
+    <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
+    <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">New <span>Launches</span></h2>
-            <hr>
-            <div class="common-slider-arrow-div">
-              <a href="javascript:void(0)" class="common-arrow new-launches-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-              <a href="javascript:void(0)" class="common-arrow new-launches-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
-            </div>
+            <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <div class="swiper new-launches-slider">
-            <div class="swiper-wrapper swiper-wrapper-padding">
+        <div class="col-12 position-relative">
+          <div class="swiper new-launches-slider swiper-wrapper-padding">
+            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="product-item">
                   <div class="product-floatleft-div">
@@ -117,6 +116,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -124,8 +125,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
@@ -147,6 +146,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -154,8 +155,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
@@ -177,6 +176,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -184,8 +185,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
@@ -207,6 +206,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -214,12 +215,14 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="common-slider-arrow-div float-slider-arrow">
+            <a href="javascript:void(0)" class="common-arrow new-launches-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow new-launches-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">
@@ -231,23 +234,29 @@
 
   <!-- categories-section -->
 
-  <section class="section-padding categories-section">
-    <!-- <img src="./assets/images/bg3.jpg" alt="" class="categories-bg"> -->
+<section class="section-padding categories-section">
+    <div class="categories-bg-div">
+      <!-- <img src="./assets/images/bg-4.svg" alt="bg-4" class="categories-bg"> -->
+    </div>
+
+    <div class="shape-divider-top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"></path>
+      </svg>
+    </div>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Shop by <span>Categories</span></h2>
-            <hr>
-            <div class="common-slider-arrow-div">
-              <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-              <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
-            </div>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 position-relative">
           <div class="swiper categories-slider">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -340,11 +349,24 @@
               </div>
             </div>
           </div>
+          <div class="common-slider-arrow-div float-slider-arrow">
+            <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-prew-arrow"><i
+              class="fi fi-rr-arrow-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-next-arrow"><i
+              class="fi fi-rr-arrow-right"></i></a>
+          </div>
         </div>
         <div class="col-12 d-flex">
           <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
         </div>
       </div>
+    </div>
+    <div class="shape-divider-bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"></path>
+      </svg>
     </div>
   </section>
 
@@ -355,19 +377,15 @@
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="left-title-mdiv">
-            <h2 class="common-main-title">Products</h2>
-            <hr>
-            <div class="common-slider-arrow-div">
-              <a href="javascript:void(0)" class="common-arrow products-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-              <a href="javascript:void(0)" class="common-arrow products-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
-            </div>
+            <h2 class="common-main-title">Our <span>Products</span></h2>
+            <p class="common-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, vero?</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <div class="swiper products-slider">
-            <div class="swiper-wrapper swiper-wrapper-padding">
+        <div class="col-12 position-relative">
+          <div class="swiper products-slider swiper-wrapper-padding">
+            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="product-item">
                   <div class="product-floatleft-div">
@@ -386,6 +404,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -393,8 +413,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price"><del>₹40</del> <span class="discount-price">₹30</span></p>
                   </div>
                 </div>
               </div>
@@ -416,6 +434,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -423,8 +443,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
@@ -446,6 +464,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -453,8 +473,6 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
@@ -476,6 +494,8 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
+                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
@@ -483,12 +503,14 @@
                       <i class="fi fi-sr-star product-rating-icon rated"></i>
                       <i class="fi fi-sr-star product-rating-icon"></i>
                     </div>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price">₹40</p>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="common-slider-arrow-div float-slider-arrow">
+            <a href="javascript:void(0)" class="common-arrow products-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow products-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">
@@ -541,22 +563,21 @@
 
   <!-- brand section -->
 
-  <section class="section-padding categories-section">
-    <img src="./assets/images/bg-1.jpg" alt="" class="categories-bg">
+  <section class="brand-section section-padding categories-section">
+    <img src="./assets/images/icon-6.svg" alt="" class="brand-float-icon">
+    <img src="./assets/images/icon-7.svg" alt="" class="brand-float-icon2">
+    <div class="brand-section-shape"></div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-12 position-relative">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Shop by <span>Brands</span></h2>
-            <hr>
-            <div class="common-slider-arrow-div">
-              <a href="javascript:void(0)" class="view-all-btn text-white">View All<i class="fi fi-rr-arrow-right"></i></a>
-            </div>
+            <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum delectus, sit possimus nemo voluptates magni.</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 position-relative">
           <div class="swiper brand-slider">
             <div class="swiper-wrapper swiper-wrapper-padding">
               <div class="swiper-slide">
@@ -626,8 +647,12 @@
             </div>
           </div>
         </div>
+        <div class="col-12 d-flex">
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
+        </div>
       </div>
     </div>
+    <div class="brand-section-shape shape-bottom"></div>
   </section>
 
   <!-- blog-section -->
@@ -637,19 +662,15 @@
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="left-title-mdiv">
-            <h2 class="common-main-title">Blogs</h2>
-            <hr>
-            <div class="common-slider-arrow-div">
-              <a href="javascript:void(0)" class="common-arrow blog-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-              <a href="javascript:void(0)" class="common-arrow blog-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
-            </div>
+            <h2 class="common-main-title">Blog <span>Posts</span></h2>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id asperiores, itaque eligendi eos error porro.</p>
           </div>
         </div>
       </div>
       <div class="row row-gap20">
-        <div class="col-12">
-          <div class="swiper blog-slider">
-            <div class="swiper-wrapper swiper-wrapper-padding">
+        <div class="col-12 position-relative">
+          <div class="swiper blog-slider swiper-wrapper-padding">
+            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="blog-item">
                   <a href="javascript:void(0)" class="blog-img-mdiv">
@@ -659,7 +680,7 @@
                     <p class="blog-detail-tag"><i class="fi fi-rr-calendar"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
-                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
+                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
                   <hr>
                   <a href="javascript:void(0)" class="know-more-mdiv">
                     <i class="fi fi-rr-arrow-circle-right right-arrow"></i><span>Know More</span>
@@ -731,6 +752,10 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="common-slider-arrow-div float-slider-arrow">
+            <a href="javascript:void(0)" class="common-arrow blog-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow blog-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">
@@ -743,7 +768,7 @@
   <!-- processing-section -->
 
   <section class="processing-section">
-    <!-- <img src="./assets/images/bg-1.jpg" alt="processing bg" class="processing-bg-img"> -->
+    <div class="processing-section-shape"></div>
     <div class="container">
       <div class="row row-cols-5">
         <div class="col">
@@ -838,6 +863,7 @@
     var swiper = new Swiper(".blog-slider", {
       slidesPerView: 3,
       spaceBetween: 30,
+      autoHeight: true,
       navigation: {
         nextEl: ".blog-next-arrow",
         prevEl: ".blog-prew-arrow",
