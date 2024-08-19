@@ -53,10 +53,10 @@
     <img src="./assets/images/icon-1.svg" alt="icon 1" class="float-icon-1">
     <img src="./assets/images/icon-2.svg" alt="icon 1" class="float-icon-2">
     <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
-    <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5">
+    <!-- <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5"> -->
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">New <span>Launches</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -89,11 +89,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -119,11 +119,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -149,11 +149,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -179,11 +179,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -209,11 +209,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -233,8 +233,149 @@
   </section>
 
   <!-- categories-section -->
+  <section class="section-padding categories-section-2">
+    <div class="common-float-line"></div>
+    <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-1">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div class="left-title-mdiv">
+            <h2 class="common-main-title">Shop by <span>Categories</span></h2>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <a href="javascript:void(0)" class="categories-item2">
+            <div class="categories-item2-inner">
+              <div class="categories-img-div">
+                <img src="./assets/images/boy.svg" alt="boy">
+              </div>
+              <h3 class="categories-title">Newborn Beby</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="javascript:void(0)" class="categories-item2">
+            <div class="categories-item2-inner">
+              <div class="categories-img-div">
+                <img src="./assets/images/boy.svg" alt="boy">
+              </div>
+              <h3 class="categories-title">Baby Boy</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="javascript:void(0)" class="categories-item2">
+            <div class="categories-item2-inner">
+              <div class="categories-img-div">
+                <img src="./assets/images/girl.svg" alt="boy">
+              </div>
+              <h3 class="categories-title">Baby Girl</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="javascript:void(0)" class="categories-item2">
+            <div class="categories-item2-inner">
+              <div class="categories-img-div">
+                <img src="./assets/images/all.svg" alt="boy">
+              </div>
+              <h3 class="categories-title">All</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="section-padding categories-section">
+  <!-- categories-section -->
+  <section class="section-padding by-age-section categories-section-2">
+    <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
+    <img src="./assets/images/plane.png" alt="icon 1" class="float-icon-5">
+    <img src="./assets/images/cloth.png" alt="icon 1" class="float-icon-6">
+    <div class="shape-divider-bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 common-left-div">
+          <div class="by-age-imgdiv">
+            <img src="./assets/images/by-age-img.svg" alt="by-age">
+          </div>
+        </div>
+        <div class="col-6 common-right-div">
+          <div class="left-title-mdiv align-items-start">
+            <h2 class="common-main-title">Short by <span>Age</span></h2>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="row row-gap20">
+            <div class="col-6">
+              <a href="javascript:void(0)" class="categories-item2">
+                <div class="categories-item2-inner">
+                  <h3 class="categories-title">0 - 6 Months</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="javascript:void(0)" class="categories-item2">
+                <div class="categories-item2-inner">
+                  <h3 class="categories-title">6 - 24 Months</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="javascript:void(0)" class="categories-item2">
+                <div class="categories-item2-inner">
+                  <h3 class="categories-title">2 - 4 Years</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="javascript:void(0)" class="categories-item2">
+                <div class="categories-item2-inner">
+                  <h3 class="categories-title">4 - 6 Years</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="javascript:void(0)" class="categories-item2">
+                <div class="categories-item2-inner">
+                  <h3 class="categories-title">8 - 10 Years</h3>
+                </div>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="javascript:void(0)" class="categories-item2">
+                <div class="categories-item2-inner">
+                  <h3 class="categories-title">10+ Years</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shape-divider-top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+
+
+  <!-- categories-section -->
+
+  <?php /*
+  <section class="section-padding categories-section">
     <div class="categories-bg-div">
       <!-- <img src="./assets/images/bg-4.svg" alt="bg-4" class="categories-bg"> -->
     </div>
@@ -248,7 +389,7 @@
     </div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Shop by <span>Categories</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
@@ -369,13 +510,18 @@
       </svg>
     </div>
   </section>
+  */ ?>
 
   <!-- product-section -->
 
   <section class="section-padding product-section">
+    <img src="./assets/images/icon-8.svg" alt="icon 1" class="float-icon-1">
+    <img src="./assets/images/icon-9.svg" alt="icon 1" class="float-icon-2">
+    <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
+    <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Our <span>Products</span></h2>
             <p class="common-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, vero?</p>
@@ -407,11 +553,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -437,11 +583,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -467,11 +613,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -497,11 +643,11 @@
                     <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon rated"></i>
-                      <i class="fi fi-sr-star product-rating-icon"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
                     </div>
                   </div>
                 </div>
@@ -569,7 +715,7 @@
     <div class="brand-section-shape"></div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 position-relative">
+        <div class="col-8 position-relative">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Shop by <span>Brands</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum delectus, sit possimus nemo voluptates magni.</p>
@@ -658,9 +804,12 @@
   <!-- blog-section -->
 
   <section class="blog-section section-padding">
+    <img src="./assets/images/girl.svg" alt="" class="blog-float-img blog-float-img2">
+    <img src="./assets/images/icon-9.svg" alt="" class="blog-float-img3">
+    <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Blog <span>Posts</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id asperiores, itaque eligendi eos error porro.</p>
@@ -759,7 +908,7 @@
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
         </div>
       </div>
     </div>
@@ -767,7 +916,9 @@
 
   <!-- processing-section -->
 
-  <section class="processing-section">
+  <section class="processing-section position-relative">
+    <img src="./assets/images/plane.png" alt="icon 1" class="float-icon-5">
+    <div class="common-float-line"></div>
     <div class="processing-section-shape"></div>
     <div class="container">
       <div class="row row-cols-5">
@@ -880,7 +1031,7 @@
     });
 
     var swiper = new Swiper(".brand-slider", {
-      slidesPerView: 6,
+      slidesPerView: 5,
       spaceBetween: 20,
       loop:true,
       navigation: {

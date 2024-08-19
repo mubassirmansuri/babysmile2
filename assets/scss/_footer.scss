@@ -1,11 +1,43 @@
 .footer {
-  background: #f4f7f9;
-  border-top: 5px solid $secondary;
+  background: rgba(37, 170, 225, 0.3);
   position: relative;
+  padding-top: 60px;
+  &::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url("../images/demo-img-13.svg") no-repeat center;
+    background-size: cover;
+    content: "";
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.8;
+  }
+  &::after {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: scaleY(-1);
+    background: url("../images/cloud-bg.png") repeat-x center top;
+    background-size: contain;
+    content: "";
+    pointer-events: none;
+    z-index: 2;
+  }
+  .container {
+    position: relative;
+    z-index: 3;
+  }
   .footer-top-container {
     padding-top: 70px;
     padding-bottom: 70px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #818181;
     @media (max-width: 991px) {
       padding-top: 40px;
       padding-bottom: 40px;
@@ -24,9 +56,9 @@
     }
   }
   .footer-title {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 15px;
     color: #000;
     @media (max-width: 576px) {
@@ -42,15 +74,15 @@
       padding: 0;
       margin: 0;
       list-style: none;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       &:last-of-type {
         margin-bottom: 0;
       }
       .footer-link {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 20px;
-        font-weight: 500;
-        color: #555555;
+        font-weight: 600;
+        color: #000;
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -59,7 +91,7 @@
           line-height: 0;
         }
         &:hover {
-          color: $primary;
+          color: $secondary;
         }
       }
     }
@@ -69,10 +101,10 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 5px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
-    font-weight: 500;
-    color: #555555;
+    font-weight: 600;
+    color: #000;
     transition: 0.3s ease;
     margin-bottom: 15px;
     i {
@@ -81,17 +113,17 @@
   }
   a.footer-contact-div {
     &:hover {
-      color: $primary;
+      color: $secondary;
     }
   }
   .footer-bottom-container {
     padding-top: 15px;
     padding-bottom: 15px;
     .copyright-text {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 20px;
-      font-weight: 500;
-      color: #555555;
+      font-weight: 600;
+      color: #000;
       @media (max-width: 991px) {
         text-align: center;
       }
