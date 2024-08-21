@@ -49,7 +49,7 @@
 
 <!-- new product-section -->
 
-  <section class="section-padding product-section">
+  <section class="section-padding product-section pb-20">
     <img src="./assets/images/icon-1.svg" alt="icon 1" class="float-icon-1">
     <img src="./assets/images/icon-2.svg" alt="icon 1" class="float-icon-2">
     <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
@@ -234,7 +234,7 @@
 
   <!-- categories-section -->
   <section class="section-padding categories-section-2">
-    <div class="common-float-line"></div>
+    <!-- <div class="common-float-line"></div> -->
     <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-1">
     <div class="container">
       <div class="row justify-content-center">
@@ -250,9 +250,9 @@
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
-                <img src="./assets/images/boy.svg" alt="boy">
+                <img src="./assets/images/newborn-baby.svg" alt="newborn-baby">
               </div>
-              <h3 class="categories-title">Newborn Beby</h3>
+              <h3 class="categories-title">Newborn Baby</h3>
             </div>
           </a>
         </div>
@@ -803,7 +803,7 @@
 
   <!-- blog-section -->
 
-  <section class="blog-section section-padding">
+  <section class="blog-section section-padding pb-20">
     <img src="./assets/images/girl.svg" alt="" class="blog-float-img blog-float-img2">
     <img src="./assets/images/icon-9.svg" alt="" class="blog-float-img3">
     <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
@@ -918,7 +918,7 @@
 
   <section class="processing-section position-relative">
     <img src="./assets/images/plane.png" alt="icon 1" class="float-icon-5">
-    <div class="common-float-line"></div>
+    <!-- <div class="common-float-line"></div> -->
     <div class="processing-section-shape"></div>
     <div class="container">
       <div class="row row-cols-5">
