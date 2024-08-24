@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 position-relative">
+        <div class="col-12 position-relative float-slider-col">
           <div class="swiper new-launches-slider swiper-wrapper-padding">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -82,7 +82,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+<div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -112,7 +115,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -142,7 +148,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -172,7 +181,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -202,7 +214,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -221,8 +236,8 @@
             </div>
           </div>
           <div class="common-slider-arrow-div float-slider-arrow">
-            <a href="javascript:void(0)" class="common-arrow new-launches-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-            <a href="javascript:void(0)" class="common-arrow new-launches-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
+            <a href="javascript:void(0)" class="common-arrow new-launches-prew-arrow"><i class="fi fi-rr-angle-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow new-launches-next-arrow"><i class="fi fi-rr-angle-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">
@@ -492,9 +507,9 @@
           </div>
           <div class="common-slider-arrow-div float-slider-arrow">
             <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-prew-arrow"><i
-              class="fi fi-rr-arrow-left"></i></a>
+              class="fi fi-rr-angle-left"></i></a>
             <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-next-arrow"><i
-              class="fi fi-rr-arrow-right"></i></a>
+              class="fi fi-rr-angle-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">
@@ -529,7 +544,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 position-relative">
+        <div class="col-12 position-relative float-slider-col">
           <div class="swiper products-slider swiper-wrapper-padding">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -546,7 +561,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -576,7 +594,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -606,7 +627,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -636,7 +660,10 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-                    <a href="javascript:void(0)" class="add-cart-link"><i class="fi fi-rr-plus"></i> Add Cart</a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">lorem</p>
@@ -655,12 +682,12 @@
             </div>
           </div>
           <div class="common-slider-arrow-div float-slider-arrow">
-            <a href="javascript:void(0)" class="common-arrow products-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-            <a href="javascript:void(0)" class="common-arrow products-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
+            <a href="javascript:void(0)" class="common-arrow products-prew-arrow"><i class="fi fi-rr-angle-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow products-next-arrow"><i class="fi fi-rr-angle-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
         </div>
       </div>
     </div>
@@ -817,7 +844,7 @@
         </div>
       </div>
       <div class="row row-gap20">
-        <div class="col-12 position-relative">
+        <div class="col-12 position-relative float-slider-col">
           <div class="swiper blog-slider swiper-wrapper-padding">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -832,7 +859,7 @@
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
                   <hr>
                   <a href="javascript:void(0)" class="know-more-mdiv">
-                    <i class="fi fi-rr-arrow-circle-right right-arrow"></i><span>Know More</span>
+                    <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
               </div>
@@ -848,7 +875,7 @@
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
                   <a href="javascript:void(0)" class="know-more-mdiv">
-                    <i class="fi fi-rr-arrow-circle-right right-arrow"></i><span>Know More</span>
+                    <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
               </div>
@@ -864,7 +891,7 @@
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
                   <a href="javascript:void(0)" class="know-more-mdiv">
-                    <i class="fi fi-rr-arrow-circle-right right-arrow"></i><span>Know More</span>
+                    <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
               </div>
@@ -880,7 +907,7 @@
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
                   <a href="javascript:void(0)" class="know-more-mdiv">
-                    <i class="fi fi-rr-arrow-circle-right right-arrow"></i><span>Know More</span>
+                    <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
               </div>
@@ -896,15 +923,15 @@
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
                   <a href="javascript:void(0)" class="know-more-mdiv">
-                    <i class="fi fi-rr-arrow-circle-right right-arrow"></i><span>Know More</span>
+                    <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="common-slider-arrow-div float-slider-arrow">
-            <a href="javascript:void(0)" class="common-arrow blog-prew-arrow"><i class="fi fi-rr-arrow-left"></i></a>
-            <a href="javascript:void(0)" class="common-arrow blog-next-arrow"><i class="fi fi-rr-arrow-right"></i></a>
+            <a href="javascript:void(0)" class="common-arrow blog-prew-arrow"><i class="fi fi-rr-angle-left"></i></a>
+            <a href="javascript:void(0)" class="common-arrow blog-next-arrow"><i class="fi fi-rr-angle-right"></i></a>
           </div>
         </div>
         <div class="col-12 d-flex">

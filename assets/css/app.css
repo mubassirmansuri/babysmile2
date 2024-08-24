@@ -15715,6 +15715,20 @@ i {
       .product-item .product-item-footer .product-price del {
         font-size: 16px;
         color: #555; }
+  .product-item .add-cart-div {
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s ease;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding-inline: 10px;
+    gap: 10px; }
   .product-item .add-cart-link {
     background: #fff;
     width: fit-content;
@@ -15727,16 +15741,22 @@ i {
     border-radius: 7px;
     padding: 10px;
     margin: 0 auto;
-    position: absolute;
-    top: 330px;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
     transition: 0.3s ease;
     border: 1px solid #fe5488; }
     .product-item .add-cart-link:hover {
       background: #fe5488;
       color: #fff; }
+  .product-item .add-cart-link2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .product-item .add-cart-link2 i {
+      font-size: 22px;
+      color: #555; }
   .product-item .product-category {
     font-size: 14px;
     line-height: 14px;
@@ -15777,10 +15797,10 @@ i {
     align-items: center;
     justify-content: center;
     transition: 0.3s ease;
-    border: 1px solid #555; }
+    border: 1px solid #909090; }
     .product-item .like-product-icon i {
       font-size: 16px;
-      color: #555;
+      color: #909090;
       transition: 0.3s ease; }
     .product-item .like-product-icon.liked {
       background: #fe5488;
@@ -15814,8 +15834,8 @@ i {
     color: #ddd; }
     .product-item .product-rating-icon.rated {
       color: #fe5488; }
-  .product-item:hover .add-cart-link {
-    top: 300px;
+  .product-item:hover .add-cart-div {
+    top: 290px;
     opacity: 1; }
 
 .processing-section {
@@ -15905,23 +15925,27 @@ i {
     min-width: 45px;
     width: 45px;
     height: 45px;
-    background: #f4f6fa;
+    background: #fe5488;
     border-radius: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid transparent;
-    transition: 0.3s ease; }
+    transition: 0.3s ease;
+    position: relative; }
+    .common-slider-arrow-div .common-arrow:nth-child(1) i {
+      margin-right: 4px; }
+    .common-slider-arrow-div .common-arrow:nth-child(2) i {
+      margin-left: 4px; }
     .common-slider-arrow-div .common-arrow i {
       font-size: 20px;
       line-height: 0;
-      color: #000;
+      color: #fff;
       transition: 0.3s ease; }
     .common-slider-arrow-div .common-arrow:hover {
       background: #fff;
-      border-color: #25aae1; }
+      border-color: #fe5488; }
       .common-slider-arrow-div .common-arrow:hover i {
-        color: #25aae1; }
+        color: #fe5488; }
   .common-slider-arrow-div .common-arrow2:hover {
     background: #fff;
     border-color: #fe5488; }
@@ -15935,7 +15959,31 @@ i {
   width: 100%;
   z-index: 5;
   transform: translateY(-50%);
-  justify-content: space-between; }
+  justify-content: space-between;
+  opacity: 0; }
+
+.float-slider-col .float-slider-arrow .common-arrow::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px dashed #fff;
+  content: "";
+  border-radius: 100px;
+  animation: rotating 5s linear infinite both; }
+
+.float-slider-col .float-slider-arrow .common-arrow:hover::before {
+  border: 2px dashed #fe5488; }
+
+.float-slider-col:hover .float-slider-arrow {
+  opacity: 1; }
+
+@keyframes rotating {
+  0% {
+    rotate: 0deg; }
+  100% {
+    rotate: 360deg; } }
 
 .categories-section {
   background: rgba(254, 84, 135, 0.3);
@@ -15961,7 +16009,7 @@ i {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background: url("../images/beach_13127879.png") repeat-x;
+  background: url("../images/floatline.png") repeat-x;
   background-size: contain;
   width: 50%;
   height: 50px;
@@ -16095,7 +16143,7 @@ i {
 
 .brand-section {
   padding: 50px 0;
-  background: url("../images/33643090_8037303-ai (1).png") no-repeat center;
+  background: url("../images/brand-bg.png") no-repeat center;
   background-size: cover;
   background-attachment: fixed; }
   .brand-section .brand-section-shape {

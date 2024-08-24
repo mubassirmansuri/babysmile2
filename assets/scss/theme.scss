@@ -68,7 +68,7 @@
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
-    color: #555;
+    color: $secondaryFontColor;
     margin-bottom: 10px;
 }
 .common-desc:last-of-type {
@@ -160,7 +160,7 @@ i {
     align-items: center;
     gap: 5px;
     min-width: fit-content;
-    color: #000;
+    color: $primaryFontColor;
     transition: 0.5s ease;
     &:hover {
         color: $primary;
@@ -285,7 +285,7 @@ i {
         .cart-icon-link {
             line-height: 20px;
             font-size: 20px;
-            color: #000;
+            color: $primaryFontColor;
             position: relative;
         }
         .cart-badge {
@@ -309,7 +309,7 @@ i {
         font-size: 16px;
         font-weight: 500;
         line-height: 20px;
-        color: #000;
+        color: $primaryFontColor;
     }
 }
 .header-menu-ul {
@@ -342,7 +342,7 @@ i {
             line-height: 20px;
             font-weight: 500;
             padding: 15px 0;
-            color: #000;
+            color: $primaryFontColor;
             display: flex;
             align-items: center;
             position: relative;
@@ -422,7 +422,7 @@ i {
         font-size: 55px;
         line-height: 65px;
         font-weight: 800;
-        color: #000;
+        color: $primaryFontColor;
         text-transform: capitalize;
         span {
             color: $secondary;
@@ -497,7 +497,7 @@ i {
                 font-size: 16px;
                 line-height: 16px;
                 font-weight: 500;
-                color: #000;
+                color: $primaryFontColor;
                 transition: 0.3s ease;
                 &:hover {
                     color: $secondary;
@@ -513,7 +513,7 @@ i {
             font-weight: 500;
             font-size: 18px;
             line-height: 20px;
-            color: #000;
+            color: $primaryFontColor;
             transition: 0.3s ease;
             &:hover {
                 color: $secondary;
@@ -537,7 +537,7 @@ i {
             margin-top: 0px;
             width: fit-content;
             position: relative;
-            color: #000;
+            color: $primaryFontColor;
             i {
                 transform: rotate(-60deg);
                 border: 0;
@@ -618,7 +618,7 @@ i {
         .product-name {
             font-size: 18px;
             line-height: 20px;
-            color: #000;
+            color: $primaryFontColor;
             margin-bottom: 15px;
             font-weight: 600;
             display: block;
@@ -626,7 +626,7 @@ i {
         .product-price {
             font-size: 20px;
             line-height: 20px;
-            color: #000;
+            color: $primaryFontColor;
             margin-bottom: 0;
             font-weight: 600;
             display: flex;
@@ -638,9 +638,24 @@ i {
             }
             del {
                 font-size: 16px;
-                color: #555;
+                color: $secondaryFontColor;
             }
         }
+    }
+    .add-cart-div {
+        position: absolute;
+        top: 330px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.3s ease;
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        padding-inline: 10px;
+        gap: 10px;
     }
     .add-cart-link {
         background: #fff;
@@ -654,11 +669,6 @@ i {
         border-radius: 7px;
         padding: 10px;
         margin: 0 auto;
-        position: absolute;
-        top: 330px;
-        left: 50%;
-        transform: translateX(-50%);
-        opacity: 0;
         transition: 0.3s ease;
         border: 1px solid $secondary;
         &:hover {
@@ -666,11 +676,24 @@ i {
             color: #fff;
         }
     }
+    .add-cart-link2 {
+        width: 45px;
+        height: 45px;
+        border-radius: 100px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i {
+            font-size: 22px;
+            color: $secondaryFontColor;
+        }
+    }
     .product-category {
         font-size: 14px;
         line-height: 14px;
         font-weight: 600;
-        color: #555;
+        color: $secondaryFontColor;
         margin-bottom: 10px;
         width: fit-content;
     }
@@ -709,10 +732,10 @@ i {
         align-items: center;
         justify-content: center;
         transition: 0.3s ease;
-        border: 1px solid #555;
+        border: 1px solid #909090;
         i {
             font-size: 16px;
-            color: #555;
+            color: #909090;
             transition: 0.3s ease;
         }
         &.liked {
@@ -759,8 +782,8 @@ i {
     }
 
     &:hover {
-        .add-cart-link {
-            top: 300px;
+        .add-cart-div {
+            top: 290px;
             opacity: 1;
         }
     }
@@ -834,7 +857,7 @@ i {
             z-index: 2;
             i {
                 font-size: 60px;
-                color: #000;
+                color: $primaryFontColor;
             }
             .processing-icon {
                 width: 65px;
@@ -857,7 +880,7 @@ i {
         .processing-title {
             font-size: 18px;
             line-height: 20px;
-            color: #000;
+            color: $primaryFontColor;
             font-weight: 700;
             text-align: center;
             margin-top: 15px;
@@ -875,24 +898,34 @@ i {
         min-width: 45px;
         width: 45px;
         height: 45px;
-        background: #f4f6fa;
+        background: $secondary;
         border-radius: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid transparent;
         transition: 0.3s ease;
+        position: relative;
+        &:nth-child(1) {
+            i {
+                margin-right: 4px;
+            }
+        }
+        &:nth-child(2) {
+            i {
+                margin-left: 4px;
+            }
+        }
         i {
             font-size: 20px;
             line-height: 0;
-            color: #000;
+            color: #fff;
             transition: 0.3s ease;
         }
         &:hover {
             background: #fff;
-            border-color: $primary;
+            border-color: $secondary;
             i {
-                color: $primary;
+                color: $secondary;
             }
         }
     }
@@ -915,6 +948,44 @@ i {
     z-index: 5;
     transform: translateY(-50%);
     justify-content: space-between;
+    opacity: 0;
+}
+
+.float-slider-col {
+    .float-slider-arrow {
+        .common-arrow {
+            &::before {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: 2px dashed #fff;
+                content: "";
+                border-radius: 100px;
+                animation: rotating 5s linear infinite both;
+            }
+            &:hover {
+                &::before {
+                    border: 2px dashed $secondary;
+                }
+            }
+        }
+    }
+    &:hover {
+        .float-slider-arrow {
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes rotating {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
 }
 
 .categories-section {
@@ -962,7 +1033,7 @@ i {
         // opacity: 0.2;
     }
     .common-main-title {
-        color: #000;
+        color: $primaryFontColor;
     }
 }
 
@@ -971,7 +1042,7 @@ i {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: url("../images/beach_13127879.png") repeat-x;
+    background: url("../images/floatline.png") repeat-x;
     background-size: contain;
     width: 50%;
     height: 50px;
@@ -1020,7 +1091,7 @@ i {
         font-weight: 500;
         line-height: 20px;
         text-align: center;
-        color: #000;
+        color: $primaryFontColor;
     }
     &:hover {
         border-color: $secondary;
@@ -1130,7 +1201,7 @@ i {
 }
 .brand-section {
     padding: 50px 0;
-    background: url("../images/33643090_8037303-ai (1).png") no-repeat center;
+    background: url("../images/brand-bg.png") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     .brand-section-shape {
