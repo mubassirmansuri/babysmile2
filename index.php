@@ -23,9 +23,25 @@
                   </div>
                 </div>
               </div>
-               <div class="swiper-slide">
+              <div class="swiper-slide">
                 <div class="slider-item">
                   <img src="./assets/images/demo-img-6.png" alt="slider" class="slider-img">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-7">
+                        <div class="slider-content-div">
+                          <span class="slider-title-small text-center d-block">Lorem ipsum</span>
+                          <h2 class="slider-title text-center">Lorem ipsum dolor sit <span>elit Tenetur</span></h2>
+                          <a href="javascript:void(0)" title="View Product" class="common-btn mx-auto">View Product</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider-item">
+                  <img src="./assets/images/demo-img-13.png" alt="slider" class="slider-img">
                   <div class="container">
                     <div class="row justify-content-center">
                       <div class="col-7">
@@ -69,8 +85,8 @@
               <div class="swiper-slide">
                 <div class="product-item">
                   <div class="product-floatleft-div">
-                    <div class="product-badges">New</div>
                     <div class="product-badges discount">10% off</div>
+                    <div class="product-badges">New</div>
                   </div>
                   <div class="product-floatright-div">
                     <a href="javascript:void(0)" class="like-product-icon">
@@ -81,7 +97,7 @@
                     <a href="javascript:void(0)" class="product-img-link">
                       <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
                     </a>
-<div class="add-cart-div">
+                    <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
                     </div>
@@ -852,7 +868,7 @@
                     <img src="./assets/images/demo-img-10.jpg" alt="Lorem ipsum dolor sit" class="blog-img">
                   </a>
                   <div class="blog-detail-div">
-                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar"></i>25-5-2024</p>
+                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
@@ -868,7 +884,7 @@
                     <img src="./assets/images/demo-img-10.jpg" alt="Lorem ipsum dolor sit" class="blog-img">
                   </a>
                   <div class="blog-detail-div">
-                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar"></i>25-5-2024</p>
+                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
@@ -884,7 +900,7 @@
                     <img src="./assets/images/demo-img-10.jpg" alt="Lorem ipsum dolor sit" class="blog-img">
                   </a>
                   <div class="blog-detail-div">
-                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar"></i>25-5-2024</p>
+                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
@@ -900,7 +916,7 @@
                     <img src="./assets/images/demo-img-10.jpg" alt="Lorem ipsum dolor sit" class="blog-img">
                   </a>
                   <div class="blog-detail-div">
-                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar"></i>25-5-2024</p>
+                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
@@ -916,7 +932,7 @@
                     <img src="./assets/images/demo-img-10.jpg" alt="Lorem ipsum dolor sit" class="blog-img">
                   </a>
                   <div class="blog-detail-div">
-                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar"></i>25-5-2024</p>
+                    <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
                   <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>

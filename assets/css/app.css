@@ -15680,7 +15680,17 @@ i {
     background: #fff; }
     .product-item .product-img-div .product-img-link {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      position: relative; }
+      .product-item .product-img-div .product-img-link::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 100%;
+        content: "";
+        background: rgba(0, 0, 0, 0.3);
+        transition: 0.3s ease; }
     .product-item .product-img-div .product-img {
       width: 100%;
       height: 100%;
@@ -15833,7 +15843,13 @@ i {
     color: #fff;
     font-weight: 400; }
     .product-item .product-badges.discount {
-      background: #fe5488; }
+      background: #fe5488;
+      border-radius: 0 20px 20px 0;
+      left: -15px;
+      position: relative;
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: 600; }
   .product-item .product-rating-mdiv {
     display: flex;
     align-items: center;
@@ -15848,6 +15864,8 @@ i {
   .product-item:hover .add-cart-div {
     top: 290px;
     opacity: 1; }
+  .product-item:hover .product-img-link::before {
+    height: 100%; }
 
 .processing-section {
   padding: 70px 0 40px 0;
@@ -15971,7 +15989,8 @@ i {
   z-index: 5;
   transform: translateY(-50%);
   justify-content: space-between;
-  opacity: 0; }
+  opacity: 0;
+  transition: 0.3s ease; }
 
 .float-slider-col .float-slider-arrow .common-arrow::before {
   width: 100%;
@@ -16684,6 +16703,67 @@ i {
     .by-age-section .categories-item2 .categories-title {
       font-size: 26px;
       color: #fe5488; }
+
+.breadcrumb-section {
+  padding: 70px 0;
+  padding-bottom: 90px;
+  background: url("../images/breadcrumb-bg.svg") no-repeat bottom;
+  background-size: cover;
+  position: relative; }
+  .breadcrumb-section::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    content: ""; }
+  .breadcrumb-section::after {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: url("../images/cloud-bg.png") repeat-x center top;
+    background-size: contain;
+    content: "";
+    pointer-events: none;
+    z-index: 3; }
+  .breadcrumb-section .breadcrumb-item {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .breadcrumb-section .breadcrumb-title {
+    font-size: 50px;
+    line-height: 50px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .breadcrumb-section .breadcrumb-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0; }
+    .breadcrumb-section .breadcrumb-ul .breadcrumb-li,
+    .breadcrumb-section .breadcrumb-ul .breadcrumb-link {
+      list-style: none;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600; }
+      .breadcrumb-section .breadcrumb-ul .breadcrumb-li.active,
+      .breadcrumb-section .breadcrumb-ul .breadcrumb-link.active {
+        color: #fe5488; }
+    .breadcrumb-section .breadcrumb-ul .breadcrumb-link:hover {
+      color: #25aae1; }
 
 @media (min-width: 992px) {
   .common-right-div {
