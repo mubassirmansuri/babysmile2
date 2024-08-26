@@ -1,8 +1,11 @@
     <footer class="footer">
-        <div class="custom-shape-divider-bottom-1723991056">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100% 100">
-            <path fill="" class="shape-fill" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,170.7C384,149,480,107,576,117.3C672,128,768,192,864,202.7C960,213,1056,171,1152,138.7C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-          </svg>
+      <img src="./assets/images/plane.png" alt="icon 1" class="float-icon-5">
+      <img src="./assets/images/icon-9.svg" alt="" class="blog-float-img3">
+      <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
+      <div class="custom-shape-divider-bottom-1723991056">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100% 100">
+          <path fill="" class="shape-fill" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,170.7C384,149,480,107,576,117.3C672,128,768,192,864,202.7C960,213,1056,171,1152,138.7C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
       </div>
       <div class="container footer-top-container">
         <div class="row">
@@ -31,7 +34,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 mb-md-0 mb-15">
-            <h3 class="footer-title">Quick Links</h3>
+            <h3 class="footer-title">Quick <span>Links</span></h3>
             <ul class="footer-link-ul">
               <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Home</a></li>
               <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Products</a></li>
@@ -41,7 +44,7 @@
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-md-0 mb-15">
-            <h3 class="footer-title">My Account</h3>
+            <h3 class="footer-title">My <span>Account</span></h3>
             <ul class="footer-link-ul">
               <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i
                   class="fi fi-rr-angle-small-right"></i>Track Orders</a></li>
@@ -56,7 +59,7 @@
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 col-12">
-            <h3 class="footer-title">Quick Links</h3>
+            <h3 class="footer-title">Quick <span>Links</span></h3>
             <div class="footer-contact-div">
               <i class="fi fi-rr-marker"></i>79 Sleepy Hollow St. Jamaica, New York 1432
             </div>

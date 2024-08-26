@@ -488,7 +488,7 @@ i {
             display: flex;
             justify-content: space-between;
             gap: 5px;
-            padding: 10px 0 5px 0;
+            padding: 10px 0 10px 0;
             .blog-detail-tag {
                 display: flex;
                 align-items: center;
@@ -546,6 +546,7 @@ i {
                 transition: 0.3s ease;
             }
             &:hover {
+                color: $secondary;
                 i {
                     transform: rotate(0deg);
                 }
@@ -622,6 +623,10 @@ i {
             margin-bottom: 15px;
             font-weight: 600;
             display: block;
+            transition: 0.3s ease;
+            &:hover {
+                color: $secondary;
+            }
         }
         .product-price {
             font-size: 20px;
@@ -684,9 +689,17 @@ i {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: 0.3s ease;
         i {
             font-size: 22px;
             color: $secondaryFontColor;
+            transition: 0.3s ease;
+        }
+        &:hover {
+            background: $secondary;
+            i {
+                color: #fff;
+            }
         }
     }
     .product-category {
@@ -755,15 +768,15 @@ i {
     }
     .product-badges {
         width: fit-content;
-        padding: 5px 10px;
-        background: green;
-        border-radius: 10px;
+        padding: 8px;
+        background: #25bbac;
+        border-radius: 10px 0 10px 0;
         font-size: 14px;
         line-height: 16px;
         color: #fff;
         font-weight: 400;
         &.discount {
-            background: rgb(207, 7, 7);
+            background: $secondary;
         }
     }
     .product-rating-mdiv {
@@ -1112,15 +1125,25 @@ i {
     display: flex;
     align-items: center;
     height: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 8px 8px 0px 0 $secondary;
+    transition: 0.3s ease;
     &::before {
+        transition: 0.3s ease;
         content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: #0f0f0f2b;
+        background: rgba(15, 15, 15, 0.169);
         z-index: 1;
+    }
+    &:hover {
+        box-shadow: 0px 0px 0px 0 $secondary;
+        &::before {
+            background: rgba(15, 15, 15, 0.2);
+        }
     }
 
     .discount-img {
@@ -1486,7 +1509,7 @@ i {
             border-color: $secondary;
         }
         .categories-title {
-            font-size: 22px;
+            font-size: 26px;
             color: $secondary;
         }
     }

@@ -23,19 +23,18 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+               <div class="swiper-slide">
                 <div class="slider-item">
-                  <img src="./assets/images/demo-img-6.jpg" alt="slider" class="slider-img">
+                  <img src="./assets/images/demo-img-6.png" alt="slider" class="slider-img">
                   <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-center">
                       <div class="col-7">
                         <div class="slider-content-div">
-                          <span class="slider-title-small">Lorem ipsum</span>
-                          <h2 class="slider-title">Lorem ipsum dolor sit amet consectetur adipisicing <span>elit Tenetur</span></h2>
-                          <a href="javascript:void(0)" title="View Product" class="common-btn">View Product</a>
+                          <span class="slider-title-small text-center d-block">Lorem ipsum</span>
+                          <h2 class="slider-title text-center">Lorem ipsum dolor sit <span>elit Tenetur</span></h2>
+                          <a href="javascript:void(0)" title="View Product" class="common-btn mx-auto">View Product</a>
                         </div>
                       </div>
-                      <div class="col-5"></div>
                     </div>
                   </div>
                 </div>
@@ -1011,9 +1010,8 @@
       slidesPerView: 1,
       spaceBetween: 0,
       loop:true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      autoplay: {
+        delay: 4000,
       },
     });
 
