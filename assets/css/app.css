@@ -15486,7 +15486,7 @@ i {
         .header-bottom-mdiv .navbar-nav .nav-link:hover::before {
           width: 100%; }
 
-.slider-item {
+.main-slider .slider-item {
   position: relative;
   min-height: calc(100vh - 150px);
   display: flex;
@@ -15494,7 +15494,7 @@ i {
   border-radius: 0 0 30px 30px;
   overflow: hidden;
   padding: 120px 0; }
-  .slider-item::before {
+  .main-slider .slider-item::before {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -15504,7 +15504,7 @@ i {
     background: linear-gradient(90deg, rgba(216, 216, 216, 0.28) 34%, rgba(0, 212, 255, 0) 77%);
     content: "";
     display: none; }
-  .slider-item::after {
+  .main-slider .slider-item::after {
     width: 100%;
     height: 100px;
     position: absolute;
@@ -15515,29 +15515,29 @@ i {
     background-size: contain;
     content: "";
     pointer-events: none; }
-  .slider-item .slider-img {
+  .main-slider .slider-item .slider-img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover; }
-  .slider-item .container {
+  .main-slider .slider-item .container {
     position: relative;
     z-index: 3; }
-  .slider-item .slider-title-small {
+  .main-slider .slider-item .slider-title-small {
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
     color: #25aae1;
     margin-bottom: 15px; }
-  .slider-item .slider-title {
+  .main-slider .slider-item .slider-title {
     font-size: 55px;
     line-height: 65px;
     font-weight: 800;
     color: #000;
     text-transform: capitalize; }
-    .slider-item .slider-title span {
+    .main-slider .slider-item .slider-title span {
       color: #fe5488; }
 
 .blog-section .blog-float-img {
@@ -15662,6 +15662,9 @@ i {
   height: 100%;
   object-fit: cover; }
 
+.product-section .swiper-slide {
+  height: 100%; }
+
 .product-item {
   box-shadow: 0px 3px 15px 0px #0000000f;
   position: relative;
@@ -15669,7 +15672,8 @@ i {
   border-radius: 15px;
   overflow: hidden;
   border: 1px solid #ddd;
-  transition: 0.3s ease; }
+  transition: 0.3s ease;
+  height: 100%; }
   .product-item:hover {
     box-shadow: none; }
   .product-item .product-img-div {
@@ -16461,21 +16465,68 @@ i {
           object-fit: contain; }
 
 .login-section {
-  background-size: contain; }
+  background-size: contain;
+  position: relative; }
+  .login-section .login-float-icon-1 {
+    position: absolute;
+    object-fit: contain;
+    top: 60px;
+    left: 100px;
+    width: 100px; }
+  .login-section .login-float-icon-2 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 60px;
+    left: 100px;
+    width: 150px; }
+  .login-section .login-float-icon-3 {
+    position: absolute;
+    object-fit: contain;
+    top: 100px;
+    right: 20px;
+    width: 200px; }
+  .login-section .login-float-icon-4 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 60px;
+    right: 40px;
+    width: 100px; }
+  .login-section .login-float-icon-6 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 35%;
+    left: 10%;
+    width: 150px; }
+  .login-section .login-float-icon-5 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 30%;
+    right: 10%;
+    width: 150px; }
+  .login-section .login-slider-col {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .login-section .login-slider-item {
+    max-height: 550px; }
+    .login-section .login-slider-item .login-slider-img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      object-position: center; }
 
 .login-item {
-  padding: 30px 20px;
-  background: #fff; }
+  padding: 30px 40px; }
 
 .login-header {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
   .login-header .login-header-content {
     text-align: center; }
     .login-header .login-header-content .login-title {
-      font-size: 40px;
+      font-size: 50px;
       font-weight: 500;
-      line-height: 40px;
-      color: #25aae1;
+      line-height: 50px;
+      color: #fe5488;
       text-align: center;
       text-transform: uppercase;
       margin-bottom: 15px; }
@@ -16484,9 +16535,9 @@ i {
       object-fit: contain; }
 
 .login-mdiv {
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
-  border: 1px solid #ddd;
+  border: 1px dashed #ddd;
   background: #fff; }
   .login-mdiv .login-footer {
     margin-top: 30px; }

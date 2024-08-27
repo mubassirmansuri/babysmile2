@@ -9,7 +9,7 @@
           <ul class="breadcrumb-ul">
             <li class="breadcrumb-li"> <a href="javascript:void(0)" class="breadcrumb-link">Home</a></li>
             <li class="breadcrumb-li"> <i class="fi fi-rr-angle-right"></i> </li>
-            <li class="breadcrumb-li active">Home</li>
+            <li class="breadcrumb-li active">Login</li>
           </ul>
         </div>
       </div>
@@ -18,27 +18,69 @@
 </section>
 
 <section class="section-padding login-section">
+  <img src="./assets/images/icon-10.svg" alt="icon-10" class="login-float-icon-1">
+  <img src="./assets/images/icon-11.svg" alt="icon-10" class="login-float-icon-2">
+  <img src="./assets/images/icon-12.svg" alt="icon-10" class="login-float-icon-3">
+  <img src="./assets/images/icon-9.svg" alt="icon-10" class="login-float-icon-4">
+  <img src="./assets/images/icon-8.svg" alt="icon-10" class="login-float-icon-5">
+  <img src="./assets/images/icon-6.svg" alt="icon-10" class="login-float-icon-6">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-7 col-lg-8 col-sm-10 col-12">
-        <div class="login-header">
+      <!-- <div class="col-5 login-slider-col common-left-div">
+        <div class="swiper login-slider mx-0">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider-item">
+                <div class="login-slider-item">
+                  <img src="./assets/images/login-slider-1.svg" alt="" class="login-slider-img">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-item">
+                <div class="login-slider-item">
+                  <img src="./assets/images/login-slider-2.svg" alt="" class="login-slider-img">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-item">
+                <div class="login-slider-item">
+                  <img src="./assets/images/login-slider-3.svg" alt="" class="login-slider-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-7 col-lg-7 col-sm-10 col-12 common-right-div login-slider-col">
+        <?php /* <div class="login-header">
           <div class="login-header-content">
             <!-- <img src="./assets/images/login.svg" alt="login" class="login-icon">
                       <h2 class="login-title">Join Our BabySmile Store</h2> -->
             <h2 class="login-title">Login</h2>
             <p class="login-subtitle common-desc">Best Place To Buy Baby Products</p>
           </div>
-        </div>
+        </div> */ ?>
         <div class="login-mdiv">
           <div class="login-item">
+
+          <div class="login-header">
+            <div class="login-header-content">
+              <!-- <img src="./assets/images/login.svg" alt="login" class="login-icon">
+                                <h2 class="login-title">Join Our BabySmile Store</h2> -->
+              <h2 class="login-title">Login</h2>
+              <p class="login-subtitle common-desc">Best Place To Buy Baby Products</p>
+            </div>
+          </div>
             <form>
               <div class="row">
-                <div class="col-12">
+                <!-- <div class="col-12">
                   <div class="form-group">
                     <label class="form-label">Username</label>
                     <input type="text" name="username" placeholder="Username" class="form-control">
                   </div>
-                </div>
+                </div> -->
                 <div class="col-12">
                   <div class="form-group">
                     <label class="form-label">Email</label>
@@ -47,14 +89,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
+                <!-- <div class="col-12">
                   <div class="form-group">
                     <label class="form-label">Phone No.</label>
                     <div class="position-relative">
                       <input type="text" name="phone_no" placeholder="Phone No." class="form-control">
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <div class="col-12">
                   <div class="form-group">
                     <label class="form-label">Password</label>
@@ -64,7 +106,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
+                <!-- <div class="col-12">
                   <div class="form-group">
                     <label class="form-label">OTP</label>
                     <div class="otp-mdiv">
@@ -75,19 +117,19 @@
                       <a href="javascript:void(0)" class="common-btn mt-0 align-self-stretch">Verify</a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <div class="col-12">
                   <button type="submit" class="submit-btn common-btn">Login</button>
                 </div>
-                <p class="forgot-password-link signup-link">Login With Your Email Id? <a href="javascript:void(0)">Click Here To Login</a></p>
+                <!-- <p class="forgot-password-link signup-link">Login With Your Email Id? <a href="javascript:void(0)">Click Here To Login</a></p> -->
 
                 <p class="forgot-password-link signup-link">Login With Your Phone Number? <a href="javascript:void(0)">Click Here To Login</a></p>
 
                 <p class="forgot-password-link signup-link">Forgot Your Password? <a href="javascript:void(0)">Reset It Here</a></p>
 
-                <p class="forgot-password-link signup-link">Didn't Receive The Code? <a href="javascript:void(0)">Resend OTP</a> (1:59)</p>
+                <!-- <p class="forgot-password-link signup-link">Didn't Receive The Code? <a href="javascript:void(0)">Resend OTP</a> (1:59)</p> -->
 
-                <a href="javascript:void(0)" class="backto-login-link"><i class="fi fi-rr-arrow-left"></i><span> Back To Login</span></a>
+                <!-- <a href="javascript:void(0)" class="backto-login-link"><i class="fi fi-rr-arrow-left"></i><span> Back To Login</span></a> -->
               </div>
             </form>
             <div class="login-footer">
@@ -122,5 +164,16 @@
     }
   });
 </script>
+
+  <script>
+    var swiper = new Swiper(".login-slider", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 4000,
+      },
+    });
+  </script>
 
 <?php include 'include/footer.php' ?>

@@ -1,14 +1,72 @@
 .login-section {
   background-size: contain;
+  position: relative;
+  .login-float-icon-1 {
+    position: absolute;
+    object-fit: contain;
+    top: 60px;
+    left: 100px;
+    width: 100px;
+  }
+  .login-float-icon-2 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 60px;
+    left: 100px;
+    width: 150px;
+  }
+  .login-float-icon-3 {
+    position: absolute;
+    object-fit: contain;
+    top: 100px;
+    right: 20px;
+    width: 200px;
+  }
+  .login-float-icon-4 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 60px;
+    right: 40px;
+    width: 100px;
+  }
+  .login-float-icon-6 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 35%;
+    left: 10%;
+    width: 150px;
+  }
+  .login-float-icon-5 {
+    position: absolute;
+    object-fit: contain;
+    bottom: 30%;
+    right: 10%;
+    width: 150px;
+  }
+
+  .login-slider-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-slider-item {
+    max-height: 550px;
+    .login-slider-img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
 }
 
 .login-item {
-  padding: 30px 20px;
-  background: #fff;
+  padding: 30px 40px;
+  // background: #fff;
 }
 
 .login-header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
   // background: $primary;
   // padding: 25px 20px;
@@ -34,10 +92,10 @@
     // gap: 10px;
     text-align: center;
     .login-title {
-      font-size: 40px;
+      font-size: 50px;
       font-weight: 500;
-      line-height: 40px;
-      color: $primary;
+      line-height: 50px;
+      color: $secondary;
       text-align: center;
       text-transform: uppercase;
       margin-bottom: 15px;
@@ -50,10 +108,10 @@
 }
 
 .login-mdiv {
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
-  // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  border: 1px solid #ddd;
+  // box-shadow: 0 0 12px 7px rgba(0, 0, 0, 0.06);
+  border: 1px dashed #ddd;
   background: #fff;
 
   .login-footer {

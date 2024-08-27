@@ -367,65 +367,66 @@ i {
 }
 
 // main slider
-
-.slider-item {
-    position: relative;
-    min-height: calc(100vh - 150px);
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 30px 30px;
-    overflow: hidden;
-    padding: 120px 0;
-    &::before {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        background: linear-gradient(90deg, rgba(216, 216, 216, 0.28) 34%, rgba(0, 212, 255, 0) 77%);
-        content: "";
-        display: none;
-    }
-    &::after {
-        width: 100%;
-        height: 100px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-        background: url("../images/cloud-bg.png") repeat-x center top;
-        background-size: contain;
-        content: "";
-        pointer-events: none;
-    }
-    .slider-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .container {
+.main-slider {
+    .slider-item {
         position: relative;
-        z-index: 3;
-    }
-    .slider-title-small {
-        font-size: 18px;
-        line-height: 24px;
-        font-weight: 600;
-        color: $primary;
-        margin-bottom: 15px;
-    }
-    .slider-title {
-        font-size: 55px;
-        line-height: 65px;
-        font-weight: 800;
-        color: $primaryFontColor;
-        text-transform: capitalize;
-        span {
-            color: $secondary;
+        min-height: calc(100vh - 150px);
+        display: flex;
+        align-items: center;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden;
+        padding: 120px 0;
+        &::before {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background: linear-gradient(90deg, rgba(216, 216, 216, 0.28) 34%, rgba(0, 212, 255, 0) 77%);
+            content: "";
+            display: none;
+        }
+        &::after {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            background: url("../images/cloud-bg.png") repeat-x center top;
+            background-size: contain;
+            content: "";
+            pointer-events: none;
+        }
+        .slider-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .container {
+            position: relative;
+            z-index: 3;
+        }
+        .slider-title-small {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 600;
+            color: $primary;
+            margin-bottom: 15px;
+        }
+        .slider-title {
+            font-size: 55px;
+            line-height: 65px;
+            font-weight: 800;
+            color: $primaryFontColor;
+            text-transform: capitalize;
+            span {
+                color: $secondary;
+            }
         }
     }
 }
@@ -575,6 +576,9 @@ i {
         height: 100%;
         object-fit: cover;
     }
+    .swiper-slide {
+        height: 100%;
+    }
 }
 
 .product-item {
@@ -585,6 +589,7 @@ i {
     overflow: hidden;
     border: 1px solid #ddd;
     transition: 0.3s ease;
+    height: 100%;
     &:hover {
         box-shadow: none;
     }

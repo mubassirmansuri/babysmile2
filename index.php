@@ -1036,6 +1036,7 @@
       slidesPerView: 4,
       spaceBetween: 30,
       loop:true,
+
       navigation: {
         nextEl: ".new-launches-next-arrow",
         prevEl: ".new-launches-prew-arrow",
@@ -1046,6 +1047,7 @@
       slidesPerView: 4,
       spaceBetween: 30,
       loop: true,
+      autoHeight: true,
       navigation: {
         nextEl: ".products-next-arrow",
         prevEl: ".products-prew-arrow",
