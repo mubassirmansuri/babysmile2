@@ -488,7 +488,7 @@ i {
             display: flex;
             justify-content: space-between;
             gap: 5px;
-            padding: 10px 0 10px 0;
+            padding: 15px 0 10px 0;
             .blog-detail-tag {
                 display: flex;
                 align-items: center;
@@ -504,6 +504,7 @@ i {
                 }
                 i {
                     color: $secondary;
+                    font-size: 18px;
                 }
             }
         }
@@ -789,12 +790,36 @@ i {
         font-weight: 400;
         &.discount {
             background: $secondary;
-            border-radius: 0 20px 20px 0;
-            left: -15px;
+            // border-radius: 0 0 0;
+            // left: -41px;
             position: relative;
+            // width: 75px;
+            // height: 45px;
+            // background: url("../images/cloud-icon.png") no-repeat center;
+            // background-size: cover;
+            // height: auto;
+            text-align: center;
             padding: 10px 15px;
             font-size: 16px;
             font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // filter: drop-shadow(1px 3px 2px rgba(0, 0, 0, 0.3));
+            // rotate: -45deg;
+            // top: -5px;
+            // margin-bottom: 8px;
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                border-radius: 10px 0 10px 0;
+                transform: translate(-50%, -50%);
+                height: calc(100% - 6px);
+                width: calc(100% - 6px);
+                border: 2px dashed #fff;
+                content: "";
+            }
         }
     }
     .product-rating-mdiv {

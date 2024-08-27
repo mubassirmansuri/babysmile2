@@ -15591,7 +15591,7 @@ i {
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    padding: 10px 0 10px 0; }
+    padding: 15px 0 10px 0; }
     .blog-section .blog-item .blog-detail-div .blog-detail-tag {
       display: flex;
       align-items: center;
@@ -15605,7 +15605,8 @@ i {
       .blog-section .blog-item .blog-detail-div .blog-detail-tag:hover {
         color: #fe5488; }
       .blog-section .blog-item .blog-detail-div .blog-detail-tag i {
-        color: #fe5488; }
+        color: #fe5488;
+        font-size: 18px; }
   .blog-section .blog-item .blog-title {
     margin: 10px 0 15px 0;
     color: #25aae1;
@@ -15844,12 +15845,24 @@ i {
     font-weight: 400; }
     .product-item .product-badges.discount {
       background: #fe5488;
-      border-radius: 0 20px 20px 0;
-      left: -15px;
       position: relative;
+      text-align: center;
       padding: 10px 15px;
       font-size: 16px;
-      font-weight: 600; }
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .product-item .product-badges.discount::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 10px 0 10px 0;
+        transform: translate(-50%, -50%);
+        height: calc(100% - 6px);
+        width: calc(100% - 6px);
+        border: 2px dashed #fff;
+        content: ""; }
   .product-item .product-rating-mdiv {
     display: flex;
     align-items: center;

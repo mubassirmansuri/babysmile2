@@ -85,8 +85,8 @@
               <div class="swiper-slide">
                 <div class="product-item">
                   <div class="product-floatleft-div">
-                    <div class="product-badges discount">10% off</div>
-                    <div class="product-badges">New</div>
+                    <div class="product-badges discount">10%</div>
+                    <!-- <div class="product-badges">New</div> -->
                   </div>
                   <div class="product-floatright-div">
                     <a href="javascript:void(0)" class="like-product-icon">
@@ -95,7 +95,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product1.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -103,8 +103,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">Baby Boy</p>
+                    <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
                     <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -128,7 +128,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product2.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -136,8 +136,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">All</p>
+                    <a href="javascript:void(0)" class="product-name">LittleGent Swaddle Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -161,7 +161,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product3.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -169,8 +169,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">Newborn Baby</p>
+                    <a href="javascript:void(0)" class="product-name">SweetPea Cradle Collection</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -194,7 +194,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product4.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -202,8 +202,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">Baby Girl</p>
+                    <a href="javascript:void(0)" class="product-name">BlossomDreams Nursery Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -227,7 +227,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product5.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -235,8 +235,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">Baby Girl</p>
+                    <a href="javascript:void(0)" class="product-name">The Almirah Elephant Baby Bedding Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -574,7 +574,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product2.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -582,41 +582,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
-                    <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
-                    <div class="product-rating-mdiv">
-                      <i class="fi fi-rr-star product-rating-icon rated"></i>
-                      <i class="fi fi-rr-star product-rating-icon rated"></i>
-                      <i class="fi fi-rr-star product-rating-icon rated"></i>
-                      <i class="fi fi-rr-star product-rating-icon rated"></i>
-                      <i class="fi fi-rr-star product-rating-icon"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="product-item">
-                  <div class="product-floatleft-div">
-                    <div class="product-badges">New</div>
-                  </div>
-                  <div class="product-floatright-div">
-                    <a href="javascript:void(0)" class="like-product-icon">
-                      <i class="fi fi-rr-heart"></i>
-                    </a>
-                  </div>
-                  <div class="product-img-div">
-                    <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
-                    </a>
-                    <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
-                    </div>
-                  </div>
-                  <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">All</p>
+                    <a href="javascript:void(0)" class="product-name">LittleGent Swaddle Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -640,7 +607,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product3.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -648,8 +615,8 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">Newborn Baby</p>
+                    <a href="javascript:void(0)" class="product-name">SweetPea Cradle Collection</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -673,7 +640,7 @@
                   </div>
                   <div class="product-img-div">
                     <a href="javascript:void(0)" class="product-img-link">
-                      <img src="./assets/images/demo-img-2.jpg" alt="demo" class="product-img">
+                      <img src="./assets/images/product4.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
@@ -681,8 +648,41 @@
                     </div>
                   </div>
                   <div class="product-item-footer">
-                    <p class="product-category">lorem</p>
-                    <a href="javascript:void(0)" class="product-name">Lorem ipsum dolor</a>
+                    <p class="product-category">Baby Girl</p>
+                    <a href="javascript:void(0)" class="product-name">BlossomDreams Nursery Set</a>
+                    <p class="product-price">₹40</p>
+                    <div class="product-rating-mdiv">
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon rated"></i>
+                      <i class="fi fi-rr-star product-rating-icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-item">
+                  <div class="product-floatleft-div">
+                    <div class="product-badges">New</div>
+                  </div>
+                  <div class="product-floatright-div">
+                    <a href="javascript:void(0)" class="like-product-icon">
+                      <i class="fi fi-rr-heart"></i>
+                    </a>
+                  </div>
+                  <div class="product-img-div">
+                    <a href="javascript:void(0)" class="product-img-link">
+                      <img src="./assets/images/product5.webp" alt="demo" class="product-img">
+                    </a>
+                    <div class="add-cart-div">
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="product-item-footer">
+                    <p class="product-category">Baby Girl</p>
+                    <a href="javascript:void(0)" class="product-name">The Almirah Elephant Baby Bedding Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
