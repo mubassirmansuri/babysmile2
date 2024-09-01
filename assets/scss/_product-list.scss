@@ -1,0 +1,38 @@
+.product-filter-mdiv {
+  width: 25%;
+  background: #000;
+}
+
+.product-list-mdiv {
+  width: 100%;
+  .product-list-div {
+    width: 100%;
+    background: #ddd;
+  }
+}
+
+.container-fluid {
+  position: relative;
+}
+
+.product-filter-mdiv {
+  width: 250px; /* Adjust width as needed */
+  height: 100%; /* Full height */
+  position: absolute; /* Positioned relative to .container-fluid */
+  top: 0;
+  left: -250px; /* Hide sidebar by shifting it to the left */
+  transition: 0.3s; /* Smooth transition */
+}
+
+.product-filter-mdiv.active {
+  left: 0; /* Show sidebar */
+}
+
+.product-list-mdiv {
+  padding-left: 0; /* No padding by default */
+  transition: padding-left 0.3s ease; /* Smooth transition for padding */
+}
+
+.product-list-mdiv.sidebar-active {
+  padding-left: 280px; /* Adjust padding based on sidebar width */
+}

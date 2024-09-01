@@ -69,10 +69,10 @@
     <div class="header-middle-mdiv">
       <div class="container">
         <div class="row header-middle-row">
-          <div class="logo-div">
+          <div class="logo-div order-lg-1 order-1">
             <img src="./assets/images/logo.png" alt="logo" class="logo-img">
           </div>
-          <div class="header-search-div mx-auto">
+          <div class="header-search-div mx-auto order-lg-2 order-3">
             <form action="./" method="GET" class="header-search search-field border-circle">
               <button class="btn header-search-btn" type="submit">
                 <i class="fi fi-rr-search"></i>
@@ -87,7 +87,7 @@
               </div>
             </form>
           </div>
-          <div class="cart-icon-div">
+          <div class="cart-icon-div order-lg-3 order-2">
             <a href="javascript:void(0)" class="cart-icon-link">
               <i class="fi fi-rr-user"></i>
             </a>
@@ -98,7 +98,7 @@
               <i class="fi fi-rr-shopping-cart-add"></i>
               <span class="cart-badge">3</span>
             </a>
-            <a href="javascript:void(0)" class="login-link" title="Login / Sing Up"> Login / Sing Up </a>
+            <a href="javascript:void(0)" class="login-link" title="Login / Sing Up" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Login / Sing Up </a>
           </div>
         </div>
       </div>
@@ -118,62 +118,109 @@
             <!-- Left links -->
             <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Regular link</a>
+                <a class="nav-link" href="javascript:void(0)">Home</a>
               </li>
               <!-- Navbar dropdown -->
               <li class="nav-item dropdown position-static">
                 <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
-                <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Products</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
-                style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Dolor sit</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Amet
+                        <h4 class="megamenu-title">Baby <span>Boy</span></h4>
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Amet
                             consectetur</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Adipisicing
+                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
                             elit</a>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Explicabo
+                        <h4 class="megamenu-title">Baby <span>Girl</span></h4>
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
                             voluptas</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Perspiciatis
+                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
                             quo</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Laudantium
+                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
                             maiores</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Provident
+                          <a href="javascript:void(0)" class="megamenu-link">Provident
                             dolor</a>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Iste quaerato</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                        <h4 class="megamenu-title">Newborn <span>Baby</span></h4>
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Iste quaerato</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Est iure</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Praesentium</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Laboriosam</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Est iure</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Praesentium</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Laboriosam</a>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-3">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                        <h4 class="megamenu-title">All <span>Products</span></h4>
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Saepe</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Vel alias</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Sunt doloribus</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cum dolores</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Saepe</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Vel alias</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Sunt doloribus</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Cum dolores</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown position-static">
+                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">category</a>
+                <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">category</a>
+                <!-- Dropdown menu -->
+                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
+                  <div class="container">
+                    <div class="row my-4">
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-category-link">
+                            <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
+                            <p class="megamenu-category-title">Baby Boy</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-category-link">
+                            <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
+                            <p class="megamenu-category-title">Baby Boy</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-category-link">
+                            <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
+                            <p class="megamenu-category-title">Baby Boy</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-category-link">
+                            <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
+                            <p class="megamenu-category-title">Baby Boy</p>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -185,33 +232,32 @@
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
-                style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Dolor sit</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Amet
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Amet
                             consectetur</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Adipisicing
+                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
                             elit</a>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Explicabo
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
                             voluptas</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Perspiciatis
+                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
                             quo</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Laudantium
+                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
                             maiores</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Provident
+                          <a href="javascript:void(0)" class="megamenu-link">Provident
                             dolor</a>
                         </div>
                       </div>
@@ -224,33 +270,32 @@
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
-                style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Dolor sit</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Amet
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Amet
                             consectetur</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Adipisicing
+                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
                             elit</a>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Explicabo
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
                             voluptas</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Perspiciatis
+                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
                             quo</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Laudantium
+                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
                             maiores</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Provident
+                          <a href="javascript:void(0)" class="megamenu-link">Provident
                             dolor</a>
                         </div>
                       </div>
@@ -263,72 +308,32 @@
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
-                style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Dolor sit</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Amet
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Amet
                             consectetur</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Adipisicing
+                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
                             elit</a>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Explicabo
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
                             voluptas</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Perspiciatis
+                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
                             quo</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
                             odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Laudantium
+                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
                             maiores</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Provident
-                            dolor</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
-                <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
-                <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
-                style="border-top-left-radius: 0;border-top-right-radius: 0;">
-                  <div class="container">
-                    <div class="row my-4">
-                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Dolor sit</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Amet
-                            consectetur</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Adipisicing
-                            elit</a>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="list-group list-group-flush">
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Explicabo
-                            voluptas</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Perspiciatis
-                            quo</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Laudantium
-                            maiores</a>
-                          <a href="javascript:void(0)" class="list-group-item list-group-item-action">Provident
+                          <a href="javascript:void(0)" class="megamenu-link">Provident
                             dolor</a>
                         </div>
                       </div>
