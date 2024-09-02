@@ -72,7 +72,7 @@
           <div class="logo-div order-lg-1 order-1">
             <img src="./assets/images/logo.png" alt="logo" class="logo-img">
           </div>
-          <div class="header-search-div mx-auto order-lg-2 order-3">
+          <div class="header-search-div lg:mx-auto me-auto order-lg-2 order-3">
             <form action="./" method="GET" class="header-search search-field border-circle">
               <button class="btn header-search-btn" type="submit">
                 <i class="fi fi-rr-search"></i>
@@ -100,6 +100,9 @@
             </a>
             <a href="javascript:void(0)" class="login-link" title="Login / Sing Up" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Login / Sing Up </a>
           </div>
+          <button class="navbar-toggler px-0 d-block d-lg-none order-4" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <i class="fi fi-rr-menu-burger"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -108,13 +111,8 @@
         <!-- Container wrapper -->
         <div class="container">
           <!-- Toggle button -->
-          <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarExampleOnHover" aria-controls="navbarExampleOnHover" aria-expanded="false"
-          aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
           <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarExampleOnHover">
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <!-- Left links -->
             <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
               <li class="nav-item">
@@ -122,61 +120,75 @@
               </li>
               <!-- Navbar dropdown -->
               <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                <a class="nav-link dropdown-toggle  d-flex d-lg-none" data-bs-toggle="collapse" href="#collapseProducts" role="button" aria-expanded="false" aria-controls="collapseProducts">Products</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Products</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
+                <!-- Dropdown menu -->
+                <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseProducts">
                   <div class="container">
                     <div class="row my-4">
+                      <!-- Column 1 -->
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <h4 class="megamenu-title">Baby <span>Boy</span></h4>
-                        <div class="megamenu-link-div">
-                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Amet
-                            consectetur</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
-                            elit</a>
+                        <a data-bs-toggle="collapse" href="#collapseBabyBoy" role="button" aria-expanded="false"
+                        aria-controls="collapseBabyBoy">
+                          <h4 class="megamenu-title">Baby <span>Boy</span></h4>
+                        </a>
+                        <div class="collapse d-lg-block" id="collapseBabyBoy">
+                          <div class="megamenu-link-div">
+                            <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Amet consectetur</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Cras justo odio</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Adipisicing elit</a>
+                          </div>
                         </div>
                       </div>
+                      <!-- Column 2 -->
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <h4 class="megamenu-title">Baby <span>Girl</span></h4>
-                        <div class="megamenu-link-div">
-                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
-                            voluptas</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
-                            quo</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
-                            maiores</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Provident
-                            dolor</a>
+                        <a data-bs-toggle="collapse" href="#collapseBabyGirl" role="button" aria-expanded="false"
+                        aria-controls="collapseBabyGirl">
+                          <h4 class="megamenu-title">Baby <span>Girl</span></h4>
+                        </a>
+                        <div class="collapse d-lg-block" id="collapseBabyGirl">
+                          <div class="megamenu-link-div">
+                            <a href="javascript:void(0)" class="megamenu-link">Explicabo voluptas</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Perspiciatis quo</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Cras justo odio</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Laudantium maiores</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Provident dolor</a>
+                          </div>
                         </div>
                       </div>
+                      <!-- Column 3 -->
                       <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
-                        <h4 class="megamenu-title">Newborn <span>Baby</span></h4>
-                        <div class="megamenu-link-div">
-                          <a href="javascript:void(0)" class="megamenu-link">Iste quaerato</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Est iure</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Praesentium</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Laboriosam</a>
+                        <a data-bs-toggle="collapse" href="#collapseNewborn" role="button" aria-expanded="false"
+                        aria-controls="collapseNewborn">
+                          <h4 class="megamenu-title">Newborn <span>Baby</span></h4>
+                        </a>
+                        <div class="collapse d-lg-block" id="collapseNewborn">
+                          <div class="megamenu-link-div">
+                            <a href="javascript:void(0)" class="megamenu-link">Iste quaerato</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Cras justo odio</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Est iure</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Praesentium</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Laboriosam</a>
+                          </div>
                         </div>
                       </div>
+                      <!-- Column 4 -->
                       <div class="col-md-6 col-lg-3">
-                        <h4 class="megamenu-title">All <span>Products</span></h4>
-                        <div class="megamenu-link-div">
-                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Saepe</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Vel alias</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Sunt doloribus</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Cum dolores</a>
+                        <a data-bs-toggle="collapse" href="#collapseAllProducts" role="button" aria-expanded="false"
+                        aria-controls="collapseAllProducts">
+                          <h4 class="megamenu-title">All <span>Products</span></h4>
+                        </a>
+                        <div class="collapse d-lg-block" id="collapseAllProducts">
+                          <div class="megamenu-link-div">
+                            <a href="javascript:void(0)" class="megamenu-link">Cras justo odio</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Saepe</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Vel alias</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Sunt doloribus</a>
+                            <a href="javascript:void(0)" class="megamenu-link">Cum dolores</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -184,11 +196,10 @@
                 </div>
               </li>
               <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">category</a>
+                <a class="nav-link dropdown-toggle  d-flex d-lg-none" data-bs-toggle="collapse" href="#collapsecategory" role="button" aria-expanded="false" aria-controls="collapsecategory">category</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">category</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
+                <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapsecategory">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
@@ -228,49 +239,10 @@
                 </div>
               </li>
               <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
+                <a class="nav-link dropdown-toggle  d-flex d-lg-none" data-bs-toggle="collapse" href="#collapseMegamenu1" role="button" aria-expanded="false" aria-controls="collapseMegamenu1">Mega menu</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
-                  <div class="container">
-                    <div class="row my-4">
-                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="megamenu-link-div">
-                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Amet
-                            consectetur</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
-                            elit</a>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                        <div class="megamenu-link-div">
-                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
-                            voluptas</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
-                            quo</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                            odio</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
-                            maiores</a>
-                          <a href="javascript:void(0)" class="megamenu-link">Provident
-                            dolor</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
-                <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
-                <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
+                <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseMegamenu1">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
@@ -304,11 +276,47 @@
                 </div>
               </li>
               <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle d-flex d-lg-none" href="javascript:void(0)" id="navbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
+                <a class="nav-link dropdown-toggle  d-flex d-lg-none" data-bs-toggle="collapse" href="#collapseMegamenu" role="button" aria-expanded="false" aria-controls="collapseMegamenu2">Mega menu</a>
                 <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
                 <!-- Dropdown menu -->
-                <div class="dropdown-menu w-100 mt-0 megamenu-mdiv" aria-labelledby="navbarDropdown">
+                <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseMegamenu2">
+                  <div class="container">
+                    <div class="row my-4">
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Amet
+                            consectetur</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
+                            odio</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Adipisicing
+                            elit</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="megamenu-link-div">
+                          <a href="javascript:void(0)" class="megamenu-link">Explicabo
+                            voluptas</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
+                            quo</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Cras justo
+                            odio</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Laudantium
+                            maiores</a>
+                          <a href="javascript:void(0)" class="megamenu-link">Provident
+                            dolor</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown position-static">
+                <a class="nav-link dropdown-toggle  d-flex d-lg-none" data-bs-toggle="collapse" href="#collapseMegamenu3" role="button" aria-expanded="false" aria-controls="collapseMegamenu3">Mega menu</a>
+                <a class="nav-link dropdown-toggle d-lg-flex d-none" href="javascript:void(0)">Mega menu</a>
+                <!-- Dropdown menu -->
+                <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseMegamenu3">
                   <div class="container">
                     <div class="row my-4">
                       <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
@@ -350,3 +358,46 @@
       </nav>
     </div>
   </header>
+
+  <script>
+ $(document).ready(function () {
+    // Open main collapse and ensure only one is open at a time on mobile
+    $('.nav-link.dropdown-toggle').on('click', function () {
+      if ($(window).width() < 768) { // Adjust the breakpoint as needed
+        var target = $(this).attr('href');
+
+        // Hide all other main collapses
+        $('.megamenu-mdiv').not(target).collapse('hide');
+
+        // Toggle the clicked main collapse
+        $(target).collapse('toggle');
+      }
+    });
+
+    // Open inner collapse and ensure only one is open at a time on mobile
+    $('.megamenu-title').on('click', function () {
+      if ($(window).width() < 768) { // Adjust the breakpoint as needed
+        var target = $(this).closest('a').attr('href');
+        var collapseContent = $(target);
+
+        // Check if the collapseContent is already visible
+        if (collapseContent.hasClass('show')) {
+          collapseContent.collapse('hide');
+        } else {
+          // Hide all inner collapses within the same megamenu
+          collapseContent.closest('.megamenu-mdiv').find('.collapse').collapse('hide');
+          collapseContent.collapse('show');
+        }
+      }
+    });
+
+    // Ensure only one inner collapse is open at a time
+    $('.collapse').on('show.bs.collapse', function () {
+      if ($(window).width() < 768) { // Adjust the breakpoint as needed
+        $(this).siblings('.collapse').collapse('hide');
+      }
+    });
+  });
+
+
+  </script>

@@ -1046,8 +1046,7 @@
             spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 3, // 3 slides on large screens
-            spaceBetween: 4,
+            slidesPerView: 4,
         },
       },
     });
@@ -1067,8 +1066,7 @@
             spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 3, // 3 slides on large screens
-            spaceBetween: 4,
+            slidesPerView: 4,
         },
       },
     });
