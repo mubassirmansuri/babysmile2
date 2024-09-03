@@ -71,7 +71,7 @@
     <!-- <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5"> -->
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">New <span>Launches</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -268,15 +268,15 @@
     <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-1">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Shop by <span>Categories</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-3">
+      <div class="row row-gap20">
+        <div class="col-lg-3 col-sm-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -286,7 +286,7 @@
             </div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -296,7 +296,7 @@
             </div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -306,7 +306,7 @@
             </div>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -334,12 +334,12 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6 common-left-div">
+        <div class="col-lg-6 common-left-div d-lg-flex d-none">
           <div class="by-age-imgdiv">
             <img src="./assets/images/by-age-img.svg" alt="by-age">
           </div>
         </div>
-        <div class="col-6 common-right-div">
+        <div class="col-lg-6 common-right-div">
           <div class="left-title-mdiv align-items-start">
             <h2 class="common-main-title">Short by <span>Age</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
@@ -400,148 +400,6 @@
     </div>
   </section>
 
-
-
-  <!-- categories-section -->
-
-  <?php /*
-  <section class="section-padding categories-section">
-    <div class="categories-bg-div">
-      <!-- <img src="./assets/images/bg-4.svg" alt="bg-4" class="categories-bg"> -->
-    </div>
-
-    <div class="shape-divider-top">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path
-        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-        class="shape-fill"></path>
-      </svg>
-    </div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-8">
-          <div class="left-title-mdiv">
-            <h2 class="common-main-title">Shop by <span>Categories</span></h2>
-            <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 position-relative">
-          <div class="swiper categories-slider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/boy.svg" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Boy</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/girl.svg" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Girl</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/all.svg" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">All</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)" class="categories-item">
-                  <div class="categories-icon-div">
-                    <img src="./assets/images/add-to-cart.png" alt="demo" class="categories-icon">
-                  </div>
-                  <h4 class="categories-name">Lorem ipsum</h4>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="common-slider-arrow-div float-slider-arrow">
-            <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-prew-arrow"><i
-              class="fi fi-rr-angle-left"></i></a>
-            <a href="javascript:void(0)" class="common-arrow common-arrow2 categories-next-arrow"><i
-              class="fi fi-rr-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
-        </div>
-      </div>
-    </div>
-    <div class="shape-divider-bottom">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path
-        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-        class="shape-fill"></path>
-      </svg>
-    </div>
-  </section>
-  */ ?>
-
   <!-- product-section -->
 
   <section class="section-padding product-section">
@@ -551,7 +409,7 @@
     <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Our <span>Products</span></h2>
             <p class="common-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, vero?</p>
@@ -724,7 +582,7 @@
             </div>
           </div>
         </div> -->
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="discount-item">
             <img src="./assets/images/demo-img-7.jpg" alt="discount-img" class="discount-img">
             <div class="discount-content">
@@ -735,7 +593,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="discount-item">
             <img src="./assets/images/demo-img-8.jpg" alt="discount-img" class="discount-img">
             <div class="discount-content">
@@ -757,7 +615,7 @@
     <div class="brand-section-shape"></div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8 position-relative">
+        <div class="col-lg-8 position-relative">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Shop by <span>Brands</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum delectus, sit possimus nemo voluptates magni.</p>
@@ -851,7 +709,7 @@
     <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <div class="left-title-mdiv">
             <h2 class="common-main-title">Blog <span>Posts</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id asperiores, itaque eligendi eos error porro.</p>
@@ -963,7 +821,7 @@
     <!-- <div class="common-float-line"></div> -->
     <div class="processing-section-shape"></div>
     <div class="container">
-      <div class="row row-cols-5">
+      <div class="row row-cols-lg-5 row-cols-sm-3 row-cols-2 row-gap20">
         <div class="col">
           <div class="processing-item">
             <div class="processing-icon-div">
@@ -1033,7 +891,7 @@
 
 
     var swiper = new Swiper(".new-launches-slider", {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
       loop:true,
       navigation: {
@@ -1041,8 +899,8 @@
         prevEl: ".new-launches-prew-arrow",
       },
       breakpoints: {
-        768: {
-            slidesPerView: 3, // 2 slides on medium screens
+        992: {
+            slidesPerView: 2, // 2 slides on medium screens
             spaceBetween: 20,
         },
         1024: {
@@ -1052,7 +910,7 @@
     });
 
     var swiper = new Swiper(".products-slider", {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
       autoHeight: true,
@@ -1061,8 +919,8 @@
         prevEl: ".products-prew-arrow",
       },
       breakpoints: {
-        768: {
-            slidesPerView: 3, // 2 slides on medium screens
+        992: {
+            slidesPerView: 2, // 2 slides on medium screens
             spaceBetween: 20,
         },
         1024: {
@@ -1072,31 +930,58 @@
     });
 
     var swiper = new Swiper(".blog-slider", {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 30,
       autoHeight: true,
       navigation: {
         nextEl: ".blog-next-arrow",
         prevEl: ".blog-prew-arrow",
       },
+      breakpoints: {
+        768: {
+            slidesPerView: 2, // 2 slides on medium screens
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 3,
+        },
+      },
     });
 
     var swiper = new Swiper(".categories-slider", {
-      slidesPerView: 6,
+      slidesPerView: 3,
       spaceBetween: 20,
       navigation: {
         nextEl: ".categories-next-arrow",
         prevEl: ".categories-prew-arrow",
       },
+      breakpoints: {
+        768: {
+            slidesPerView: 4, // 2 slides on medium screens
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 6,
+        },
+      },
     });
 
     var swiper = new Swiper(".brand-slider", {
-      slidesPerView: 5,
+      slidesPerView: 2,
       spaceBetween: 20,
       loop:true,
       navigation: {
         nextEl: ".categories-next-arrow",
         prevEl: ".categories-prew-arrow",
+      },
+      breakpoints: {
+        768: {
+            slidesPerView: 3, // 2 slides on medium screens
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
       },
     });
 

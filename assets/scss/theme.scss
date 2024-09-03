@@ -66,6 +66,14 @@
         font-size: 32px;
         line-height: 36px;
     }
+    @media (max-width: 768px) {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    @media (max-width: 576px) {
+        font-size: 26px;
+        line-height: 28px;
+    }
 }
 
 .common-desc {
@@ -147,6 +155,7 @@ i {
 .section-padding {
     padding: 70px 0;
     position: relative;
+    overflow: hidden;
     .container {
         position: relative;
         z-index: 5;
@@ -573,6 +582,9 @@ i {
             background-size: contain;
             content: "";
             pointer-events: none;
+            @media (max-width: 768px) {
+                background-size: cover;
+            }
         }
         .slider-img {
             position: absolute;
@@ -778,14 +790,14 @@ i {
     }
     .product-img-div {
         width: 100%;
-        height: 350px;
+        height: fit-content;
         overflow: hidden;
         display: flex;
         position: relative;
         background: #fff;
         .product-img-link {
             width: 100%;
-            height: 100%;
+            height: 350px;
             position: relative;
 
             &::before {
@@ -797,6 +809,12 @@ i {
                 content: "";
                 background: rgba(0, 0, 0, 0.3);
                 transition: 0.3s ease;
+            }
+        }
+        @media (max-width: 1024px) {
+            flex-direction: column;
+            .product-img-link {
+                height: 290px;
             }
         }
         .product-img {
@@ -862,6 +880,13 @@ i {
         height: fit-content;
         padding-inline: 10px;
         gap: 10px;
+        @media (max-width: 1024px) {
+            // position: static;
+            opacity: 1;
+            top: 220px;
+            // transform: none;
+            margin: 10px auto;
+        }
     }
     .add-cart-link {
         background: #fff;
@@ -901,6 +926,11 @@ i {
             i {
                 color: #fff;
             }
+        }
+        @media (max-width: 1024px) {
+            border: 1px solid $secondaryFontColor;
+            border-radius: 10px;
+            padding: 10px;
         }
     }
     .product-category {
@@ -1092,6 +1122,7 @@ i {
         margin: 0 auto;
         background: rgba(37, 170, 225, 0.3);
         border-radius: 15px;
+        height: 100%;
         .processing-icon-div {
             width: 120px;
             height: 120px;
@@ -1133,6 +1164,35 @@ i {
             font-weight: 700;
             text-align: center;
             margin-top: 15px;
+        }
+        @media (max-width: 1024px) {
+            .processing-icon-div {
+                width: 100px;
+                height: 100px;
+                .processing-icon {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            .processing-title {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+        @media (max-width: 768px) {
+            .processing-icon-div {
+                width: 80px;
+                height: 80px;
+                .processing-icon {
+                    width: 40px;
+                    height: 40px;
+                    object-fit: contain;
+                }
+            }
+        }
+        @media (max-width: 576px) {
+            font-size: 24px;
+            line-height: 26px;
         }
     }
 }
@@ -1199,6 +1259,9 @@ i {
     justify-content: space-between;
     opacity: 0;
     transition: 0.3s ease;
+    @media (max-width: 1024px) {
+        opacity: 1;
+    }
 }
 
 .float-slider-col {
@@ -1405,6 +1468,18 @@ i {
                 font-size: 28px;
                 line-height: 1;
             }
+            @media (max-width: 1024px) {
+                font-size: 36px;
+                line-height: 38px;
+            }
+            @media (max-width: 768px) {
+                font-size: 32px;
+                line-height: 36px;
+            }
+            @media (max-width: 576px) {
+                font-size: 28px;
+                line-height: 30px;
+            }
         }
         .discount-type {
             font-size: 18px;
@@ -1420,6 +1495,18 @@ i {
             text-transform: capitalize;
             span {
                 color: $primary;
+            }
+            @media (max-width: 1024px) {
+                font-size: 30px;
+                line-height: 32px;
+            }
+            @media (max-width: 768px) {
+                font-size: 26px;
+                line-height: 28px;
+            }
+            @media (max-width: 576px) {
+                font-size: 24px;
+                line-height: 26px;
             }
         }
     }
@@ -1638,26 +1725,26 @@ i {
     // opacity: 0.8;
 }
 
-.custom-shape-divider-bottom-1723991056 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    fill: rgba(37, 170, 225, 0.7);
-}
+// .custom-shape-divider-bottom-1723991056 {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     overflow: hidden;
+//     line-height: 0;
+//     transform: rotate(180deg);
+//     fill: rgba(37, 170, 225, 0.7);
+// }
 
-.custom-shape-divider-bottom-1723991056 svg {
-    position: relative;
-    display: block;
-    height: 50px;
-}
+// .custom-shape-divider-bottom-1723991056 svg {
+//     position: relative;
+//     display: block;
+//     height: 50px;
+// }
 
-.custom-shape-divider-bottom-1723991056 .shape-fill {
-    fill: #f4f7f9;
-}
+// .custom-shape-divider-bottom-1723991056 .shape-fill {
+//     fill: #f4f7f9;
+// }
 
 // caterory2
 
@@ -1694,6 +1781,18 @@ i {
         font-size: 32px;
         line-height: 30px;
         font-weight: 700;
+        @media (max-width: 1024px) {
+            font-size: 28px;
+            line-height: 30px;
+        }
+        @media (max-width: 768px) {
+            font-size: 26px;
+            line-height: 28px;
+        }
+        @media (max-width: 576px) {
+            font-size: 24px;
+            line-height: 26px;
+        }
     }
 }
 
@@ -1745,6 +1844,14 @@ i {
         .categories-title {
             font-size: 26px;
             color: $secondary;
+            @media (max-width: 1024px) {
+                font-size: 24px;
+                line-height: 26px;
+            }
+            @media (max-width: 768px) {
+                font-size: 22px;
+                line-height: 24px;
+            }
         }
     }
 }
