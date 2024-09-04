@@ -1,5 +1,5 @@
 .product-filter-mdiv {
-  width: 25%;
+  width: 360px;
   background: #000;
 }
 
@@ -7,7 +7,7 @@
   width: 100%;
   .product-list-div {
     width: 100%;
-    background: #ddd;
+    padding: 20px;
   }
 }
 
@@ -16,11 +16,11 @@
 }
 
 .product-filter-mdiv {
-  width: 250px; /* Adjust width as needed */
+  width: 360px; /* Adjust width as needed */
   height: 100%; /* Full height */
   position: absolute; /* Positioned relative to .container-fluid */
   top: 0;
-  left: -250px; /* Hide sidebar by shifting it to the left */
+  left: -360px; /* Hide sidebar by shifting it to the left */
   transition: 0.3s; /* Smooth transition */
 }
 
@@ -34,5 +34,40 @@
 }
 
 .product-list-mdiv.sidebar-active {
-  padding-left: 280px; /* Adjust padding based on sidebar width */
+  padding-left: 370px; /* Adjust padding based on sidebar width */
+}
+
+.filter-toggle-btn {
+  padding: 5px 5px;
+  background: $secondary;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px dashed transparent;
+  transition: 0.3s ease;
+  span {
+    padding: 5px 15px;
+    border: 1px dashed #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.3s ease;
+  }
+  &:hover {
+    background: #fff;
+    border-color: $secondary;
+    color: $primaryFontColor;
+    span {
+      border-color: transparent;
+    }
+  }
 }

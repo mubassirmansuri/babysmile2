@@ -15,6 +15,10 @@
     object-fit: contain;
     animation: leftRightAnimation 1s linear infinite alternate-reverse;
     z-index: 3;
+    @media (max-width: 991px) {
+      width: 70px;
+      left: 20px;
+    }
   }
   .float-icon-4 {
     position: absolute;
@@ -26,6 +30,11 @@
     animation: leftRightTranslateAnimation 1s linear infinite alternate-reverse;
     filter: invert(51%) sepia(79%) saturate(3118%) hue-rotate(313deg) brightness(103%) contrast(99%);
     opacity: 0.8;
+    @media (max-width: 991px) {
+      width: 70px;
+      left: 20px;
+      opacity: 0.7;
+    }
   }
   &::before {
     width: 100%;
@@ -95,7 +104,6 @@
     @media (max-width: 576px) {
       font-size: 20px;
       line-height: 20px;
-      margin-bottom: 10px;
     }
   }
   .footer-link-ul {
@@ -158,6 +166,7 @@
       color: $primaryFontColor;
       @media (max-width: 991px) {
         text-align: center;
+        font-size: 16px;
       }
     }
     .payment-icon-div {

@@ -12,7 +12,7 @@
                   <img src="./assets/images/demo-img-4.jpg" alt="slider" class="slider-img">
                   <div class="container">
                     <div class="row justify-content-center">
-                      <div class="col-7">
+                      <div class="col-lg-7">
                         <div class="slider-content-div">
                           <span class="slider-title-small text-center d-block">Lorem ipsum</span>
                           <h2 class="slider-title text-center">Lorem ipsum dolor sit <span>elit Tenetur</span></h2>
@@ -28,7 +28,7 @@
                   <img src="./assets/images/demo-img-6.png" alt="slider" class="slider-img">
                   <div class="container">
                     <div class="row justify-content-center">
-                      <div class="col-7">
+                      <div class="col-lg-7">
                         <div class="slider-content-div">
                           <span class="slider-title-small text-center d-block">Lorem ipsum</span>
                           <h2 class="slider-title text-center">Lorem ipsum dolor sit <span>elit Tenetur</span></h2>
@@ -44,7 +44,7 @@
                   <img src="./assets/images/demo-img-13.png" alt="slider" class="slider-img">
                   <div class="container">
                     <div class="row justify-content-center">
-                      <div class="col-7">
+                      <div class="col-lg-7">
                         <div class="slider-content-div">
                           <span class="slider-title-small text-center d-block">Lorem ipsum</span>
                           <h2 class="slider-title text-center">Lorem ipsum dolor sit <span>elit Tenetur</span></h2>
@@ -893,6 +893,7 @@
     var swiper = new Swiper(".new-launches-slider", {
       slidesPerView: 1,
       spaceBetween: 30,
+      autoHeight: true,
       loop:true,
       navigation: {
         nextEl: ".new-launches-next-arrow",
