@@ -1,31 +1,32 @@
+.product-list-section {
+  padding: 48px 0;
+}
 .product-filter-mdiv {
   width: 360px;
-  background: #000;
+  padding: 20px;
+  width: 360px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -360px;
+  transition: 0.3s;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  &.active {
+    left: 30px;
+  }
 }
 
 .product-list-mdiv {
   width: 100%;
   .product-list-div {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
   }
 }
 
 .container-fluid {
   position: relative;
-}
-
-.product-filter-mdiv {
-  width: 360px; /* Adjust width as needed */
-  height: 100%; /* Full height */
-  position: absolute; /* Positioned relative to .container-fluid */
-  top: 0;
-  left: -360px; /* Hide sidebar by shifting it to the left */
-  transition: 0.3s; /* Smooth transition */
-}
-
-.product-filter-mdiv.active {
-  left: 0; /* Show sidebar */
 }
 
 .product-list-mdiv {
@@ -34,7 +35,7 @@
 }
 
 .product-list-mdiv.sidebar-active {
-  padding-left: 370px; /* Adjust padding based on sidebar width */
+  padding-left: 400px; /* Adjust padding based on sidebar width */
 }
 
 .filter-toggle-btn {
@@ -70,4 +71,76 @@
       border-color: transparent;
     }
   }
+}
+
+.product-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  .product-list-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+.sort-by-select {
+  max-width: 300px;
+  border-radius: 10px;
+  &:focus {
+    border-color: $secondary;
+    box-shadow: none;
+  }
+}
+
+.product-list-totle-items {
+  font-size: 26px;
+  line-height: 28px;
+  color: $primaryFontColor;
+  font-weight: 600;
+}
+
+.product-filter-items {
+  .product-filter-title {
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 600;
+    color: $primaryFontColor;
+    margin-bottom: 15px;
+  }
+  .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 7px;
+    margin-bottom: 10px;
+  }
+  .form-check-input {
+    height: 20px;
+    width: 20px;
+    float: unset;
+    margin: 0;
+    accent-color: $secondary;
+    background: #fff;
+    &:focus {
+      box-shadow: none;
+    }
+    &:checked {
+      background: $secondary;
+    }
+  }
+  .form-check-label {
+    font-size: 20px;
+    line-height: 20px;
+    color: $primaryFontColor;
+    font-weight: 600;
+  }
+}
+.product-filter-hr {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  opacity: 1;
 }

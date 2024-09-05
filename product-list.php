@@ -19,18 +19,41 @@
 
 <section class="product-list-section section-padding">
   <div class="container-fluid">
-    <div class="product-filter-mdiv" id="sidebar">
-      <!-- Sidebar content --> filter
+    <div class="product-filter-mdiv active" id="sidebar">
+      <div class="product-filter-items">
+        <h5 class="product-filter-title">Category</h5>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="newborn_baby">
+          <label class="form-check-label" for="newborn_baby"> Newborn Baby </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="baby_boy">
+          <label class="form-check-label" for="baby_boy"> Baby Boy </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="baby_girl">
+          <label class="form-check-label" for="baby_girl"> Baby Girl </label>
+        </div>
+      </div>
+      <hr class="product-filter-hr">
     </div>
-    <div class="product-list-mdiv" id="productList">
+    <div class="product-list-mdiv sidebar-active" id="productList">
       <div class="product-list-div">
       <div class="product-list-header">
-        <a href="javascript:void(0)" class="filter-toggle-btn" onclick="toggleSidebar()"> <span><i class="fi fi-rr-plus"></i> Filter</span></a>
-        <select name="sort-by">
-          <option value="">Sort By</option>
-          <option value="">Lorem ipsum</option>
-          <option value="">Sort By</option>
-        </select>
+        <div class="product-list-header-left">
+          <a href="javascript:void(0)" class="filter-toggle-btn" onclick="toggleSidebar()"> <span><i class="fi fi-rr-plus"></i> Filter</span></a>
+          <select name="sort_by" class="form-select sort-by-select">
+            <option value="">Sort By</option>
+            <option value="">Sort by popularity</option>
+            <option value="Sort by average rating">Sort by average rating</option>
+            <option value="Sort by latest">Sort by latest</option>
+            <option value="Sort by price: low to high">Sort by price: low to high</option>
+            <option value="Sort by price: high to low">Sort by price: high to low</option>
+          </select>
+        </div>
+        <div class="product-list-header-right">
+          <p class="product-list-totle-items">20 item(s)</p>
+        </div>
       </div>
       <div class="row row-gap20">
         <div class="col-3">
