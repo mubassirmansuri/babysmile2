@@ -1,59 +1,83 @@
 .product-page-section {
   .product-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
   }
 
-  .price {
+  .product-price-mdiv {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+
+    .old-price {
+      color: $primaryFontColor;
+      text-decoration: line-through;
+      margin-right: 1rem;
+      opacity: 0.5;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 500;
+    }
+
+    .new-price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: $secondary;
+      font-size: 28px;
+      line-height: 30px;
+      font-weight: 500;
+    }
+  }
+  .product-stock-info {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
-  .old-price {
-    color: #999;
-    text-decoration: line-through;
-    margin-right: 1rem;
-  }
-
-  .new-price {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-  }
-
-  .stock-info {
-    margin-bottom: 1rem;
-  }
-
-  .color-options {
+  .color-options-mdiv {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
-  }
+    margin-bottom: 15px;
+    gap: 10px;
+    .color-options-title {
+      font-size: 18px;
+      line-height: 20px;
+      color: $primaryFontColor;
+      font-weight: 600;
+    }
 
-  .color-btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid #ddd;
-    margin-right: 1rem;
-    cursor: pointer;
+    label {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      &:hover {
+        span {
+          transform: scale(1.15);
+          border-color: $primaryFontColor;
+        }
+      }
+      span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.2s ease-in-out;
+        border: 1px solid transparent;
+      }
+    }
+    input[type="radio"] {
+      display: none;
+      &:checked + label {
+        span {
+          transform: scale(1.15);
+          border-color: $primaryFontColor;
+        }
+      }
+    }
   }
-
-  .color-btn.black {
-    background-color: #333;
-  }
-
-  .color-btn.gray {
-    background-color: #ccc;
-  }
-
-  .color-btn.pink {
-    background-color: #f08080;
-  }
-
   .quantity-selector {
     margin-bottom: 1rem;
   }
@@ -93,20 +117,200 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 100px;
+    input {
+      width: 30px;
+      text-align: center;
+      border: none;
+      text-align: center;
+      font-size: 18px;
+      text-align: center;
+      width: 70px;
+      &:focus {
+        border: 0;
+        outline: 0;
+      }
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 22px;
+      line-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $secondary;
+      width: 20px;
+    }
+  }
+}
+
+.cart-quantity-mdiv {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  .like-product {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px solid #555;
+    font-size: 22px;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    &.liked {
+      background: $secondary;
+      border-color: $secondary;
+      color: #fff;
+    }
+  }
+  .common-btn {
+    flex-grow: 1;
+    border-radius: 100px;
+  }
+}
+.common-btn.buy-new {
+  border-color: #555;
+  color: #555;
+  border-radius: 100px;
+  &:hover {
+    border-color: $secondary;
+  }
+}
+
+.size-options-mdiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+  .size-options-title {
+    font-size: 18px;
+    line-height: 20px;
+    color: $primaryFontColor;
+    font-weight: 600;
   }
 
-  .cart-quantity input {
-    width: 30px;
-    text-align: center;
-    border: none;
-    font-size: 16px;
-  }
+  label {
+    display: inline-block;
 
-  .cart-quantity button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+    span {
+      display: block;
+      text-align: center;
+      width: fit-content;
+      min-width: 50px;
+      padding: 5px;
+      cursor: pointer;
+      border: 1px dashed $secondary;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 500;
+      color: $secondary;
+      transition: transform 0.2s ease-in-out;
+      border-radius: 100px;
+    }
+    &:hover {
+      span {
+        background: $secondary;
+        color: #fff;
+      }
+    }
   }
+  input[type="radio"] {
+    display: none;
+    &:checked + label {
+      span {
+        background: $secondary;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.product-slider-row {
+  .product-slider-thumbs {
+    .swiper-slide {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        transition: 0.3s ease;
+      }
+      &:hover {
+        img {
+          border: 1px dashed $secondary;
+        }
+      }
+    }
+  }
+  .product-slider-thumbs {
+    .swiper-slide-thumb-active {
+      img {
+        border: 1px dashed $secondary;
+      }
+    }
+  }
+}
+
+.product-slider,
+.product-slider-thumbs {
+  height: 600px; /* Adjust as needed */
+}
+
+.product-slider {
+  .swiper-slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+
+    .swiper-zoom-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%; /* Adjust as needed */
+      height: 100%; /* Adjust as needed */
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      transform-origin: center center; /* Ensure scaling is centered */
+    }
+  }
+}
+
+.swiper-slide:hover .swiper-zoom-container img {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+}
+
+.swiper-zoom-container {
+  cursor: pointer; /* Makes it clear that the image can be interacted with */
+}
+
+.swiper-slide-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
 }
