@@ -54,6 +54,7 @@
       width: 25px;
       height: 25px;
       cursor: pointer;
+      transition: 0.3s ease;
       &:hover {
         span {
           transform: scale(1.15);
@@ -105,12 +106,36 @@
     color: white;
   }
 
-  .payment-methods {
-    margin-bottom: 1rem;
+  .payment-methods-mdiv {
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .payment-methods-img {
+      height: 18px;
+      object-fit: contain;
+    }
   }
 
   .shipping-info {
-    margin-bottom: 1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      color: $primaryFontColor;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+    i {
+      font-size: 20px;
+    }
   }
   .cart-quantity {
     display: inline-block;
@@ -145,7 +170,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: $secondary;
+      color: $primaryFontColor;
       width: 20px;
     }
   }
@@ -168,7 +193,9 @@
     align-items: center;
     justify-content: center;
     color: #555;
-    &.liked {
+    transition: 0.3s ease;
+    &.liked,
+    &:hover {
       background: $secondary;
       border-color: $secondary;
       color: #fff;
@@ -183,6 +210,7 @@
   border-color: #555;
   color: #555;
   border-radius: 100px;
+  transition: 0.3s ease;
   &:hover {
     border-color: $secondary;
   }
@@ -202,7 +230,7 @@
 
   label {
     display: inline-block;
-
+    transition: 0.3s ease;
     span {
       display: block;
       text-align: center;
@@ -313,4 +341,45 @@
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease;
+}
+
+.product-detail-col {
+  margin-top: 50px;
+  .product-detail-tabul {
+    justify-content: center;
+    gap: 10px;
+    .nav-link {
+      border: 1px dashed $secondary;
+      font-size: 22px;
+      line-height: 26px;
+      color: $primaryFontColor;
+      border-radius: 10px;
+      padding: 20px;
+      position: relative;
+      transition: 0.3s ease;
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        border-radius: 7px;
+        border: 1px dashed #fff;
+        content: "";
+        opacity: 0;
+      }
+      &.active,
+      &:hover {
+        background: $secondary;
+        color: #fff;
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .tab-content {
+    padding: 40px 0;
+  }
 }

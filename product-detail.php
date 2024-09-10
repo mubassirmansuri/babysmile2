@@ -20,7 +20,7 @@
 <section class="product-page-section section-padding">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-7 common-left-div">
         <div class="row product-slider-row">
           <div class="col-3">
             <div thumbsSlider="" class="swiper product-slider-thumbs">
@@ -75,8 +75,8 @@
         <h2 class="product-title">100% Pure Cotton Jumpsuit</h2>
 
         <div class="product-price-mdiv">
-          <span class="old-price">$100.00</span>
-          <span class="new-price">$80.00</span>
+          <span class="old-price">₹100.00</span>
+          <span class="new-price">₹80.00</span>
         </div>
 
         <p class="product-stock-info">
@@ -126,13 +126,41 @@
           <a href="javascript:void(0)" title="Buy Now" class="common-btn common-btn2 mt-0 w-100 buy-new">Buy Now</a>
         </div>
 
-        <div class="payment-methods mt-4">
-          <img src="payment-methods.png" alt="Payment Methods" class="img-fluid">
+        <div class="payment-methods-mdiv mt-4">
+          <img src="./assets/images/paypal.png" alt="Payment Methods" class="payment-methods-img">
+          <img src="./assets/images/visa.png" alt="Payment Methods" class="payment-methods-img">
+          <img src="./assets/images/mastercard.png" alt="Payment Methods" class="payment-methods-img">
         </div>
 
         <div class="shipping-info mt-3">
-          <p><i class="fa fa-shipping-fast"></i> Free worldwide shipping on all orders over $100</p>
-          <p><i class="fa fa-clock"></i> Delivers in: 3-7 Working Days</p>
+          <p><i class="fi fi-rr-shipping-fast"></i> Free shipping on all orders over $100</p>
+          <p><i class="fi fi-rr-clock"></i> Delivers in: 3-7 Working Days</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 product-detail-col">
+        <ul class="nav nav-pills product-detail-tabul" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-Description-tab" data-bs-toggle="pill" data-bs-target="#pills-Description" type="button"
+            role="tab" aria-controls="pills-Description" aria-selected="true">Description</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+            role="tab" aria-controls="pills-profile" aria-selected="false">Lorem ipsum</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-Description" role="tabpanel" aria-labelledby="pills-Description-tab" tabindex="0">
+            <p class="common-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, repellat ratione! Non ullam nulla molestiae ducimus incidunt culpa eligendi magni.</p>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quae sit quod eaque reiciendis ad voluptate, labore nam facere eum eveniet consectetur laudantium ut incidunt est iure adipisci? Nobis, at.</p>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...
+          </div>
+          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...
+          </div>
         </div>
       </div>
     </div>
