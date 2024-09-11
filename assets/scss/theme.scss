@@ -161,6 +161,9 @@ i {
         position: relative;
         z-index: 5;
     }
+    @media (max-width: 992px) {
+        padding: 48px 0;
+    }
 }
 .row-gap20 {
     row-gap: 20px;
@@ -413,6 +416,7 @@ i {
             max-width: fit-content;
             @media (max-width: 1024px) {
                 font-size: 14px;
+                padding: 0;
             }
             &::before {
                 position: absolute;
@@ -1971,6 +1975,9 @@ i {
         content: "";
         pointer-events: none;
         z-index: 3;
+        @media (max-width: 768px) {
+            background-size: cover;
+        }
     }
     .breadcrumb-item {
         position: relative;
@@ -1986,11 +1993,21 @@ i {
         color: $primaryFontColor;
         font-weight: 600;
         margin-bottom: 20px;
+        text-align: center;
+        @media (max-width: 991px) {
+            font-size: 38px;
+            line-height: 40px;
+        }
+        @media (max-width: 576px) {
+            font-size: 28px;
+            line-height: 30px;
+        }
     }
     .breadcrumb-ul {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
         margin-bottom: 0;
         .breadcrumb-li,
@@ -2003,6 +2020,11 @@ i {
             align-items: center;
             justify-content: center;
             font-weight: 600;
+            text-align: center;
+            @media (max-width: 991px) {
+                font-size: 16px;
+                line-height: 18px;
+            }
             &.active {
                 color: $secondary;
             }
@@ -2028,6 +2050,7 @@ i {
 @import "login";
 @import "product-list";
 @import "product-detail";
+@import "cart";
 
 .modal {
     .modal-content {

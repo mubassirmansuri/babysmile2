@@ -5,11 +5,13 @@
     <div class="row">
       <div class="col-12">
         <div class="breadcrumb-item">
-          <h1 class="breadcrumb-title">Product List</h1>
+          <h1 class="breadcrumb-title">100% Pure Cotton Jumpsuit</h1>
           <ul class="breadcrumb-ul">
             <li class="breadcrumb-li"> <a href="javascript:void(0)" class="breadcrumb-link">Home</a></li>
             <li class="breadcrumb-li"> <i class="fi fi-rr-angle-right"></i> </li>
-            <li class="breadcrumb-li active">Product List</li>
+            <li class="breadcrumb-li"> <a href="javascript:void(0)" class="breadcrumb-link">Product List</a></li>
+            <li class="breadcrumb-li"> <i class="fi fi-rr-angle-right"></i> </li>
+            <li class="breadcrumb-li active">100% Pure Cotton Jumpsuit</li>
           </ul>
         </div>
       </div>
@@ -19,10 +21,10 @@
 
 <section class="product-page-section section-padding">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-7 common-left-div">
-        <div class="row product-slider-row">
-          <div class="col-3">
+    <div class="row row-gap20">
+      <div class="col-lg-7 common-left-div">
+        <div class="row product-slider-row row-gap20">
+          <div class="col-md-3 order-md-1 order-2">
             <div thumbsSlider="" class="swiper product-slider-thumbs">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -43,7 +45,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9 position-relative float-slider-col">
+          <div class="col-md-9 order-md-2 order-1 position-relative float-slider-col">
             <div class="swiper product-slider">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" data-image="./assets/images/product1.webp" data-scale="1.5">
@@ -71,7 +73,7 @@
         </div>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <h2 class="product-title">100% Pure Cotton Jumpsuit</h2>
 
         <div class="product-price-mdiv">
@@ -167,31 +169,231 @@
   </div>
 </section>
 
-  <!-- Swiper JS Initialization -->
-  <script>
-    $(document).ready(function() {
-      $('.plus').click(function() {
-        var quantity = parseInt($('#quantity').val());
-        $('#quantity').val(quantity + 1);
-      });
+<!-- related-products-section -->
+<section class="section-padding product-section pb-20">
+  <img src="./assets/images/icon-8.svg" alt="icon 1" class="float-icon-1">
+  <img src="./assets/images/icon-9.svg" alt="icon 1" class="float-icon-2">
+  <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
+  <!-- <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5"> -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="left-title-mdiv">
+          <h2 class="common-main-title">Related <span>Products</span></h2>
+          <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 position-relative float-slider-col">
+        <div class="swiper related-products-slider swiper-wrapper-padding">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="product-floatleft-div">
+                  <div class="product-badges discount">10%</div>
+                  <!-- <div class="product-badges">New</div> -->
+                </div>
+                <div class="product-floatright-div">
+                  <a href="javascript:void(0)" class="like-product-icon">
+                    <i class="fi fi-rr-heart"></i>
+                  </a>
+                </div>
+                <div class="product-img-div">
+                  <a href="javascript:void(0)" class="product-img-link">
+                    <img src="./assets/images/product1.webp" alt="demo" class="product-img">
+                  </a>
+                  <div class="add-cart-div">
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                  </div>
+                </div>
+                <div class="product-item-footer">
+                  <p class="product-category">Baby Boy</p>
+                  <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                  <div class="product-rating-mdiv">
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="product-floatleft-div">
+                  <div class="product-badges">New</div>
+                </div>
+                <div class="product-floatright-div">
+                  <a href="javascript:void(0)" class="like-product-icon liked">
+                    <i class="fi fi-rr-heart"></i>
+                  </a>
+                </div>
+                <div class="product-img-div">
+                  <a href="javascript:void(0)" class="product-img-link">
+                    <img src="./assets/images/product2.webp" alt="demo" class="product-img">
+                  </a>
+                  <div class="add-cart-div">
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                  </div>
+                </div>
+                <div class="product-item-footer">
+                  <p class="product-category">All</p>
+                  <a href="javascript:void(0)" class="product-name">LittleGent Swaddle Set</a>
+                  <p class="product-price">₹40</p>
+                  <div class="product-rating-mdiv">
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="product-floatleft-div">
+                  <div class="product-badges">New</div>
+                </div>
+                <div class="product-floatright-div">
+                  <a href="javascript:void(0)" class="like-product-icon">
+                    <i class="fi fi-rr-heart"></i>
+                  </a>
+                </div>
+                <div class="product-img-div">
+                  <a href="javascript:void(0)" class="product-img-link">
+                    <img src="./assets/images/product3.webp" alt="demo" class="product-img">
+                  </a>
+                  <div class="add-cart-div">
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                  </div>
+                </div>
+                <div class="product-item-footer">
+                  <p class="product-category">Newborn Baby</p>
+                  <a href="javascript:void(0)" class="product-name">SweetPea Cradle Collection</a>
+                  <p class="product-price">₹40</p>
+                  <div class="product-rating-mdiv">
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="product-floatleft-div">
+                  <div class="product-badges">New</div>
+                </div>
+                <div class="product-floatright-div">
+                  <a href="javascript:void(0)" class="like-product-icon">
+                    <i class="fi fi-rr-heart"></i>
+                  </a>
+                </div>
+                <div class="product-img-div">
+                  <a href="javascript:void(0)" class="product-img-link">
+                    <img src="./assets/images/product4.webp" alt="demo" class="product-img">
+                  </a>
+                  <div class="add-cart-div">
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                  </div>
+                </div>
+                <div class="product-item-footer">
+                  <p class="product-category">Baby Girl</p>
+                  <a href="javascript:void(0)" class="product-name">BlossomDreams Nursery Set</a>
+                  <p class="product-price">₹40</p>
+                  <div class="product-rating-mdiv">
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="product-floatleft-div">
+                  <div class="product-badges">New</div>
+                </div>
+                <div class="product-floatright-div">
+                  <a href="javascript:void(0)" class="like-product-icon">
+                    <i class="fi fi-rr-heart"></i>
+                  </a>
+                </div>
+                <div class="product-img-div">
+                  <a href="javascript:void(0)" class="product-img-link">
+                    <img src="./assets/images/product5.webp" alt="demo" class="product-img">
+                  </a>
+                  <div class="add-cart-div">
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                    <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                  </div>
+                </div>
+                <div class="product-item-footer">
+                  <p class="product-category">Baby Girl</p>
+                  <a href="javascript:void(0)" class="product-name">The Almirah Elephant Baby Bedding Set</a>
+                  <p class="product-price">₹40</p>
+                  <div class="product-rating-mdiv">
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon rated"></i>
+                    <i class="fi fi-rr-star product-rating-icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="common-slider-arrow-div float-slider-arrow">
+          <a href="javascript:void(0)" class="common-arrow related-products-prew-arrow"><i
+            class="fi fi-rr-angle-left"></i></a>
+          <a href="javascript:void(0)" class="common-arrow related-products-next-arrow"><i
+            class="fi fi-rr-angle-right"></i></a>
+        </div>
+      </div>
+      <div class="col-12 d-flex">
+        <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-      $('.minus').click(function() {
-        var quantity = parseInt($('#quantity').val());
-        if (quantity > 1) {
-          $('#quantity').val(quantity - 1);
-        }
-      });
-    });
-  </script>
+  <!-- Swiper JS Initialization -->
 
   <script>
     var swiper = new Swiper(".product-slider-thumbs", {
       loop: true,
       spaceBetween: 20,
-      slidesPerView: 4,
+      slidesPerView: 3,
       freeMode: true,
       watchSlidesProgress: true,
-      direction: "vertical",
+      breakpoints: {
+        567: {
+          slidesPerView: 4, // 2 slides on medium screens
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          direction: "vertical",
+        },
+        1200: {
+          slidesPerView: 4,
+          direction: "vertical",
+        },
+
+      },
     });
     var swiper2 = new Swiper(".product-slider", {
       loop: true,
@@ -206,49 +408,74 @@
       },
     });
 
-  // document.querySelectorAll('.swiper-slide').forEach(slide => {
-  //   const photo = slide.querySelector('.swiper-slide-photo');
-  //   const zoomFactor = parseFloat(slide.getAttribute('data-scale')); // Retrieve zoom level from data attribute
+  $('.swiper-slide')
+    // Handle mouse actions
+    .on('mouseover', function () {
+      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
+    })
+    .on('mouseout', function () {
+      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
+    })
+    .on('mousemove', function (e) {
+      $(this).children('.swiper-slide-photo').css({
+        'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%'
+      });
+    })
+    // Handle touch actions
+    .on('touchstart', function (e) {
+      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
+    })
+    .on('touchend', function () {
+      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
+    })
+    .on('touchmove', function (e) {
+      // Get the touch coordinates
+      var touch = e.originalEvent.touches[0];
+      var touchX = touch.pageX;
+      var touchY = touch.pageY;
 
-  //   // Set background image for each photo container
-  //   photo.style.backgroundImage = `url(${slide.getAttribute('data-image')})`;
+      $(this).children('.swiper-slide-photo').css({
+        'transform-origin': ((touchX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((touchY - $(this).offset().top) / $(this).height()) * 100 + '%'
+      });
 
-  //   slide.addEventListener('mousemove', (e) => {
-  //     const rect = slide.getBoundingClientRect();
-  //     const x = e.clientX - rect.left;
-  //     const y = e.clientY - rect.top;
-
-  //     const xPercent = (x / rect.width) * 100;
-  //     const yPercent = (y / rect.height) * 100;
-
-  //     photo.style.transform = `scale(${zoomFactor}) translate(-${xPercent}%, -${yPercent}%)`;
-  //   });
-
-  //   slide.addEventListener('mouseleave', () => {
-  //     photo.style.transform = 'scale(1)'; // Reset scale on mouse leave
-  //   });
-  // });
+      // Prevent default behavior to avoid scrolling
+      e.preventDefault();
+    })
+    // Set up the tiles
+    .each(function () {
+      $(this)
+        // Add a photo container
+        .append('<div class="photo"></div>')
+        .children('.swiper-slide-photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
+    });
 
 
-    $('.swiper-slide')
-      // tile mouse actions
-      .on('mouseover', function () {
-        $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
-      })
-      .on('mouseout', function () {
-        $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
-      })
-      .on('mousemove', function (e) {
-        $(this).children('.swiper-slide-photo').css({ 'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%' });
-      })
-      // tiles set up
-      .each(function () {
-        $(this)
-          // add a photo container
-          .append('<div class="photo"></div>')
-          .children('.swiper-slide-photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
-      })
+  </script>
 
+  <script>
+    var swiper = new Swiper(".related-products-slider", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      autoHeight: true,
+      loop: true,
+      navigation: {
+        nextEl: ".related-products-next-arrow",
+        prevEl: ".related-products-prew-arrow",
+      },
+      breakpoints: {
+        500: {
+          slidesPerView: 2, // 2 slides on medium screens
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 4,
+        },
+
+      },
+    });
   </script>
 
 <?php include 'include/footer.php' ?>

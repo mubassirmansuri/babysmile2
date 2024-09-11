@@ -899,14 +899,18 @@
         nextEl: ".new-launches-next-arrow",
         prevEl: ".new-launches-prew-arrow",
       },
-      breakpoints: {
-        992: {
-            slidesPerView: 2, // 2 slides on medium screens
-            spaceBetween: 20,
+       breakpoints: {
+        500: {
+          slidesPerView: 2, // 2 slides on medium screens
+          spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 4,
+          slidesPerView: 3,
         },
+        1200: {
+          slidesPerView: 4,
+        },
+
       },
     });
 
@@ -920,13 +924,17 @@
         prevEl: ".products-prew-arrow",
       },
       breakpoints: {
-        992: {
-            slidesPerView: 2, // 2 slides on medium screens
-            spaceBetween: 20,
+        500: {
+          slidesPerView: 2, // 2 slides on medium screens
+          spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 4,
+          slidesPerView: 3,
         },
+        1200: {
+          slidesPerView: 4,
+        },
+
       },
     });
 

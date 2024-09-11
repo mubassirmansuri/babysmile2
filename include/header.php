@@ -401,3 +401,19 @@
 
 
   </script>
+
+    <script>
+    $(document).ready(function() {
+      $('.plus').click(function() {
+        var quantity = parseInt($('#quantity').val());
+        $('#quantity').val(quantity + 1);
+      });
+
+      $('.minus').click(function() {
+        var quantity = parseInt($('#quantity').val());
+        if (quantity > 1) {
+          $('#quantity').val(quantity - 1);
+        }
+      });
+    });
+  </script>
