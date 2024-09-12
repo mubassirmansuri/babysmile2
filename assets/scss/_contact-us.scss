@@ -1,0 +1,148 @@
+/* Variables */
+$primary-color: var(--primarycolor);
+$secondary-color: var(--secondarycolor);
+
+.contact-us-section {
+  .contact-us-col {
+    padding: 30px;
+    background: #fff;
+    border-radius: 16px 0 0 16px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .form-fild-main {
+    display: flex;
+    gap: 15px 0;
+  }
+
+  .contact-us-heading {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .contact-us-form-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-form-col {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .contact-us-label {
+    margin: 0;
+    color: $primaryFontColor;
+  }
+
+  .validation-mark {
+    color: red;
+  }
+
+  .contact-us-input {
+    padding: 10px 16px;
+    border-radius: 4px;
+  }
+
+  .contact-us-textarea {
+    resize: none;
+    min-height: 70px;
+  }
+
+  .contact-btn-div {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+
+    .common-btn {
+      margin: 0;
+      transition: ease 0.4s;
+
+      &:hover {
+        box-shadow: none;
+      }
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .contact-us-info-col {
+    position: relative;
+    padding: 48px 70px;
+    background: $secondary;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+
+    .contact-us-heading {
+      color: #fff;
+    }
+  }
+
+  .contact-info-text {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: ease 0.4s;
+  }
+
+  .contact-info-div {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+
+    &:hover .contact-info-text {
+      color: #ffc947;
+    }
+  }
+
+  .contact-address-div:hover:hover .contact-info-text {
+    color: #fff;
+  }
+
+  .contact-info-icon {
+    height: 34px;
+    min-width: 34px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .contact-bg-div {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    padding: 0 70px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .error {
+    color: red;
+
+    &.contact-us-input {
+      color: #000;
+    }
+  }
+}
