@@ -20,7 +20,7 @@
 </section>
 
 <section class="product-page-section section-padding">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row row-gap20">
       <div class="col-lg-7 common-left-div">
         <div class="row product-slider-row row-gap20">

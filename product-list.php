@@ -18,7 +18,7 @@
 </section>
 
 <section class="product-list-section section-padding">
-  <div class="container-fluid">
+  <div class="container overflow-x-hidden">
     <div class="product-filter-mdiv active" id="sidebar">
       <div class="product-filter-items">
         <h5 class="product-filter-title">Category</h5>
@@ -121,11 +121,11 @@
           <a href="javascript:void(0)" class="filter-toggle-btn" onclick="toggleSidebar()"> <span><i class="fi fi-rr-plus"></i> Filter</span></a>
           <select name="sort_by" class="form-select sort-by-select">
             <option value="">Sort By</option>
-            <option value="">Sort by popularity</option>
-            <option value="Sort by average rating">Sort by average rating</option>
-            <option value="Sort by latest">Sort by latest</option>
-            <option value="Sort by price: low to high">Sort by price: low to high</option>
-            <option value="Sort by price: high to low">Sort by price: high to low</option>
+            <option value="">popularity</option>
+            <option value="average rating">average rating</option>
+            <option value="latest">latest</option>
+            <option value="price: low to high">price: low to high</option>
+            <option value="price: high to low">price: high to low</option>
           </select>
         </div>
         <div class="product-list-header-right">
@@ -133,7 +133,7 @@
         </div>
       </div>
       <div class="row row-gap20">
-        <div class="col-3">
+        <div class="col-lg-4 col-6">
           <div class="product-item">
             <div class="product-floatleft-div">
               <div class="product-badges discount">10%</div>
@@ -167,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-4 col-6">
           <div class="product-item">
             <div class="product-floatleft-div">
               <div class="product-badges discount">10%</div>
@@ -201,7 +201,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-4 col-6">
           <div class="product-item">
             <div class="product-floatleft-div">
               <div class="product-badges discount">10%</div>
@@ -235,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-4 col-6">
           <div class="product-item">
             <div class="product-floatleft-div">
               <div class="product-badges discount">10%</div>
@@ -269,7 +269,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-4 col-6">
           <div class="product-item">
             <div class="product-floatleft-div">
               <div class="product-badges discount">10%</div>

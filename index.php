@@ -62,7 +62,7 @@
     </div>
   </section>
 
-<!-- new product-section -->
+  <!-- new product-section -->
 
   <section class="section-padding product-section pb-20">
     <img src="./assets/images/icon-1.svg" alt="icon 1" class="float-icon-1">
