@@ -15292,6 +15292,13 @@ textarea.form-control-lg {
       background: #fe5488;
       color: #fff; }
 
+.form-check-input:focus {
+  box-shadow: none; }
+
+.form-check-input:checked {
+  background-color: #fe5488;
+  border-color: #fe5488; }
+
 .swiper {
   position: relative; }
 
@@ -18052,6 +18059,10 @@ i {
     padding: 10px;
     border-bottom: 1px solid #f1f1f1; }
 
+.cart-product-title {
+  color: #555 !important;
+  font-size: 14px !important; }
+
 /* Variables */
 .contact-us-section .contact-us-col {
   padding: 30px;
@@ -18312,3 +18323,14 @@ i {
 .modal .btn-close {
   font-size: 20px;
   margin: 0; }
+
+.checkout-section .common-main-title {
+  font-size: 30px; }
+
+.checkout-section .different-address-row {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in; }
+
+.checkout-section:has(.different-address-checkbox:checked) .different-address-row {
+  max-height: 5000px; }

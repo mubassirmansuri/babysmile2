@@ -40,6 +40,14 @@
         }
     }
 }
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+.form-check-input:checked {
+    background-color: $secondary;
+    border-color: $secondary;
+}
 .swiper {
     position: relative;
 }
@@ -2085,5 +2093,21 @@ i {
     .btn-close {
         font-size: 20px;
         margin: 0;
+    }
+}
+
+.checkout-section {
+    .common-main-title {
+        font-size: 30px;
+    }
+    .different-address-row {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.25s ease-in;
+    }
+    &:has(.different-address-checkbox:checked) {
+        .different-address-row {
+            max-height: 5000px;
+        }
     }
 }
