@@ -68,7 +68,7 @@
     </div>
     <div class="header-middle-mdiv">
       <div class="container">
-        <div class="row header-middle-row">
+        <div class="row header-middle-row mx-0">
           <div class="logo-div order-lg-1 order-1">
             <img src="./assets/images/logo.png" alt="logo" class="logo-img">
           </div>

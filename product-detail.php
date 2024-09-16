@@ -398,7 +398,7 @@
     var swiper2 = new Swiper(".product-slider", {
       loop: true,
       zoom: true,
-      direction: "vertical",
+      // direction: "vertical",
       navigation: {
         nextEl: ".product-next-arrow",
         prevEl: ".product-prew-arrow",
@@ -407,47 +407,77 @@
         swiper: swiper,
       },
     });
+var initialDistance = 0;
+var initialScale = 1;
+var isZooming = false;
 
-  $('.swiper-slide')
-    // Handle mouse actions
-    .on('mouseover', function () {
-      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
-    })
-    .on('mouseout', function () {
-      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
-    })
-    .on('mousemove', function (e) {
-      $(this).children('.swiper-slide-photo').css({
-        'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%'
-      });
-    })
-    // Handle touch actions
-    .on('touchstart', function (e) {
-      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
-    })
-    .on('touchend', function () {
-      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
-    })
-    .on('touchmove', function (e) {
-      // Get the touch coordinates
-      var touch = e.originalEvent.touches[0];
-      var touchX = touch.pageX;
-      var touchY = touch.pageY;
+// Helper function to calculate distance between two points
+function getDistance(touch1, touch2) {
+  return Math.sqrt(Math.pow(touch2.pageX - touch1.pageX, 2) + Math.pow(touch2.pageY - touch1.pageY, 2));
+}
 
+// Handle mouse actions
+$('.swiper-slide')
+  .on('mouseover', function () {
+    $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
+  })
+  .on('mouseout', function () {
+    $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
+  })
+  .on('mousemove', function (e) {
+    $(this).children('.swiper-slide-photo').css({
+      'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%'
+    });
+  })
+  .on('touchstart', function (e) {
+    if (e.originalEvent.touches.length === 2) {
+      // Detect pinch gesture
+      isZooming = true;
+
+      var touch1 = e.originalEvent.touches[0];
+      var touch2 = e.originalEvent.touches[1];
+      initialDistance = getDistance(touch1, touch2);
+      initialScale = parseFloat($(this).children('.swiper-slide-photo').css('transform').match(/matrix\(([^,]*)/)[1]);
+    } else {
+      isZooming = false;
+    }
+  })
+  .on('touchmove', function (e) {
+    if (isZooming && e.originalEvent.touches.length === 2) {
+      // Get touch coordinates
+      var touch1 = e.originalEvent.touches[0];
+      var touch2 = e.originalEvent.touches[1];
+      var currentDistance = getDistance(touch1, touch2);
+
+      // Calculate scale factor
+      var scale = (currentDistance / initialDistance) * initialScale;
+
+      // Update the image's scale
+      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + scale + ')' });
+
+      // Calculate and set transform-origin
+      var centerX = (touch1.pageX + touch2.pageX) / 2;
+      var centerY = (touch1.pageY + touch2.pageY) / 2;
       $(this).children('.swiper-slide-photo').css({
-        'transform-origin': ((touchX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((touchY - $(this).offset().top) / $(this).height()) * 100 + '%'
+        'transform-origin': ((centerX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((centerY - $(this).offset().top) / $(this).height()) * 100 + '%'
       });
 
       // Prevent default behavior to avoid scrolling
       e.preventDefault();
-    })
-    // Set up the tiles
-    .each(function () {
-      $(this)
-        // Add a photo container
-        .append('<div class="photo"></div>')
-        .children('.swiper-slide-photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
-    });
+    }
+  })
+  .on('touchend', function (e) {
+    if (isZooming && e.originalEvent.touches.length < 2) {
+      // Reset scale on touch end
+      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
+      isZooming = false;
+    }
+  })
+  .each(function () {
+    $(this)
+      .append('<div class="swiper-slide-photo"></div>')
+      .children('.swiper-slide-photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
+  });
 
 
   </script>

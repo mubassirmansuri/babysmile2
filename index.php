@@ -276,7 +276,7 @@
         </div>
       </div>
       <div class="row row-gap20">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -286,7 +286,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -296,7 +296,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
@@ -306,7 +306,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-6">
           <a href="javascript:void(0)" class="categories-item2">
             <div class="categories-item2-inner">
               <div class="categories-img-div">
