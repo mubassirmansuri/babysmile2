@@ -5,11 +5,11 @@
     <div class="row">
       <div class="col-12">
         <div class="breadcrumb-item">
-          <h1 class="breadcrumb-title">Product List</h1>
+          <h1 class="breadcrumb-title">Product Wishlist</h1>
           <ul class="breadcrumb-ul">
             <li class="breadcrumb-li"> <a href="javascript:void(0)" class="breadcrumb-link">Home</a></li>
             <li class="breadcrumb-li"> <i class="fi fi-rr-angle-right"></i> </li>
-            <li class="breadcrumb-li active">Product List</li>
+            <li class="breadcrumb-li active">Product Wishlist</li>
           </ul>
         </div>
       </div>
@@ -27,7 +27,7 @@
               <!-- <div class="product-badges">New</div> -->
             </div>
             <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
+              <a href="javascript:void(0)" class="like-product-icon liked">
                 <i class="fi fi-rr-heart"></i>
               </a>
             </div>
@@ -61,7 +61,7 @@
               <!-- <div class="product-badges">New</div> -->
             </div>
             <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
+              <a href="javascript:void(0)" class="like-product-icon liked">
                 <i class="fi fi-rr-heart"></i>
               </a>
             </div>
@@ -95,7 +95,7 @@
               <!-- <div class="product-badges">New</div> -->
             </div>
             <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
+              <a href="javascript:void(0)" class="like-product-icon liked">
                 <i class="fi fi-rr-heart"></i>
               </a>
             </div>
@@ -129,7 +129,7 @@
               <!-- <div class="product-badges">New</div> -->
             </div>
             <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
+              <a href="javascript:void(0)" class="like-product-icon liked">
                 <i class="fi fi-rr-heart"></i>
               </a>
             </div>
@@ -163,7 +163,7 @@
               <!-- <div class="product-badges">New</div> -->
             </div>
             <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
+              <a href="javascript:void(0)" class="like-product-icon liked">
                 <i class="fi fi-rr-heart"></i>
               </a>
             </div>

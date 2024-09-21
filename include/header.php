@@ -24,8 +24,6 @@
   <link rel="stylesheet" href="./assets/css/uicons/uicons-regular-rounded.css">
   <link href="./assets/css/uicons/uicons-brands/uicons-brands.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-  <!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css'>
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'> -->
   <link rel="stylesheet" href="./assets/css/app.css">
   <link rel="stylesheet" href="./assets/css/font.css">
   <!-- js -->
@@ -72,7 +70,7 @@
           <div class="logo-div order-lg-1 order-1">
             <img src="./assets/images/logo.png" alt="logo" class="logo-img">
           </div>
-          <div class="header-search-div lg:mx-auto me-auto order-lg-2 order-3">
+          <div class="header-search-div mx-lg-auto me-auto order-lg-2 order-3">
             <form action="./" method="GET" class="header-search search-field border-circle">
               <button class="btn header-search-btn" type="submit">
                 <i class="fi fi-rr-search"></i>
@@ -360,49 +358,47 @@
   </header>
 
   <script>
- $(document).ready(function () {
-    // Open main collapse and ensure only one is open at a time on mobile
-    $('.nav-link.dropdown-toggle').on('click', function () {
-      if ($(window).width() < 768) { // Adjust the breakpoint as needed
-        var target = $(this).attr('href');
+    $(document).ready(function () {
+        // Open main collapse and ensure only one is open at a time on mobile
+        $('.nav-link.dropdown-toggle').on('click', function () {
+          if ($(window).width() < 768) { // Adjust the breakpoint as needed
+            var target = $(this).attr('href');
 
-        // Hide all other main collapses
-        $('.megamenu-mdiv').not(target).collapse('hide');
+            // Hide all other main collapses
+            $('.megamenu-mdiv').not(target).collapse('hide');
 
-        // Toggle the clicked main collapse
-        $(target).collapse('toggle');
-      }
-    });
+            // Toggle the clicked main collapse
+            $(target).collapse('toggle');
+          }
+        });
 
-    // Open inner collapse and ensure only one is open at a time on mobile
-    $('.megamenu-title').on('click', function () {
-      if ($(window).width() < 768) { // Adjust the breakpoint as needed
-        var target = $(this).closest('a').attr('href');
-        var collapseContent = $(target);
+        // Open inner collapse and ensure only one is open at a time on mobile
+        $('.megamenu-title').on('click', function () {
+          if ($(window).width() < 768) { // Adjust the breakpoint as needed
+            var target = $(this).closest('a').attr('href');
+            var collapseContent = $(target);
 
-        // Check if the collapseContent is already visible
-        if (collapseContent.hasClass('show')) {
-          collapseContent.collapse('hide');
-        } else {
-          // Hide all inner collapses within the same megamenu
-          collapseContent.closest('.megamenu-mdiv').find('.collapse').collapse('hide');
-          collapseContent.collapse('show');
-        }
-      }
-    });
+            // Check if the collapseContent is already visible
+            if (collapseContent.hasClass('show')) {
+              collapseContent.collapse('hide');
+            } else {
+              // Hide all inner collapses within the same megamenu
+              collapseContent.closest('.megamenu-mdiv').find('.collapse').collapse('hide');
+              collapseContent.collapse('show');
+            }
+          }
+        });
 
-    // Ensure only one inner collapse is open at a time
-    $('.collapse').on('show.bs.collapse', function () {
-      if ($(window).width() < 768) { // Adjust the breakpoint as needed
-        $(this).siblings('.collapse').collapse('hide');
-      }
-    });
-  });
-
-
+        // Ensure only one inner collapse is open at a time
+        $('.collapse').on('show.bs.collapse', function () {
+          if ($(window).width() < 768) { // Adjust the breakpoint as needed
+            $(this).siblings('.collapse').collapse('hide');
+          }
+        });
+      });
   </script>
 
-    <script>
+  <script>
     $(document).ready(function() {
       $('.plus').click(function() {
         var quantity = parseInt($('#quantity').val());

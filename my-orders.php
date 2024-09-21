@@ -83,7 +83,7 @@
                 <span class="order-track-text-sub">21st November, 2024</span>
               </div>
             </div>
-            <div class="order-track-step step-done">
+            <div class="order-track-step">
               <div class="order-track-status">
                 <span class="order-track-status-dot"></span>
               </div>
@@ -92,7 +92,7 @@
                 <span class="order-track-text-sub">21st November, 2024</span>
               </div>
             </div>
-            <div class="order-track-step step-done">
+            <div class="order-track-step">
               <div class="order-track-status">
                 <span class="order-track-status-dot"></span>
               </div>
@@ -155,7 +155,7 @@
                 <span class="order-track-text-sub">21st November, 2024</span>
               </div>
             </div>
-            <div class="order-track-step step-done">
+            <div class="order-track-step">
               <div class="order-track-status">
                 <span class="order-track-status-dot"></span>
               </div>
@@ -164,7 +164,7 @@
                 <span class="order-track-text-sub">21st November, 2024</span>
               </div>
             </div>
-            <div class="order-track-step step-done">
+            <div class="order-track-step">
               <div class="order-track-status">
                 <span class="order-track-status-dot"></span>
               </div>
@@ -173,7 +173,7 @@
                 <span class="order-track-text-sub">21st November, 2024</span>
               </div>
             </div>
-            <div class="order-track-step step-done">
+            <div class="order-track-step">
               <div class="order-track-status">
                 <span class="order-track-status-dot"></span>
               </div>

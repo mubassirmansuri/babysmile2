@@ -48,21 +48,21 @@
           <div class="col-md-9 order-md-2 order-1 position-relative float-slider-col">
             <div class="swiper product-slider">
               <div class="swiper-wrapper">
-                <div class="swiper-slide" data-image="./assets/images/product1.webp" data-scale="1.5">
+                <a href="./assets/images/product1.webp" data-fancybox="gallery" class="swiper-slide" data-image="./assets/images/product1.webp" data-scale="1.5">
                   <div class="swiper-slide-photo"></div>
-                </div>
-                <div class="swiper-slide" data-image="./assets/images/product2.webp" data-scale="1.5">
+                </a>
+                <a href="./assets/images/product2.webp" data-fancybox="gallery" class="swiper-slide"   data-image="./assets/images/product2.webp" data-scale="1.5">
                   <div class="swiper-slide-photo"></div>
-                </div>
-                <div class="swiper-slide" data-image="./assets/images/product3.webp" data-scale="1.5">
+                </a>
+                <a href="./assets/images/product3.webp" data-fancybox="gallery" class="swiper-slide"   data-image="./assets/images/product3.webp" data-scale="1.5">
                   <div class="swiper-slide-photo"></div>
-                </div>
-                <div class="swiper-slide" data-image="./assets/images/product4.webp" data-scale="1.5">
+                </a>
+                <a href="./assets/images/product4.webp" data-fancybox="gallery" class="swiper-slide"   data-image="./assets/images/product4.webp" data-scale="1.5">
                   <div class="swiper-slide-photo"></div>
-                </div>
-                <div class="swiper-slide" data-image="./assets/images/product5.webp" data-scale="1.5">
+                </a>
+                <a href="./assets/images/product5.webp" data-fancybox="gallery" class="swiper-slide"   data-image="./assets/images/product5.webp" data-scale="1.5">
                   <div class="swiper-slide-photo"></div>
-                </div>
+                </a>
               </div>
             </div>
             <div class="common-slider-arrow-div float-slider-arrow">
@@ -399,6 +399,7 @@
       loop: true,
       zoom: true,
       // direction: "vertical",
+      spaceBetween: 20,
       navigation: {
         nextEl: ".product-next-arrow",
         prevEl: ".product-prew-arrow",
@@ -407,79 +408,82 @@
         swiper: swiper,
       },
     });
-var initialDistance = 0;
-var initialScale = 1;
-var isZooming = false;
+  </script>
 
-// Helper function to calculate distance between two points
-function getDistance(touch1, touch2) {
-  return Math.sqrt(Math.pow(touch2.pageX - touch1.pageX, 2) + Math.pow(touch2.pageY - touch1.pageY, 2));
-}
+  <!-- slider hover script  -->
 
-// Handle mouse actions
-$('.swiper-slide')
-  .on('mouseover', function () {
-    $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
-  })
-  .on('mouseout', function () {
-    $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
-  })
-  .on('mousemove', function (e) {
-    $(this).children('.swiper-slide-photo').css({
-      'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%'
-    });
-  })
-  .on('touchstart', function (e) {
-    if (e.originalEvent.touches.length === 2) {
-      // Detect pinch gesture
-      isZooming = true;
+  <script>
+    var initialDistance = 0;
+    var initialScale = 1;
+    var isZooming = false;
 
-      var touch1 = e.originalEvent.touches[0];
-      var touch2 = e.originalEvent.touches[1];
-      initialDistance = getDistance(touch1, touch2);
-      initialScale = parseFloat($(this).children('.swiper-slide-photo').css('transform').match(/matrix\(([^,]*)/)[1]);
-    } else {
-      isZooming = false;
+    // Helper function to calculate distance between two points
+    function getDistance(touch1, touch2) {
+      return Math.sqrt(Math.pow(touch2.pageX - touch1.pageX, 2) + Math.pow(touch2.pageY - touch1.pageY, 2));
     }
-  })
-  .on('touchmove', function (e) {
-    if (isZooming && e.originalEvent.touches.length === 2) {
-      // Get touch coordinates
-      var touch1 = e.originalEvent.touches[0];
-      var touch2 = e.originalEvent.touches[1];
-      var currentDistance = getDistance(touch1, touch2);
 
-      // Calculate scale factor
-      var scale = (currentDistance / initialDistance) * initialScale;
+    // Handle mouse actions
+    $('.product-slider .swiper-slide')
+      .on('mouseover', function () {
+        $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
+      })
+      .on('mouseout', function () {
+        $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
+      })
+      .on('mousemove', function (e) {
+        $(this).children('.swiper-slide-photo').css({
+          'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%'
+        });
+      })
+      .on('touchstart', function (e) {
+        if (e.originalEvent.touches.length === 2) {
+          // Detect pinch gesture
+          isZooming = true;
 
-      // Update the image's scale
-      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + scale + ')' });
+          var touch1 = e.originalEvent.touches[0];
+          var touch2 = e.originalEvent.touches[1];
+          initialDistance = getDistance(touch1, touch2);
+          initialScale = parseFloat($(this).children('.swiper-slide-photo').css('transform').match(/matrix\(([^,]*)/)[1]);
+        } else {
+          isZooming = false;
+        }
+      })
+      .on('touchmove', function (e) {
+        if (isZooming && e.originalEvent.touches.length === 2) {
+          // Get touch coordinates
+          var touch1 = e.originalEvent.touches[0];
+          var touch2 = e.originalEvent.touches[1];
+          var currentDistance = getDistance(touch1, touch2);
 
-      // Calculate and set transform-origin
-      var centerX = (touch1.pageX + touch2.pageX) / 2;
-      var centerY = (touch1.pageY + touch2.pageY) / 2;
-      $(this).children('.swiper-slide-photo').css({
-        'transform-origin': ((centerX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((centerY - $(this).offset().top) / $(this).height()) * 100 + '%'
+          // Calculate scale factor
+          var scale = (currentDistance / initialDistance) * initialScale;
+
+          // Update the image's scale
+          $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(' + scale + ')' });
+
+          // Calculate and set transform-origin
+          var centerX = (touch1.pageX + touch2.pageX) / 2;
+          var centerY = (touch1.pageY + touch2.pageY) / 2;
+          $(this).children('.swiper-slide-photo').css({
+            'transform-origin': ((centerX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((centerY - $(this).offset().top) / $(this).height()) * 100 + '%'
+          });
+
+          // Prevent default behavior to avoid scrolling
+          e.preventDefault();
+        }
+      })
+      .on('touchend', function (e) {
+        if (isZooming && e.originalEvent.touches.length < 2) {
+          // Reset scale on touch end
+          $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
+          isZooming = false;
+        }
+      })
+      .each(function () {
+        $(this)
+          .append('<div class="swiper-slide-photo"></div>')
+          .children('.swiper-slide-photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
       });
-
-      // Prevent default behavior to avoid scrolling
-      e.preventDefault();
-    }
-  })
-  .on('touchend', function (e) {
-    if (isZooming && e.originalEvent.touches.length < 2) {
-      // Reset scale on touch end
-      $(this).children('.swiper-slide-photo').css({ 'transform': 'scale(1)' });
-      isZooming = false;
-    }
-  })
-  .each(function () {
-    $(this)
-      .append('<div class="swiper-slide-photo"></div>')
-      .children('.swiper-slide-photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
-  });
-
-
   </script>
 
   <script>
@@ -507,5 +511,13 @@ $('.swiper-slide')
       },
     });
   </script>
+
+  <script src="./assets/js/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css"/>
+<script>
+  Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
 
 <?php include 'include/footer.php' ?>
