@@ -15472,9 +15472,11 @@ i {
   .dropdown-toggle:hover + .megamenu-mdiv {
     display: block; } }
 
-@media (min-width: 992px) {
-  .megamenu-mdiv:hover {
-    display: block; } }
+.megamenu-mdiv {
+  box-shadow: 0px 5px 15px 0px #0000000f; }
+  @media (min-width: 992px) {
+    .megamenu-mdiv:hover {
+      display: block; } }
 
 .dropdown-hover > .dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
@@ -15977,7 +15979,7 @@ i {
   border: 1px solid #ddd;
   transition: 0.3s ease; }
   .product-item:hover {
-    box-shadow: none; }
+    box-shadow: 0px 3px 8px 0px #0000004a; }
   .product-item .product-img-div {
     width: 100%;
     height: fit-content;

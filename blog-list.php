@@ -1,6 +1,6 @@
 <?php include 'include/header.php'?>
 
-<section class="breadcrumb-section">
+<!-- <section class="breadcrumb-section">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -15,7 +15,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="blog-section section-padding">
     <img src="./assets/images/girl.svg" alt="" class="blog-float-img blog-float-img2">
