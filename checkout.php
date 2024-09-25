@@ -92,12 +92,6 @@
                 <input type="email" name="email_address" placeholder="Email Address" class="form-control">
               </div>
             </div>
-            <div class="col-12">
-              <div class="form-group">
-                <label class="form-label">Email</label>
-                <input type="text" name="email" placeholder="Email" class="form-control">
-              </div>
-            </div>
           </div>
         </div>
         <div class="col-6">
@@ -175,12 +169,6 @@
                 <div class="form-group">
                   <label class="form-label">Email Address</label>
                   <input type="email" name="email_address" placeholder="Email Address" class="form-control">
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-group">
-                  <label class="form-label">Email</label>
-                  <input type="text" name="email" placeholder="Email" class="form-control">
                 </div>
               </div>
             </div>

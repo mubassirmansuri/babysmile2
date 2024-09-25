@@ -68,7 +68,7 @@
       <div class="container-fluid">
         <div class="row header-middle-row mx-0">
           <div class="logo-div order-lg-1 order-1">
-            <img src="./assets/images/logo.png" alt="logo" class="logo-img">
+            <img src="./assets/images/logo2.png" alt="logo" class="logo-img">
           </div>
           <nav class="navbar navbar-expand-lg bg-body-tertiary order-lg-2" style="padding: 0px;">
             <!-- Container wrapper -->
@@ -319,7 +319,7 @@
             </div>
             <!-- Container wrapper -->
           </nav>
-          <div class="header-search-div mx-lg-auto me-auto order-lg-3 order-4">
+          <div class="header-search-div me-lg-0 ms-lg-auto me-auto order-lg-3 order-4">
             <form action="./" method="GET" class="header-search search-field border-circle">
               <button class="btn header-search-btn" type="submit">
                 <i class="fi fi-rr-search"></i>
@@ -345,7 +345,6 @@
               <i class="fi fi-rr-shopping-cart-add"></i>
               <span class="cart-badge">3</span>
             </a>
-            <a href="javascript:void(0)" class="login-link" title="Login / Sing Up" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Login / Sing Up </a>
           </div>
           <button class="navbar-toggler px-0 d-block d-lg-none order-4" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <i class="fi fi-rr-menu-burger"></i>

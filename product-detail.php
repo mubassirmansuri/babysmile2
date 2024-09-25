@@ -169,6 +169,113 @@
   </div>
 </section>
 
+<section class="product-page-section section-padding pt-0">
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="left-title-mdiv">
+            <h2 class="common-main-title">Product <span>Review</span></h2>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row row-gap20 mb-30">
+        <div class="col-4">
+          <div class="review-card">
+            <div class="review-card-head">
+              <div class="review-img-div">
+                <img src="./assets/images/demo-img-10.jpg" alt="user">
+              </div>
+              <div class="review-name-div">
+                <h3 class="review-name">Lorem ipsum dolor</h3>
+                <p class="review-total">4 Rating</p>
+              </div>
+            </div>
+            <div class="review-card-body">
+              <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus consequuntur, sunt culpa corrupti voluptate cupiditate temporibus adipisci a voluptas eum!</p>
+            </div>
+            <div class="review-card-footer">
+              <div class="product-rating-mdiv">
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon"></i>
+              </div>
+              <p class="review-card-date">Reviewed On 01/01/2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="review-card">
+            <div class="review-card-head">
+              <div class="review-img-div review-img-name">
+                M
+              </div>
+              <div class="review-name-div">
+                <h3 class="review-name">Lorem ipsum dolor</h3>
+                <p class="review-total">4 Rating</p>
+              </div>
+            </div>
+            <div class="review-card-body">
+              <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus consequuntur, sunt culpa
+                corrupti voluptate cupiditate temporibus adipisci a voluptas eum!</p>
+            </div>
+            <div class="review-card-footer">
+              <div class="product-rating-mdiv">
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon"></i>
+              </div>
+              <p class="review-card-date">Reviewed On 01/01/2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="review-card">
+            <div class="review-card-head">
+              <div class="review-img-div">
+                <img src="./assets/images/demo-img-10.jpg" alt="user">
+              </div>
+              <div class="review-name-div">
+                <h3 class="review-name">Lorem ipsum dolor</h3>
+                <p class="review-total">4 Rating</p>
+              </div>
+            </div>
+            <div class="review-card-body">
+              <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus consequuntur, sunt culpa
+                corrupti voluptate cupiditate temporibus adipisci a voluptas eum!</p>
+            </div>
+            <div class="review-card-footer">
+              <div class="product-rating-mdiv">
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon rated"></i>
+                <i class="fi fi-rr-star product-rating-icon"></i>
+              </div>
+              <p class="review-card-date">Reviewed On 01/01/2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-40">
+          <h2 class="common-main-title small-title ">Add Your <span>Review</span></h2>
+          <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="col-12">
+          <div class="form-group">
+            <label class="form-label">Review</label>
+            <textarea name="review" class="form-control" placeholder="Review"></textarea>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
 <!-- related-products-section -->
 <section class="section-padding product-section pb-20">
   <img src="./assets/images/icon-8.svg" alt="icon 1" class="float-icon-1">

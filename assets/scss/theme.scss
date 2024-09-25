@@ -76,6 +76,10 @@
     text-transform: uppercase;
     margin-bottom: 15px;
     min-width: fit-content;
+    &.small-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
     span {
         color: $secondary;
     }
@@ -280,8 +284,8 @@ i {
         }
     }
     .logo-div {
-        max-width: 300px;
-        max-height: 64px;
+        max-width: 80px;
+        max-height: 80px;
         @media (max-width: 1024px) {
             max-width: 200px;
         }
@@ -295,7 +299,7 @@ i {
         }
     }
     .header-search-div {
-        width: 500px;
+        max-width: 400px;
         height: 100%;
         height: 45px;
         @media (max-width: 1200px) {
@@ -416,16 +420,22 @@ i {
 
 // .header-bottom-mdiv {
 //     border-top: 1px solid #ddd;
+.navbar {
+    width: fit-content;
+}
 .navbar-nav {
     gap: 20px;
     margin: 0 auto;
+    @media (max-width: 1600px) {
+        gap: 10px;
+    }
     @media (max-width: 991px) {
         margin: 0;
     }
     .nav-link {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
-        font-weight: 500;
+        font-weight: 800;
         padding: 15px 0;
         color: $primaryFontColor;
         display: flex;
