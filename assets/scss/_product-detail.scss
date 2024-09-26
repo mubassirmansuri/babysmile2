@@ -501,3 +501,60 @@
     }
   }
 }
+
+.product-total-rating {
+  font-size: 20px;
+  line-height: 20px;
+  color: $secondaryFontColor;
+  padding: 8px;
+  border: 1px solid #ddd;
+  width: fit-content;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  span {
+    color: $secondary;
+    display: inline-block;
+  }
+  i {
+    font-size: 18px;
+    margin-top: -3px;
+    line-height: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 3px;
+    color: $secondary;
+  }
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 7px;
+  input[type="radio"] {
+    display: none; // Hide the radio buttons
+  }
+
+  .star {
+    cursor: pointer;
+    transition: color 0.2s;
+    font-size: 22px;
+    color: $secondaryFontColor;
+    &:hover,
+    &:hover ~ .star {
+      color: $secondary; // Change color on hover
+    }
+  }
+
+  input[type="radio"]:checked ~ .star {
+    color: $secondary; // Selected star color
+  }
+
+  input[type="radio"]:checked ~ .star:hover,
+  input[type="radio"]:checked ~ .star:hover ~ .star {
+    color: $secondary; // Keep the selected color on hover
+  }
+}

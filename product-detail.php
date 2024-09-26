@@ -75,7 +75,7 @@
 
       <div class="col-lg-5">
         <h2 class="product-title">100% Pure Cotton Jumpsuit</h2>
-
+        <div class="product-total-rating"><i class="fi fi-rr-star product-rating-icon"></i><span>4.2</span>| 6.5k Ratings</div>
         <div class="product-price-mdiv">
           <span class="old-price">₹100.00</span>
           <span class="new-price">₹80.00</span>
@@ -179,8 +179,8 @@
           </div>
         </div>
       </div>
-      <div class="row row-gap20 mb-30">
-        <div class="col-4">
+      <div class="row row-gap20 mb-40">
+        <div class="col-xl-4 col-md-6">
           <div class="review-card">
             <div class="review-card-head">
               <div class="review-img-div">
@@ -188,7 +188,6 @@
               </div>
               <div class="review-name-div">
                 <h3 class="review-name">Lorem ipsum dolor</h3>
-                <p class="review-total">4 Rating</p>
               </div>
             </div>
             <div class="review-card-body">
@@ -206,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-xl-4 col-md-6">
           <div class="review-card">
             <div class="review-card-head">
               <div class="review-img-div review-img-name">
@@ -214,7 +213,6 @@
               </div>
               <div class="review-name-div">
                 <h3 class="review-name">Lorem ipsum dolor</h3>
-                <p class="review-total">4 Rating</p>
               </div>
             </div>
             <div class="review-card-body">
@@ -233,7 +231,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-xl-4 col-md-6">
           <div class="review-card">
             <div class="review-card-head">
               <div class="review-img-div">
@@ -241,7 +239,6 @@
               </div>
               <div class="review-name-div">
                 <h3 class="review-name">Lorem ipsum dolor</h3>
-                <p class="review-total">4 Rating</p>
               </div>
             </div>
             <div class="review-card-body">
@@ -260,19 +257,43 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 mb-40">
-          <h2 class="common-main-title small-title ">Add Your <span>Review</span></h2>
-          <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
         <div class="col-12">
-          <div class="form-group">
-            <label class="form-label">Review</label>
-            <textarea name="review" class="form-control" placeholder="Review"></textarea>
+          <a href="javascript:void(0)" title="Load More" class="common-btn common-btn2 mx-auto">Load More</a>
+        </div>
+      </div>
+      <form action="" method="post">
+        <div class="row">
+          <div class="col-12 mb-30">
+            <h2 class="common-main-title small-title ">Add Your <span>Review</span></h2>
+            <p class="common-desc">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="col-12">
+            <div class="form-group mb-25">
+              <div class="star-rating">
+                <input type="radio" name="rating" id="5-star" value="5">
+                <label for="5-star" class="star"><i class="fi fi-rr-star product-rating-icon"></i></label>
+                <input type="radio" name="rating" id="4-star" value="4">
+                <label for="4-star" class="star"><i class="fi fi-rr-star product-rating-icon"></i></label>
+                <input type="radio" name="rating" id="3-star" value="3">
+                <label for="3-star" class="star"><i class="fi fi-rr-star product-rating-icon"></i></label>
+                <input type="radio" name="rating" id="2-star" value="2">
+                <label for="2-star" class="star"><i class="fi fi-rr-star product-rating-icon"></i></label>
+                <input type="radio" name="rating" id="1-star" value="1">
+                <label for="1-star" class="star"><i class="fi fi-rr-star product-rating-icon"></i></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-group">
+              <label class="form-label">Review</label>
+              <textarea name="review" class="form-control" placeholder="Review"></textarea>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="common-btn common-btn2 mt-20" title="Submit">Submit</button>
           </div>
         </div>
-      </div>
+      </form>
   </div>
 </section>
 

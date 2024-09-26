@@ -253,14 +253,14 @@ i {
     left: 0;
 }
 .dropdown-toggle:hover + .megamenu-mdiv {
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         display: block;
     }
 }
 .megamenu-mdiv {
     box-shadow: 0px 5px 15px 0px #0000000f;
 
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         &:hover {
             display: block;
         }
@@ -277,7 +277,7 @@ i {
     .header-middle-row {
         display: flex;
         align-items: center;
-        @media (max-width: 992px) {
+        @media (max-width: 1200px) {
             flex-wrap: wrap;
             gap: 10px;
             justify-content: space-between;
@@ -286,12 +286,6 @@ i {
     .logo-div {
         max-width: 80px;
         max-height: 80px;
-        @media (max-width: 1024px) {
-            max-width: 200px;
-        }
-        @media (max-width: 992px) {
-            max-width: 150px;
-        }
         .logo-img {
             width: 100%;
             height: 100%;
@@ -302,10 +296,10 @@ i {
         max-width: 400px;
         height: 100%;
         height: 45px;
-        @media (max-width: 1200px) {
-            width: 350px;
+        @media (max-width: 1300px) {
+            width: 320px;
         }
-        @media (max-width: 992px) {
+        @media (max-width: 1199px) {
             width: 80%;
             .header-search-input {
                 font-size: 16px;
@@ -365,6 +359,10 @@ i {
         align-items: center;
         gap: 15px;
         width: fit-content;
+        @media (max-width: 767px) {
+            width: 50%;
+            justify-content: flex-end;
+        }
         .cart-icon-link {
             line-height: 20px;
             font-size: 24px;
@@ -429,7 +427,7 @@ i {
     @media (max-width: 1600px) {
         gap: 10px;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1200px) {
         margin: 0;
     }
     .nav-link {
@@ -443,8 +441,8 @@ i {
         position: relative;
         text-transform: uppercase;
         max-width: fit-content;
-        @media (max-width: 1024px) {
-            font-size: 14px;
+        @media (max-width: 1200px) {
+            font-size: 13px;
             padding: 0;
         }
         &::before {
@@ -478,13 +476,14 @@ i {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     padding: 30px;
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
         position: absolute;
         top: 100%;
         left: 0;
         height: fit-content;
         max-height: fit-content;
-        width: 100% !important;
+        width: 800px !important;
+        max-width: 800px;
         background: #fff;
         z-index: 5;
     }
@@ -507,8 +506,8 @@ i {
 }
 
 .megamenu-title {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 5px;
@@ -540,8 +539,8 @@ i {
 }
 
 .megamenu-link {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 16px;
     font-weight: 500;
     color: $primaryFontColor;
     transition: 0.3s ease;
@@ -573,17 +572,19 @@ i {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 15px;
+    padding: 10px;
+    padding-bottom: 15px;
     background: #fff;
     transition: 0.3s ease;
     .megamenu-category-img {
-        height: 200px;
+        height: 150px;
         width: 100%;
         border-radius: 10px;
         object-fit: cover;
     }
     .megamenu-category-title {
         font-size: 18px;
+        line-height: 20px;
         font-weight: 600;
         color: $primaryFontColor;
         transition: 0.3s ease;
