@@ -64,7 +64,7 @@
         </div>
       </div>
     </div> -->
-    <div class="header-middle-mdiv">
+    <div class="header-middle-mdiv header-area">
       <div class="container-fluid">
         <div class="row header-middle-row mx-0">
           <div class="logo-div order-md-1 order-1">

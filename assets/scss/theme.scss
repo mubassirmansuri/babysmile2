@@ -12,6 +12,23 @@
 
 // common css
 
+.header-area.header_sticky {
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    width: 100%;
+    background: #fff;
+    animation: headerAmination 0.5s linear;
+}
+@keyframes headerAmination {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
 .common-btn {
     padding: 15px;
     background: #fff;
@@ -486,7 +503,7 @@ i {
         width: 800px !important;
         max-width: 800px;
         background: #fff;
-        z-index: 5;
+        z-index: 99;
     }
 }
 .dropdown-toggle {
@@ -2106,6 +2123,7 @@ i {
 @import "contact-us";
 @import "blog-detail";
 @import "track-order";
+@import "faqs";
 
 .modal {
     .modal-content {
