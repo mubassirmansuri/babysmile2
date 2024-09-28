@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="./assets/css/font.css">
   <!-- js -->
   <script src="./assets/js/jquery-3.7.1.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/swiper-bundle.min.js"></script>
   <script src="./assets/js/custom.js"></script>
 </head>
@@ -298,9 +298,15 @@
             </form>
           </div>
           <div class="cart-icon-div order-xl-4 order-3">
-            <a href="javascript:void(0)" class="cart-icon-link">
+            <a href="javascript:void(0)" class="cart-icon-link" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fi fi-rr-user"></i>
             </a>
+              <ul class="dropdown-menu common-dropdown">
+                <li><a class="dropdown-item" href="#" title="My Account">My Account</a></li>
+                <li><a class="dropdown-item" href="./my-orders" title="Orders">Orders</a></li>
+                <li><a class="dropdown-item" href="./Address" title="Address">Address</a></li>
+                <li><a class="dropdown-item" href="#" title="Log Out">Log Out</a></li>
+              </ul>
             <a href="javascript:void(0)" class="cart-icon-link">
               <i class="fi fi-rr-heart"></i>
             </a>

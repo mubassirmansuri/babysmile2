@@ -15760,7 +15760,8 @@ i {
   pointer-events: none; }
 
 .header-middle-mdiv {
-  padding: 10px 0; }
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; }
   .header-middle-mdiv .header-middle-row {
     display: flex;
     align-items: center; }
@@ -18916,3 +18917,21 @@ i {
 
 .checkout-section:has(.different-address-checkbox:checked) .different-address-row {
   max-height: 5000px; }
+
+.common-dropdown.dropdown-menu {
+  padding: 15px;
+  flex-direction: column;
+  gap: 15px;
+  border: 0;
+  box-shadow: 0 0 9px 4px #0000001c;
+  margin-top: 5px !important; }
+  .common-dropdown.dropdown-menu.show {
+    display: flex; }
+  .common-dropdown.dropdown-menu .dropdown-item {
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    transition: 0.3s ease; }
+    .common-dropdown.dropdown-menu .dropdown-item:hover {
+      background: transparent;
+      color: #fe5488; }

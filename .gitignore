@@ -1,0 +1,6 @@
+package-lock.json
+/*.zip
+/bebysmile_16092024.zip
+/bebysmile_21092024.zip
+/node_modules/*
+node_modules
