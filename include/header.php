@@ -79,12 +79,12 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
                   <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Home</a>
+                    <a class="nav-link" href="./index" title="Home">Home</a>
                   </li>
                   <!-- Navbar dropdown -->
                   <li class="nav-item dropdown position-static">
-                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="collapse" href="#collapseProducts" role="button" aria-expanded="false" aria-controls="collapseProducts">Products</a>
-                    <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)">Products</a>
+                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" title="Products" data-bs-toggle="collapse" href="#collapseProducts" role="button" aria-expanded="false" aria-controls="collapseProducts">Products</a>
+                    <a class="nav-link dropdown-toggle d-xl-flex d-none" title="Products" href="./product-list.php">Products</a>
                     <!-- Dropdown menu -->
                     <!-- Dropdown menu -->
                     <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseProducts">
@@ -159,8 +159,8 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown position-static">
-                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="collapse" href="#collapsecategory" role="button" aria-expanded="false" aria-controls="collapsecategory">category</a>
-                    <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)">category</a>
+                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="collapse" href="#collapsecategory" role="button" aria-expanded="false" aria-controls="collapsecategory" title="Category">Category</a>
+                    <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)" title="Category">Category</a>
                     <!-- Dropdown menu -->
                     <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapsecategory">
                       <div class="container">
@@ -201,80 +201,21 @@
                       </div>
                     </div>
                   </li>
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="collapse" href="#collapseMegamenu1" role="button" aria-expanded="false" aria-controls="collapseMegamenu1">Mega menu</a>
-                    <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)">Mega menu</a>
-                    <!-- Dropdown menu -->
-                    <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseMegamenu1">
-                      <div class="container">
-                        <div class="row my-4">
-                          <div class="col-xl-3 mb-3 mb-xl-0">
-                            <div class="megamenu-link-div">
-                              <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Amet
-                                consectetur</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                                odio</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Adipisicing
-                                elit</a>
-                            </div>
-                          </div>
-                          <div class="col-xl-3 mb-3 mb-xl-0">
-                            <div class="megamenu-link-div">
-                              <a href="javascript:void(0)" class="megamenu-link">Explicabo
-                                voluptas</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
-                                quo</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                                odio</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Laudantium
-                                maiores</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Provident
-                                dolor</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog-list" title="Blogs">Blogs</a>
                   </li>
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="collapse" href="#collapseMegamenu" role="button" aria-expanded="false" aria-controls="collapseMegamenu2">Mega menu</a>
-                    <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)">Mega menu</a>
-                    <!-- Dropdown menu -->
-                    <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseMegamenu2">
-                      <div class="container">
-                        <div class="row my-4">
-                          <div class="col-xl-3 mb-3 mb-xl-0">
-                            <div class="megamenu-link-div">
-                              <a href="javascript:void(0)" class="megamenu-link">Lorem ipsum</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Dolor sit</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Amet
-                                consectetur</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                                odio</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Adipisicing
-                                elit</a>
-                            </div>
-                          </div>
-                          <div class="col-xl-3 mb-3 mb-xl-0">
-                            <div class="megamenu-link-div">
-                              <a href="javascript:void(0)" class="megamenu-link">Explicabo
-                                voluptas</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Perspiciatis
-                                quo</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Cras justo
-                                odio</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Laudantium
-                                maiores</a>
-                              <a href="javascript:void(0)" class="megamenu-link">Provident
-                                dolor</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.php" title="Contact Us">Contact Us</a>
                   </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="dropdown" aria-expanded="false" title="Resources">Resources</a>
+                    <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)" title="Resources">Resources</a>
+                    <ul class="dropdown-menu common-dropdown">
+                      <li><a class="dropdown-item" href="./my-orders" title="Blogs">Blogs</a></li>
+                      <li><a class="dropdown-item" href="./Address" title="Contact Us">Contact Us</a></li>
+                      <li><a class="dropdown-item" href="#" title="FAQ's">FAQ's</a></li>
+                    </ul>
+                  </li> -->
                 </ul>
                 <!-- Left links -->
               </div>
@@ -305,12 +246,13 @@
                 <li><a class="dropdown-item" href="#" title="My Account">My Account</a></li>
                 <li><a class="dropdown-item" href="./my-orders" title="Orders">Orders</a></li>
                 <li><a class="dropdown-item" href="./Address" title="Address">Address</a></li>
-                <li><a class="dropdown-item" href="#" title="Log Out">Log Out</a></li>
+                <li><a class="dropdown-item" href="./wishlist" title="Wishlist">Wishlist</a></li>
+                <li><a class="dropdown-item" href="#" title="Logout">Logout</a></li>
               </ul>
-            <a href="javascript:void(0)" class="cart-icon-link">
+            <a href="./wishlist" class="cart-icon-link" title="Wishlist">
               <i class="fi fi-rr-heart"></i>
             </a>
-            <a href="javascript:void(0)" class="cart-icon-link">
+            <a href="./cart" class="cart-icon-link" title="Cart">
               <i class="fi fi-rr-shopping-cart-add"></i>
               <span class="cart-badge">3</span>
             </a>

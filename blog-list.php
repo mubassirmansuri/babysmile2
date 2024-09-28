@@ -41,9 +41,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -57,9 +57,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -73,9 +73,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -89,9 +89,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -105,9 +105,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -121,9 +121,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -137,9 +137,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>
@@ -153,9 +153,9 @@
               <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
               <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
             </div>
-            <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+            <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
             <hr>
-            <a href="javascript:void(0)" class="know-more-mdiv">
+            <a href="./blog-detail" class="know-more-mdiv">
               <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
             </a>
           </div>

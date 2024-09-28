@@ -36,26 +36,20 @@
           <div class="col-lg-2 col-md-4 col-sm-6 mb-md-0 mb-15">
             <h3 class="footer-title">Quick <span>Links</span></h3>
             <ul class="footer-link-ul">
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Home</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Products</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Category</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Blogs</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i class="fi fi-rr-angle-small-right"></i>Faq</a></li>
+              <li class="footer-link-li"><a href="./index" class="footer-link" title="Home"><i class="fi fi-rr-angle-small-right"></i>Home</a></li>
+              <li class="footer-link-li"><a href="./products-list" class="footer-link" title="Products"><i class="fi fi-rr-angle-small-right"></i>Products</a></li>
+              <li class="footer-link-li"><a href="./blogs-list" class="footer-link" title="Blogs"><i class="fi fi-rr-angle-small-right"></i>Blogs</a></li>
+              <li class="footer-link-li"><a href="./faqs" class="footer-link" title="Faq"><i class="fi fi-rr-angle-small-right"></i>Faq</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-md-0 mb-15">
             <h3 class="footer-title">My <span>Account</span></h3>
             <ul class="footer-link-ul">
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i
-                  class="fi fi-rr-angle-small-right"></i>Track Orders</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i
-                  class="fi fi-rr-angle-small-right"></i>My Account</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i
-                  class="fi fi-rr-angle-small-right"></i>Order History</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i
-                  class="fi fi-rr-angle-small-right"></i>Wishlist</a></li>
-              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link"><i
-                  class="fi fi-rr-angle-small-right"></i>Track Orders</a></li>
+              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link" title="My Account"><i class="fi fi-rr-angle-small-right"></i>My Account</a></li>
+              <li class="footer-link-li"><a href="./my-orders" class="footer-link" title="Orders"><i class="fi fi-rr-angle-small-right"></i>Orders</a></li>
+              <li class="footer-link-li"><a href="./address" class="footer-link" title="Orders"><i class="fi fi-rr-angle-small-right"></i>Address</a></li>
+              <li class="footer-link-li"><a href="./wishlist" class="footer-link" title="Wishlist"><i class="fi fi-rr-angle-small-right"></i>Wishlist</a></li>
+              <li class="footer-link-li"><a href="javascript:void(0)" class="footer-link" title="Logout"><i class="fi fi-rr-angle-small-right"></i>Logout</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 col-12">

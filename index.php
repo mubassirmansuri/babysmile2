@@ -73,7 +73,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="left-title-mdiv">
-            <h2 class="common-main-title">New <span>Launches</span></h2>
+            <h2 class="common-main-title">New <span>Launches</span></h2> <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-title="asdfasdf"> asdfasdfasdf</button>
             <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
         </div>
@@ -98,7 +99,7 @@
                       <img src="./assets/images/product1.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" ><i class="fi fi-rr-shopping-cart-add"></i></a>
                       <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
@@ -256,7 +257,7 @@
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto" title="View More"> View More</a>
         </div>
       </div>
     </div>
@@ -560,7 +561,7 @@
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto" title="View More"> View More</a>
         </div>
       </div>
     </div>
@@ -694,7 +695,7 @@
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto" title="View More"> View More</a>
         </div>
       </div>
     </div>
@@ -729,9 +730,9 @@
                     <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
-                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
+                  <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit Lorem ipsum dolor sit</a>
                   <hr>
-                  <a href="javascript:void(0)" class="know-more-mdiv">
+                  <a href="./blog-detail" class="know-more-mdiv">
                     <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
@@ -745,9 +746,9 @@
                     <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
-                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
+                  <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
-                  <a href="javascript:void(0)" class="know-more-mdiv">
+                  <a href="./blog-detail" class="know-more-mdiv">
                     <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
@@ -761,9 +762,9 @@
                     <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
-                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
+                  <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
-                  <a href="javascript:void(0)" class="know-more-mdiv">
+                  <a href="./blog-detail" class="know-more-mdiv">
                     <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
@@ -777,9 +778,9 @@
                     <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
-                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
+                  <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
-                  <a href="javascript:void(0)" class="know-more-mdiv">
+                  <a href="./blog-detail" class="know-more-mdiv">
                     <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
@@ -793,9 +794,9 @@
                     <p class="blog-detail-tag"><i class="fi fi-rr-calendar-lines-pen"></i>25-5-2024</p>
                     <a href="javascript:void(0)" class="blog-detail-tag"><i class="fi fi-rr-list"></i>Lorem ipsum</a>
                   </div>
-                  <a href="javascript:void(0)" class="blog-title">Lorem ipsum dolor sit</a>
+                  <a href="./blog-detail" class="blog-title">Lorem ipsum dolor sit</a>
                   <hr>
-                  <a href="javascript:void(0)" class="know-more-mdiv">
+                  <a href="./blog-detail" class="know-more-mdiv">
                     <i class="fi fi-rr-angle-circle-right right-arrow"></i><span>Know More</span>
                   </a>
                 </div>
@@ -808,7 +809,7 @@
           </div>
         </div>
         <div class="col-12 d-flex">
-          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto"> View More</a>
+          <a href="javascript:void(0)" class="common-btn common-btn2 mx-auto" title="View More"> View More</a>
         </div>
       </div>
     </div>

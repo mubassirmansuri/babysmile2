@@ -259,14 +259,17 @@ i {
 }
 .nav-item {
     max-width: fit-content;
+    overflow: visible;
 }
 .offcanvas {
     z-index: 1500;
-    overflow: auto;
-    overflow-x: hidden;
+    @media (max-width: 1200px) {
+        overflow: auto;
+        overflow-x: hidden;
+    }
 }
 .nav-item.dropdown:hover > .dropdown-menu {
-    display: block;
+    display: flex;
     left: 0;
 }
 .dropdown-toggle:hover + .megamenu-mdiv {
@@ -290,7 +293,7 @@ i {
 }
 
 .header-middle-mdiv {
-    padding: 10px 0;
+    padding: 0;
     border-bottom: 1px solid #ddd;
     .header-middle-row {
         display: flex;
@@ -452,7 +455,7 @@ i {
         font-size: 14px;
         line-height: 24px;
         font-weight: 800;
-        padding: 15px 0;
+        padding: 35px 0;
         color: $primaryFontColor;
         display: flex;
         align-items: center;
@@ -504,6 +507,10 @@ i {
         max-width: 800px;
         background: #fff;
         z-index: 99;
+        &.w-250 {
+            width: 250px !important;
+            max-width: 250px;
+        }
     }
 }
 .dropdown-toggle {
@@ -2172,7 +2179,6 @@ i {
         gap: 15px;
         border: 0;
         box-shadow: 0 0 9px 4px #0000001c;
-        margin-top: 5px !important;
         &.show {
             display: flex;
         }
