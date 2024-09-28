@@ -73,8 +73,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="left-title-mdiv">
-            <h2 class="common-main-title">New <span>Launches</span></h2> <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
-            data-bs-title="asdfasdf"> asdfasdfasdf</button>
+            <h2 class="common-main-title">New <span>Launches</span></h2>
             <p class="common-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
         </div>
