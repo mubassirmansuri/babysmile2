@@ -6,6 +6,10 @@
   .float-icon-5 {
     top: 60px;
     filter: invert(51%) sepia(79%) saturate(3118%) hue-rotate(313deg) brightness(103%) contrast(99%);
+    @media (max-width: 991px) {
+      width: 70px;
+      height: 70px;
+    }
   }
   .blog-float-img3 {
     position: absolute;
@@ -18,6 +22,8 @@
     @media (max-width: 991px) {
       width: 70px;
       left: 20px;
+      top: 50px;
+      z-index: 2;
     }
   }
   .float-icon-4 {

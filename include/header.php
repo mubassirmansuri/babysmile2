@@ -34,36 +34,6 @@
 </head>
 
 <body>
-  <!-- <header>
-    <div class="header-top-mdiv">
-      <div class="container">
-        <div class="row header-top-row">
-          <ul class="header-menu-ul">
-            <li class="header-menu-li"><a href="javascript:void(0)" class="header-menu-link">Shipping</a></li>
-            <li class="header-menu-li"><a href="javascript:void(0)" class="header-menu-link">FAQ</a></li>
-            <li class="header-menu-li"><a href="./contact.html" class="header-menu-link">Contact</a></li>
-            <li class="header-menu-li"><a href="javascript:void(0)" class="header-menu-link">Track Order</a></li>
-          </ul>
-          <div class="header-social-div">
-            <a href="javascript:void(0)" class="header-social-link">
-              <i class="fi fi-brands-facebook"></i>
-            </a>
-            <a href="javascript:void(0)" class="header-social-link">
-              <i class="fi fi-brands-instagram"></i>
-            </a>
-            <a href="javascript:void(0)" class="header-social-link">
-              <i class="fi fi-brands-twitter-alt"></i>
-            </a>
-            <a href="javascript:void(0)" class="header-social-link">
-              <i class="fi fi-brands-linkedin"></i>
-            </a>
-            <a href="javascript:void(0)" class="header-social-link">
-              <i class="fi fi-brands-youtube"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="header-middle-mdiv header-area">
       <div class="container-fluid">
         <div class="row header-middle-row mx-0">
@@ -71,22 +41,21 @@
             <img src="./assets/images/logo2.png" alt="logo" class="logo-img">
           </div>
           <nav class="navbar navbar-expand-xl bg-body-tertiary order-md-2 order-2" style="padding: 0px;">
-            <!-- Container wrapper -->
             <div class="container">
-              <!-- Toggle button -->
-              <!-- Collapsible wrapper -->
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <!-- Left links -->
+                <div class="offcanvas-head">
+                  <div class="offcanvas-logo">
+                    <img src="./assets/images/logo2.png" alt="logo2">
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
                 <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
                   <li class="nav-item">
-                    <a class="nav-link" href="./index" title="Home">Home</a>
+                    <a class="nav-link active" href="./index" title="Home">Home</a>
                   </li>
-                  <!-- Navbar dropdown -->
                   <li class="nav-item dropdown position-static">
                     <a class="nav-link dropdown-toggle  d-flex d-xl-none" title="Products" data-bs-toggle="collapse" href="#collapseProducts" role="button" aria-expanded="false" aria-controls="collapseProducts">Products</a>
                     <a class="nav-link dropdown-toggle d-xl-flex d-none" title="Products" href="./product-list.php">Products</a>
-                    <!-- Dropdown menu -->
-                    <!-- Dropdown menu -->
                     <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseProducts">
                       <div class="container">
                         <div class="row my-4">
@@ -161,7 +130,6 @@
                   <li class="nav-item dropdown position-static">
                     <a class="nav-link dropdown-toggle  d-flex d-xl-none" data-bs-toggle="collapse" href="#collapsecategory" role="button" aria-expanded="false" aria-controls="collapsecategory" title="Category">Category</a>
                     <a class="nav-link dropdown-toggle d-xl-flex d-none" href="javascript:void(0)" title="Category">Category</a>
-                    <!-- Dropdown menu -->
                     <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapsecategory">
                       <div class="container">
                         <div class="row my-4">
@@ -217,13 +185,10 @@
                     </ul>
                   </li> -->
                 </ul>
-                <!-- Left links -->
               </div>
-              <!-- Collapsible wrapper -->
             </div>
-            <!-- Container wrapper -->
           </nav>
-          <div class="header-search-div me-md-0 ms-md-auto me-auto order-md-3 order-4">
+          <div class="header-search-div me-md-0 ms-md-auto me-auto order-md-3 order-4 d-md-inline-block d-none">
             <form action="./" method="GET" class="header-search search-field border-circle">
               <button class="btn header-search-btn" type="submit">
                 <i class="fi fi-rr-search"></i>
@@ -238,7 +203,10 @@
               </div>
             </form>
           </div>
-          <div class="cart-icon-div order-xl-4 order-3">
+          <div class="cart-icon-div order-xl-4 order-3 ms-auto ms-md-0">
+            <a href="javascript:void(0)" class="cart-icon-link d-flex d-md-none"  data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fi fi-rr-search"></i>
+            </a>
             <a href="javascript:void(0)" class="cart-icon-link" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fi fi-rr-user"></i>
             </a>
@@ -320,6 +288,25 @@
         var quantity = parseInt($('#quantity').val());
         if (quantity > 1) {
           $('#quantity').val(quantity - 1);
+        }
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      // Get the current URL path without the hostname and port
+      var currentUrl = window.location.href; // Full URL
+      var path = window.location.pathname; // Path only
+
+      // Loop through each nav link
+      $('.nav-link').each(function () {
+        // Get the href of the link
+        var linkHref = $(this).attr('href');
+
+        // Check if the link href matches the current path
+        if (currentUrl.includes(linkHref) || path === linkHref) {
+          $(this).addClass('active'); // Add active class to the matching link
         }
       });
     });

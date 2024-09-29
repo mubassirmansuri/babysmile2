@@ -68,7 +68,6 @@
     <img src="./assets/images/icon-1.svg" alt="icon 1" class="float-icon-1">
     <img src="./assets/images/icon-2.svg" alt="icon 1" class="float-icon-2">
     <img src="./assets/images/icon-4.svg" alt="icon 1" class="float-icon-4">
-    <!-- <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-5"> -->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -86,7 +85,6 @@
                 <div class="product-item">
                   <div class="product-floatleft-div">
                     <div class="product-badges discount">10%</div>
-                    <!-- <div class="product-badges">New</div> -->
                   </div>
                   <div class="product-floatright-div">
                     <a href="javascript:void(0)" class="like-product-icon">
@@ -263,8 +261,8 @@
   </section>
 
   <!-- categories-section -->
+
   <section class="section-padding categories-section-2">
-    <!-- <div class="common-float-line"></div> -->
     <img src="./assets/images/icon-6.svg" alt="icon 1" class="float-icon-1">
     <div class="container">
       <div class="row justify-content-center">
@@ -818,14 +816,12 @@
 
   <section class="processing-section position-relative">
     <img src="./assets/images/plane.png" alt="icon 1" class="float-icon-5">
-    <!-- <div class="common-float-line"></div> -->
     <div class="processing-section-shape"></div>
     <div class="container">
       <div class="row row-cols-lg-5 row-cols-sm-3 row-cols-2 row-gap20">
         <div class="col">
           <div class="processing-item">
             <div class="processing-icon-div">
-              <!-- <i class="fi fi-rr-truck-check"></i> -->
               <img src="./assets/images/add-to-cart.png" alt="Add To Cart" class="processing-icon">
             </div>
             <span class="processing-number">01</span>
@@ -835,7 +831,6 @@
         <div class="col">
           <div class="processing-item">
             <div class="processing-icon-div">
-              <!-- <i class="fi fi-rr-truck-check"></i> -->
               <img src="./assets/images/order-placement.png" alt="Order Placement" class="processing-icon">
             </div>
             <span class="processing-number">02</span>
@@ -845,7 +840,6 @@
         <div class="col">
           <div class="processing-item">
             <div class="processing-icon-div">
-              <!-- <i class="fi fi-rr-truck-check"></i> -->
               <img src="./assets/images/packing.png" alt="Packing" class="processing-icon">
             </div>
             <span class="processing-number">03</span>
@@ -855,7 +849,6 @@
         <div class="col">
           <div class="processing-item">
             <div class="processing-icon-div">
-              <!-- <i class="fi fi-rr-truck-check"></i> -->
               <img src="./assets/images/sorting.png" alt="Sorting" class="processing-icon">
             </div>
             <span class="processing-number">04</span>
@@ -865,7 +858,6 @@
         <div class="col">
           <div class="processing-item">
             <div class="processing-icon-div">
-              <!-- <i class="fi fi-rr-truck-check"></i> -->
               <img src="./assets/images/shipping.png" alt="Shipping" class="processing-icon">
             </div>
             <span class="processing-number">05</span>
@@ -901,7 +893,7 @@
       },
        breakpoints: {
         500: {
-          slidesPerView: 2, // 2 slides on medium screens
+          slidesPerView: 2,
           spaceBetween: 20,
         },
         1024: {
@@ -925,7 +917,7 @@
       },
       breakpoints: {
         500: {
-          slidesPerView: 2, // 2 slides on medium screens
+          slidesPerView: 2,
           spaceBetween: 20,
         },
         1024: {
@@ -948,7 +940,7 @@
       },
       breakpoints: {
         768: {
-            slidesPerView: 2, // 2 slides on medium screens
+            slidesPerView: 2,
             spaceBetween: 20,
         },
         992: {
@@ -966,7 +958,7 @@
       },
       breakpoints: {
         768: {
-            slidesPerView: 4, // 2 slides on medium screens
+            slidesPerView: 4,
             spaceBetween: 20,
         },
         1024: {
@@ -985,7 +977,7 @@
       },
       breakpoints: {
         768: {
-            slidesPerView: 3, // 2 slides on medium screens
+            slidesPerView: 3,
             spaceBetween: 20,
         },
         1024: {
