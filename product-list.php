@@ -19,6 +19,7 @@
 
 <section class="product-list-section section-padding">
   <div class="container overflow-x-hidden">
+    <a href="javascript:void(0)" class="filter-toggle-btn mobile" onclick="toggleSidebar()"><i class="fi fi-rr-cross-small"></i></a>
     <div class="product-filter-mdiv active" id="sidebar">
       <div class="product-filter-items">
         <h5 class="product-filter-title">Category</h5>
@@ -310,13 +311,26 @@
 </section>
 
 <script>
-  function toggleSidebar() {
-      var sidebar = document.getElementById("sidebar");
-      var productList = document.getElementById("productList");
+  var sidebar = document.getElementById("sidebar");
+  var productList = document.getElementById("productList");
 
-      sidebar.classList.toggle("active");
-      productList.classList.toggle("sidebar-active");
+  function toggleSidebar() {
+    sidebar.classList.toggle("active");
+    productList.classList.toggle("sidebar-active");
+  }
+
+  // Check the window width and remove classes if needed
+  function checkWindowSize() {
+    if (window.innerWidth < 1200) {
+      sidebar.classList.remove("active");
+      productList.classList.remove("sidebar-active");
     }
+  }
+
+  // Call the function on load and on resize
+  window.addEventListener("resize", checkWindowSize);
+  checkWindowSize(); // Initial check on page load
+
 </script>
 
 <script>

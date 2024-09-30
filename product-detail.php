@@ -1,6 +1,6 @@
 <?php include 'include/header.php'?>
 
-<section class="breadcrumb-section">
+<!-- <section class="breadcrumb-section">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="product-page-section section-padding">
   <div class="container">
@@ -75,7 +75,7 @@
 
       <div class="col-lg-5">
         <h2 class="product-title">100% Pure Cotton Jumpsuit</h2>
-        <div class="product-total-rating"><i class="fi fi-rr-star product-rating-icon"></i><span>4.2</span>| 6.5k Ratings</div>
+        <div class="product-total-rating"><i class="fi fi-rr-star product-rating-icon"></i><span>4.2 </span> | 6.5k Ratings</div>
         <div class="product-price-mdiv">
           <span class="old-price">₹100.00</span>
           <span class="new-price">₹80.00</span>
