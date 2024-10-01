@@ -1260,6 +1260,9 @@ i {
             @media (max-width: 1024px) {
                 top: 220px;
             }
+            @media (max-width: 575px) {
+                top: 190px;
+            }
         }
         .product-img-link {
             &::before {

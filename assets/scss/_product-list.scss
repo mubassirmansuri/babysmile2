@@ -127,6 +127,13 @@
     opacity: 0;
     transition: 0.3s ease;
     transition-delay: 0.3s;
+    @media (min-width: 1200px) {
+      display: none !important;
+    }
+    @media (max-width: 320px) {
+      top: 25px;
+      left: 260px;
+    }
   }
 }
 

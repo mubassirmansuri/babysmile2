@@ -53,7 +53,7 @@
           </div>
         </div>
       </div> -->
-      <div class="col-lg-6 col-sm-10 col-7  common-right-div login-slider-col">
+      <div class="col-lg-5 col-sm-10 col-7  common-right-div login-slider-col">
         <?php /* <div class="login-header">
           <div class="login-header-content">
             <!-- <img src="./assets/images/login.svg" alt="login" class="login-icon">
@@ -72,7 +72,7 @@
                     <div class="login-header">
                       <div class="login-header-content">
                         <!-- <h2 class="login-title">Login</h2> -->
-                        <p class="login-subtitle common-desc">Lorem ipsum dolor sit amet.</p>
+                        <p class="login-subtitle common-desc">Log In/Register</p>
                       </div>
                     </div>
                     <form autocomplete="off">
@@ -128,12 +128,12 @@
                         </div>
                         <div class="col-12">
                           <button type="submit" class="submit-btn common-btn common-btn2" title="Login">Login</button>
-                          <button type="submit" class="submit-btn common-btn common-btn2" title="Verify">Verify</button>
+                          <!-- <button type="submit" class="submit-btn common-btn common-btn2" title="Verify">Verify</button> -->
                         </div>
                         <p class="forgot-password-link signup-link">Login With Your Email Id? <a href="javascript:void(0)">Click Here To Login</a></p>
                         <!-- <p class="forgot-password-link signup-link">Login With Your Phone Number? <a href="javascript:void(0)">Click Here To Login</a></p> -->
-                        <p class="forgot-password-link signup-link">Forgot Your Password? <a href="javascript:void(0)">Reset It Here</a>
-                        </p>
+                        <!-- <p class="forgot-password-link signup-link">Forgot Your Password? <a href="javascript:void(0)">Reset It Here</a> -->
+                        <!-- </p> -->
                         <!-- <p class="forgot-password-link signup-link">Didn't Receive The Code? <a href="javascript:void(0)">Resend OTP</a> (1:59)</p> -->
                         <!-- <a href="javascript:void(0)" class="backto-login-link"><i class="fi fi-rr-arrow-left"></i><span> Back To Login</span></a> -->
                       </div>
@@ -182,4 +182,3 @@
     });
   </script>
 
-<?php include 'include/footer.php' ?>

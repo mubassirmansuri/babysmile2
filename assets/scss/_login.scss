@@ -61,7 +61,7 @@
 }
 
 .login-item {
-  padding: 30px 40px;
+  padding: 30px;
   // border: 1px dashed $secondary;
   border-radius: 15px;
   // background: #fff;
@@ -144,8 +144,8 @@
   .login-footer {
     margin-top: 30px;
     .center-title-mdiv {
-      margin-bottom: 20px;
-      border-bottom: 1px dashed $secondary;
+      margin-bottom: 15px;
+      border-bottom: 2px dashed #e7e7e7;
     }
     .common-main-title {
       font-size: 26px;
@@ -155,7 +155,7 @@
     }
     .social-icon-div {
       justify-content: center;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       .social-icon-link {
         width: 45px;
         height: 45px;
@@ -190,7 +190,7 @@
       }
     }
     &.forgot-password-link {
-      margin-top: 15px;
+      margin-top: 20px;
     }
   }
 }
@@ -220,13 +220,13 @@
 .otp-mdiv {
   display: flex;
   align-items: stretch;
-  justify-content: start;
+  justify-content: space-between;
   gap: 10px;
   width: 100%;
   .form-control {
-    width: calc(16% - 5px);
-    max-width: calc(16% - 5px);
-    min-width: calc(16% - 5px);
+    width: calc(14% - 5px);
+    max-width: calc(14% - 5px);
+    min-width: calc(14% - 5px);
     text-align: center;
   }
 }
@@ -253,6 +253,11 @@
 .form-group {
   margin-bottom: 15px;
 }
+.otp-mdiv {
+  .form-control {
+    padding: 10px 0;
+  }
+}
 .password-icon,
 .input-icon {
   position: absolute;
@@ -273,7 +278,10 @@
   }
 }
 .submit-btn {
-  width: 100%;
+  width: 80%;
+  min-width: fit-content;
+  margin-inline: auto;
+  margin-top: 15px;
 }
 
 .login-banner {

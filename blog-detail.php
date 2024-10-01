@@ -19,10 +19,10 @@
 
   <!-- blog-page-section -->
 
-  <section class="blog-page-section section-padding pb-0">
+  <section class="blog-page-section section-padding pb-md-0">
     <div class="container">
-      <div class="row">
-        <div class="col-9 common-left-div">
+      <div class="row row-gap20">
+        <div class="col-md-9 common-left-div">
           <div class="blog-img-div">
             <img src="./assets/images/demo-img-10.jpg" alt="" class="blog-img">
           </div>
@@ -40,7 +40,7 @@
             <p class="common-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odio neque nostrum ex laborum expedita natus earum, obcaecati quae praesentium provident deserunt fugit doloribus quaerat maxime corporis rem dolorem iure iusto quos sint magnam mollitia beatae. Tempora dolor atque ea sed, enim necessitatibus molestias eaque consequatur nesciunt iste corrupti optio quo eligendi ducimus sit similique, eum earum modi facere! Qui eveniet a quis sed rem exercitationem consequuntur, quae nisi debitis?</p>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
           <div class="blog-sidebar">
             <div class="blog-sidebar-item">
               <h5 class="blog-sidebar-title">Category</h5>
