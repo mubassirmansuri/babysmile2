@@ -133,7 +133,7 @@
                     <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapsecategory">
                       <div class="container">
                         <div class="row my-4">
-                          <div class="col-xl-3 mb-3 mb-xl-0">
+                          <div class="col-xl-3 col-6 mb-3 mb-xl-0">
                             <div class="megamenu-link-div">
                               <a href="javascript:void(0)" class="megamenu-category-link">
                                 <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
@@ -141,7 +141,7 @@
                               </a>
                             </div>
                           </div>
-                          <div class="col-xl-3 mb-3 mb-xl-0">
+                          <div class="col-xl-3 col-6 mb-3 mb-xl-0">
                             <div class="megamenu-link-div">
                               <a href="javascript:void(0)" class="megamenu-category-link">
                                 <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
@@ -149,7 +149,7 @@
                               </a>
                             </div>
                           </div>
-                          <div class="col-xl-3 mb-3 mb-xl-0">
+                          <div class="col-xl-3 col-6 mb-3 mb-xl-0">
                             <div class="megamenu-link-div">
                               <a href="javascript:void(0)" class="megamenu-category-link">
                                 <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">
@@ -157,7 +157,7 @@
                               </a>
                             </div>
                           </div>
-                          <div class="col-xl-3 mb-3 mb-xl-0">
+                          <div class="col-xl-3 col-6 mb-3 mb-xl-0">
                             <div class="megamenu-link-div">
                               <a href="javascript:void(0)" class="megamenu-category-link">
                                 <img src="./assets/images/baby-boy.jpg" alt="" class="megamenu-category-img">

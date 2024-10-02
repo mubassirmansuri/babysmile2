@@ -20,8 +20,8 @@
 <section class="checkout-section section-padding">
   <div class="container">
     <form action="post">
-      <div class="row">
-        <div class="col-6">
+      <div class="row row-gap20">
+        <div class="col-lg-6">
           <div class="row">
             <h3 class="common-main-title mb-30">Billing details</h3>
             <div class="col-6">
@@ -94,7 +94,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="row">
             <div class="d-flex">
               <h3 class="common-main-title mb-30 d-inline-block">

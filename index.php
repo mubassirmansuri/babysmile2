@@ -96,8 +96,8 @@
                       <img src="./assets/images/product1.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2" ><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2"data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -129,8 +129,8 @@
                       <img src="./assets/images/product2.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -162,8 +162,8 @@
                       <img src="./assets/images/product3.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -195,8 +195,8 @@
                       <img src="./assets/images/product4.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -228,8 +228,8 @@
                       <img src="./assets/images/product5.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -433,8 +433,8 @@
                       <img src="./assets/images/product2.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -466,8 +466,8 @@
                       <img src="./assets/images/product3.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -499,8 +499,8 @@
                       <img src="./assets/images/product4.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">
@@ -532,8 +532,8 @@
                       <img src="./assets/images/product5.webp" alt="demo" class="product-img">
                     </a>
                     <div class="add-cart-div">
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                      <a href="javascript:void(0)" class="add-cart-link2"><i class="fi fi-rr-plus"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                      <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
                     </div>
                   </div>
                   <div class="product-item-footer">

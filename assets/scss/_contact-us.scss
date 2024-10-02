@@ -16,6 +16,10 @@
     background: #fff;
     border-radius: 16px 0 0 16px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+    @media (max-width: 991px) {
+      border-radius: 16px 16px 0 0;
+      padding: 15px;
+    }
   }
 
   .form-fild-main {
@@ -32,6 +36,11 @@
     margin-bottom: 20px;
     span {
       color: $secondary;
+    }
+    @media (max-width: 991px) {
+      font-size: 26px;
+      line-height: 28px;
+      margin-bottom: 10px;
     }
   }
 
@@ -97,6 +106,10 @@
     flex-direction: column;
     gap: 20px;
     overflow: hidden;
+    @media (max-width: 991px) {
+      border-radius: 0 0 16px 16px;
+      padding: 25px 15px;
+    }
     &::before {
       position: absolute;
       top: 0;

@@ -507,6 +507,7 @@ i {
         margin: 0;
         gap: 0px;
         width: 100%;
+        padding-bottom: 20px;
         .nav-item {
             max-width: 100%;
             width: 100%;
@@ -529,6 +530,7 @@ i {
             width: 100%;
             max-width: 100%;
             border-bottom: 1px solid #ddd;
+            justify-content: space-between;
         }
         &::before {
             position: absolute;
@@ -581,8 +583,8 @@ i {
             max-width: 250px;
         }
     }
-    @media (min-width: 1199px) {
-        padding: 15px;
+    @media (max-width: 1199px) {
+        padding: 15px 0;
     }
 }
 .dropdown-toggle {
@@ -600,6 +602,9 @@ i {
     -webkit-font-smoothing: antialiased;
     content: "\f150";
     font-size: 16px;
+    @media (max-width: 1199px) {
+        right: 0;
+    }
 }
 
 .megamenu-title {
@@ -623,9 +628,12 @@ i {
         color: $secondary;
     }
     @media (max-width: 576px) {
+        margin-bottom: 20px;
+    }
+    @media (max-width: 576px) {
         font-size: 20px;
         line-height: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 }
 
@@ -633,6 +641,9 @@ i {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
 }
 
 .megamenu-link {
@@ -678,6 +689,9 @@ i {
         width: 100%;
         border-radius: 10px;
         object-fit: cover;
+        @media (max-width: 1199px) {
+            height: 100px;
+        }
     }
     .megamenu-category-title {
         font-size: 18px;
@@ -2266,6 +2280,13 @@ i {
 .checkout-section {
     .common-main-title {
         font-size: 30px;
+        @media (max-width: 575px) {
+            font-size: 24px;
+            line-height: 24px;
+            .common-desc:last-of-type {
+                margin-top: 0;
+            }
+        }
     }
     .different-address-row {
         max-height: 0;
@@ -2299,4 +2320,17 @@ i {
             }
         }
     }
+}
+
+.popover {
+    border: 0;
+    box-shadow: 0 0 9px 4px #0000001c;
+}
+.popover-header {
+    background-color: #fff;
+    color: $secondaryFontColor;
+    font-size: 16px;
+    border-bottom: 0;
+    border: 0;
+    border-radius: 10px;
 }

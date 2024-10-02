@@ -249,6 +249,9 @@
   &.input-password {
     padding-right: 35px;
   }
+  @media (max-width: 991px) {
+    padding: 8px 10px;
+  }
 }
 .form-group {
   margin-bottom: 15px;

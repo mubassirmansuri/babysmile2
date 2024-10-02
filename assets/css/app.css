@@ -15685,7 +15685,8 @@ i {
     .navbar-nav {
       margin: 0;
       gap: 0px;
-      width: 100%; }
+      width: 100%;
+      padding-bottom: 20px; }
       .navbar-nav .nav-item {
         max-width: 100%;
         width: 100%; } }
@@ -15706,7 +15707,8 @@ i {
         padding: 10px;
         width: 100%;
         max-width: 100%;
-        border-bottom: 1px solid #ddd; } }
+        border-bottom: 1px solid #ddd;
+        justify-content: space-between; } }
     .navbar-nav .nav-link::before {
       position: absolute;
       bottom: 0;
@@ -15749,9 +15751,9 @@ i {
       .megamenu-mdiv.w-250 {
         width: 250px !important;
         max-width: 250px; } }
-  @media (min-width: 1199px) {
+  @media (max-width: 1199px) {
     .megamenu-mdiv {
-      padding: 15px; } }
+      padding: 15px 0; } }
 
 .dropdown-toggle {
   display: flex;
@@ -15768,6 +15770,9 @@ i {
   -webkit-font-smoothing: antialiased;
   content: "\f150";
   font-size: 16px; }
+  @media (max-width: 1199px) {
+    .dropdown-toggle::after {
+      right: 0; } }
 
 .megamenu-title {
   font-size: 20px;
@@ -15789,14 +15794,20 @@ i {
     color: #fe5488; }
   @media (max-width: 576px) {
     .megamenu-title {
+      margin-bottom: 20px; } }
+  @media (max-width: 576px) {
+    .megamenu-title {
       font-size: 20px;
       line-height: 20px;
-      margin-bottom: 10px; } }
+      margin-bottom: 15px; } }
 
 .megamenu-link-div {
   display: flex;
   flex-direction: column;
   gap: 15px; }
+  @media (max-width: 1199px) {
+    .megamenu-link-div {
+      margin-bottom: 20px; } }
 
 .megamenu-link {
   font-size: 14px;
@@ -15837,6 +15848,9 @@ i {
     width: 100%;
     border-radius: 10px;
     object-fit: cover; }
+    @media (max-width: 1199px) {
+      .megamenu-category-link .megamenu-category-img {
+        height: 100px; } }
   .megamenu-category-link .megamenu-category-title {
     font-size: 18px;
     line-height: 20px;
@@ -17141,7 +17155,7 @@ i {
     width: 100%;
     height: 100px;
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     z-index: 1;
     transform: scaleY(-1);
@@ -17450,6 +17464,10 @@ i {
   .form-control.input-password,
   .form-select.input-password {
     padding-right: 35px; }
+  @media (max-width: 991px) {
+    .form-control,
+    .form-select {
+      padding: 8px 10px; } }
 
 .form-group {
   margin-bottom: 15px; }
@@ -18417,6 +18435,10 @@ i {
   background: #fff;
   border-radius: 16px 0 0 16px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16); }
+  @media (max-width: 991px) {
+    .contact-us-section .contact-us-col {
+      border-radius: 16px 16px 0 0;
+      padding: 15px; } }
 
 .contact-us-section .form-fild-main {
   display: flex;
@@ -18431,6 +18453,11 @@ i {
   margin-bottom: 20px; }
   .contact-us-section .contact-us-heading span {
     color: #fe5488; }
+  @media (max-width: 991px) {
+    .contact-us-section .contact-us-heading {
+      font-size: 26px;
+      line-height: 28px;
+      margin-bottom: 10px; } }
 
 .contact-us-section .contact-us-form-main {
   display: flex;
@@ -18481,6 +18508,10 @@ i {
   flex-direction: column;
   gap: 20px;
   overflow: hidden; }
+  @media (max-width: 991px) {
+    .contact-us-section .contact-us-info-col {
+      border-radius: 0 0 16px 16px;
+      padding: 25px 15px; } }
   .contact-us-section .contact-us-info-col::before {
     position: absolute;
     top: 0;
@@ -18876,6 +18907,12 @@ i {
 
 .checkout-section .common-main-title {
   font-size: 30px; }
+  @media (max-width: 575px) {
+    .checkout-section .common-main-title {
+      font-size: 24px;
+      line-height: 24px; }
+      .checkout-section .common-main-title .common-desc:last-of-type {
+        margin-top: 0; } }
 
 .checkout-section .different-address-row {
   max-height: 0;
@@ -18901,3 +18938,15 @@ i {
     .common-dropdown.dropdown-menu .dropdown-item:hover {
       background: transparent;
       color: #fe5488; }
+
+.popover {
+  border: 0;
+  box-shadow: 0 0 9px 4px #0000001c; }
+
+.popover-header {
+  background-color: #fff;
+  color: #555;
+  font-size: 16px;
+  border-bottom: 0;
+  border: 0;
+  border-radius: 10px; }

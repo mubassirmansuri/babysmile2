@@ -24,7 +24,7 @@
     <img src="./assets/images/icon-10.svg" alt="icon 1" class="float-icon-5">
   <div class="container contact-us-container">
     <div class="conform-mess"></div>
-          <div class="row contact-us-row">
+          <div class="row contact-us-row mx-0">
               <div class="col-lg-6 contact-us-col">
                   <form action="" id="submit-contact-form" method="post" accept-charset="utf-8" novalidate="novalidate">
                       <div class="contact-us-form-main">
@@ -64,26 +64,27 @@
                   </form>
               </div>
               <div class="col-lg-6 contact-us-info-col">
-                  <p class="contact-us-heading">Contact Information</p>
-                  <div class="contact-info-div contact-address-div">
-                      <div class="contact-info-icon"> <i class="fi fi-rr-mobile-button"></i> </div>
-                      <p class="contact-info-text common-des">BebySmile<br>
-                          Five Greentree Centre, <br>
-                          525 Route 73 North Ste 104,
-                          Marlton, New Jersey 08053.
-                  </p></div>
-                  <a href="mailto:demosite@gmail.com" title="demosite@gmail.com" class="contact-info-div">
-                      <div class="contact-info-icon"> <i class="fi fi-rr-envelopes"></i> </div>
-                      <p class="contact-info-text common-des ">demosite@gmail.com</p>
-                  </a>
-                  <a href="tel:+919999999999" class="contact-info-div">
-                      <div class="contact-info-icon"> <i class="fi fi-rr-mobile-notch"></i> </div>
-                      <p class="contact-info-text common-des"> +91 99999 99999</p>
-                  </a>
-                  <a href="tel:+919999999999" class="contact-info-div">
-                      <div class="contact-info-icon"> <i class="fi fi-rr-mobile-notch"></i> </div>
-                      <p class="contact-info-text common-des">+91 99999 99999</p>
-                  </a>
+                <p class="contact-us-heading">Contact Information</p>
+                <div class="contact-info-div contact-address-div">
+                    <div class="contact-info-icon"> <i class="fi fi-rr-marker"></i></div>
+                    <p class="contact-info-text common-des">BebySmile<br>
+                        Five Greentree Centre, <br>
+                        525 Route 73 North Ste 104,
+                        Marlton, New Jersey 08053.
+                    </p>
+                </div>
+                <a href="mailto:demosite@gmail.com" title="demosite@gmail.com" class="contact-info-div">
+                    <div class="contact-info-icon"> <i class="fi fi-rr-envelopes"></i> </div>
+                    <p class="contact-info-text common-des ">demosite@gmail.com</p>
+                </a>
+                <a href="tel:+919999999999" class="contact-info-div">
+                    <div class="contact-info-icon"> <i class="fi fi-rr-mobile-notch"></i> </div>
+                    <p class="contact-info-text common-des"> +91 99999 99999</p>
+                </a>
+                <a href="tel:+919999999999" class="contact-info-div">
+                    <div class="contact-info-icon"> <i class="fi fi-rr-mobile-notch"></i> </div>
+                    <p class="contact-info-text common-des">+91 99999 99999</p>
+                </a>
                   <!-- <img src="./assets/images/icon-11.svg" alt="img5" class="contact-bg-img"> -->
               </div>
           </div>
