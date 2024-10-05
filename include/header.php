@@ -1,9 +1,57 @@
 <head>
   <title>BabySmile</title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="robots" content="all">
+  <meta name="robots" content="index, follow">
+  <meta name="Googlebot" content="index, follow">
+  <meta name="Yahoobot" content="index, follow">
+  <meta name="MSNbot" content="index, follow">
+      <meta name="allow-search" content="yes">
+  <meta name="rating" content="General">
+  <meta name="language" content="EN">
+  <meta name="copyright" content="Baby Smile">
+
+  <meta name="document-type" content="Public">
+  <meta name="publisher" content="lorem">
+  <meta name="document-rating" content="Safe for Kids">
+  <meta name="geo.region" content="IN">
+  <meta name="document-distribution" content="Global">
+
+
+  <!-- generic meta -->
+  <meta name="description" content="lorem" />
+  <meta name="keywords" content="Baby Smile" />
+  <meta name="author" content="lorem" />
+
+  <!-- og meta -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Baby Smile" />
+  <meta property="og:description" content="lorem" />
+  <meta property="og:url" content="./index" />
+  <meta property="og:site_name" content="Baby Smile" />
+
+  <meta property="og:image" content="./assets/images/og-icon.png" />
+  <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
+
+
+  <!-- twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="./index">
+  <meta property="twitter:title" content="Baby Smile">
+  <meta property="twitter:description" content="lorem">
+  <meta property="twitter:image" content="./assets/images/og-icon.png">
+
+  <!-- theme-color: for chrome mobile -->
+  <meta name="theme-color" content="#fff">
+
+  <!-- favicon -->
+  <link rel="icon" href="./assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="./assets/images/favicon.png">
 
   <!-- font  -->
 
@@ -38,14 +86,14 @@
       <div class="container-fluid">
         <div class="row header-middle-row mx-0">
           <div class="logo-div order-md-1 order-1">
-            <img src="./assets/images/logo2.png" alt="logo" class="logo-img">
+            <img src="./assets/images/logo.png" alt="logo" class="logo-img">
           </div>
           <nav class="navbar navbar-expand-xl bg-body-tertiary order-md-2 order-2" style="padding: 0px;">
             <div class="container">
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-head">
                   <div class="offcanvas-logo">
-                    <img src="./assets/images/logo2.png" alt="logo2">
+                    <img src="./assets/images/logo.png" alt="logo2">
                   </div>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -202,6 +250,16 @@
                 </select>
               </div>
             </form>
+            <div class="header-search-result-div">
+              <a href="javascript:void(0)" class="search-result-product-div">
+                <div class="result-product-img">
+                  <img src="./assets/images/product1.webp" alt="product1">
+                </div>
+                <div class="result-product-details-page">
+                  <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="cart-icon-div order-xl-4 order-3 ms-auto ms-md-0">
             <a href="javascript:void(0)" class="cart-icon-link d-flex d-md-none"  data-bs-toggle="dropdown" aria-expanded="false">
