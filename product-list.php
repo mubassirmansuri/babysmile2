@@ -156,7 +156,7 @@
             </div>
             <div class="product-item-footer">
               <p class="product-category">Baby Boy</p>
-              <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
               <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
               <div class="product-rating-mdiv">
                 <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -190,7 +190,7 @@
             </div>
             <div class="product-item-footer">
               <p class="product-category">Baby Boy</p>
-              <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
               <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
               <div class="product-rating-mdiv">
                 <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -224,7 +224,7 @@
             </div>
             <div class="product-item-footer">
               <p class="product-category">Baby Boy</p>
-              <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
               <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
               <div class="product-rating-mdiv">
                 <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -258,7 +258,7 @@
             </div>
             <div class="product-item-footer">
               <p class="product-category">Baby Boy</p>
-              <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
               <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
               <div class="product-rating-mdiv">
                 <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -292,7 +292,7 @@
             </div>
             <div class="product-item-footer">
               <p class="product-category">Baby Boy</p>
-              <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
               <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
               <div class="product-rating-mdiv">
                 <i class="fi fi-rr-star product-rating-icon rated"></i>

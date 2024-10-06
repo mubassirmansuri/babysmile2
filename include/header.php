@@ -85,9 +85,9 @@
     <div class="header-middle-mdiv header-area">
       <div class="container-fluid">
         <div class="row header-middle-row mx-0">
-          <div class="logo-div order-md-1 order-1">
+          <a href="./index" class="logo-div order-md-1 order-1">
             <img src="./assets/images/logo.png" alt="logo" class="logo-img">
-          </div>
+          </a>
           <nav class="navbar navbar-expand-xl bg-body-tertiary order-md-2 order-2" style="padding: 0px;">
             <div class="container">
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -110,7 +110,7 @@
                           <!-- Column 1 -->
                           <div class="col-xl-3 mb-3 mb-xl-0">
                             <a data-bs-toggle="collapse" href="#collapseBabyBoy" role="button" aria-expanded="false"
-                            aria-controls="collapseBabyBoy">
+                            aria-controls="collapseBabyBoy" class="megamenu-title-link">
                               <h4 class="megamenu-title">Baby <span>Boy</span></h4>
                             </a>
                             <div class="collapse d-xl-block" id="collapseBabyBoy">
@@ -126,7 +126,7 @@
                           <!-- Column 2 -->
                           <div class="col-xl-3 mb-3 mb-xl-0">
                             <a data-bs-toggle="collapse" href="#collapseBabyGirl" role="button" aria-expanded="false"
-                            aria-controls="collapseBabyGirl">
+                            aria-controls="collapseBabyGirl" class="megamenu-title-link">
                               <h4 class="megamenu-title">Baby <span>Girl</span></h4>
                             </a>
                             <div class="collapse d-xl-block" id="collapseBabyGirl">
@@ -142,7 +142,7 @@
                           <!-- Column 3 -->
                           <div class="col-xl-3 mb-3 mb-md-0">
                             <a data-bs-toggle="collapse" href="#collapseNewborn" role="button" aria-expanded="false"
-                            aria-controls="collapseNewborn">
+                            aria-controls="collapseNewborn" class="megamenu-title-link">
                               <h4 class="megamenu-title">Newborn <span>Baby</span></h4>
                             </a>
                             <div class="collapse d-xl-block" id="collapseNewborn">
@@ -158,7 +158,7 @@
                           <!-- Column 4 -->
                           <div class="col-xl-3">
                             <a data-bs-toggle="collapse" href="#collapseAllProducts" role="button" aria-expanded="false"
-                            aria-controls="collapseAllProducts">
+                            aria-controls="collapseAllProducts" class="megamenu-title-link">
                               <h4 class="megamenu-title">All <span>Products</span></h4>
                             </a>
                             <div class="collapse d-xl-block" id="collapseAllProducts">
@@ -251,18 +251,38 @@
               </div>
             </form>
             <div class="header-search-result-div">
+              <p class="search-result-notfound">No Record Found</p>
               <a href="javascript:void(0)" class="search-result-product-div">
                 <div class="result-product-img">
                   <img src="./assets/images/product1.webp" alt="product1">
                 </div>
                 <div class="result-product-details-page">
                   <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                </div>
+              </a>
+              <a href="javascript:void(0)" class="search-result-product-div">
+                <div class="result-product-img">
+                  <img src="./assets/images/product1.webp" alt="product1">
+                </div>
+                <div class="result-product-details-page">
+                  <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                </div>
+              </a>
+              <a href="javascript:void(0)" class="search-result-product-div">
+                <div class="result-product-img">
+                  <img src="./assets/images/product1.webp" alt="product1">
+                </div>
+                <div class="result-product-details-page">
+                  <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                 </div>
               </a>
             </div>
           </div>
           <div class="cart-icon-div order-xl-4 order-3 ms-auto ms-md-0">
-            <a href="javascript:void(0)" class="cart-icon-link d-flex d-md-none"  data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="javascript:void(0)" class="cart-icon-link d-flex d-md-none" data-bs-toggle="modal" data-bs-target="#searchModal">
               <i class="fi fi-rr-search"></i>
             </a>
             <a href="javascript:void(0)" class="cart-icon-link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -293,6 +313,61 @@
 
     </div>
   </header>
+
+  <!-- Modal -->
+  <div class="modal search-modal fade" id="searchModal" data-bs-keyboard="false" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="header-search-div me-md-0 ms-md-auto me-auto order-md-3 order-4 d-inline-block">
+            <form action="./" method="GET" class="header-search search-field border-circle">
+              <button class="btn header-search-btn" type="submit">
+                <i class="fi fi-rr-search"></i>
+              </button>
+              <input class="header-search-input" type="text" name="search-keyword" placeholder="Search products...">
+              <div class="search-category-div">
+                <select name="category" class="form-select">
+                  <option value="">Select</option>
+                  <option value="men">Men</option>
+                  <option value="women">Women</option>
+                </select>
+              </div>
+            </form>
+            <div class="header-search-result-div">
+              <p class="search-result-notfound">No Record Found</p>
+              <a href="javascript:void(0)" class="search-result-product-div">
+                <div class="result-product-img">
+                  <img src="./assets/images/product1.webp" alt="product1">
+                </div>
+                <div class="result-product-details-page">
+                  <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                </div>
+              </a>
+              <a href="javascript:void(0)" class="search-result-product-div">
+                <div class="result-product-img">
+                  <img src="./assets/images/product1.webp" alt="product1">
+                </div>
+                <div class="result-product-details-page">
+                  <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                </div>
+              </a>
+              <a href="javascript:void(0)" class="search-result-product-div">
+                <div class="result-product-img">
+                  <img src="./assets/images/product1.webp" alt="product1">
+                </div>
+                <div class="result-product-details-page">
+                  <h4 class="result-product-name">SnuggleNest Baby Blanket</h4>
+                  <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     $(document).ready(function () {

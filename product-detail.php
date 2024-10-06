@@ -147,21 +147,11 @@
             <button class="nav-link active" id="pills-Description-tab" data-bs-toggle="pill" data-bs-target="#pills-Description" type="button"
             role="tab" aria-controls="pills-Description" aria-selected="true">Description</button>
           </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-            role="tab" aria-controls="pills-profile" aria-selected="false">Lorem ipsum</button>
-          </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-Description" role="tabpanel" aria-labelledby="pills-Description-tab" tabindex="0">
             <p class="common-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, repellat ratione! Non ullam nulla molestiae ducimus incidunt culpa eligendi magni.</p>
             <p class="common-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quae sit quod eaque reiciendis ad voluptate, labore nam facere eum eveniet consectetur laudantium ut incidunt est iure adipisci? Nobis, at.</p>
-          </div>
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...
-          </div>
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...
-          </div>
-          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...
           </div>
         </div>
       </div>
@@ -338,7 +328,7 @@
                 </div>
                 <div class="product-item-footer">
                   <p class="product-category">Baby Boy</p>
-                  <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+                  <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
                   <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                   <div class="product-rating-mdiv">
                     <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -371,7 +361,7 @@
                 </div>
                 <div class="product-item-footer">
                   <p class="product-category">All</p>
-                  <a href="javascript:void(0)" class="product-name">LittleGent Swaddle Set</a>
+                  <a href="./product-detail" class="product-name">LittleGent Swaddle Set</a>
                   <p class="product-price">₹40</p>
                   <div class="product-rating-mdiv">
                     <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -404,7 +394,7 @@
                 </div>
                 <div class="product-item-footer">
                   <p class="product-category">Newborn Baby</p>
-                  <a href="javascript:void(0)" class="product-name">SweetPea Cradle Collection</a>
+                  <a href="./product-detail" class="product-name">SweetPea Cradle Collection</a>
                   <p class="product-price">₹40</p>
                   <div class="product-rating-mdiv">
                     <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -437,7 +427,7 @@
                 </div>
                 <div class="product-item-footer">
                   <p class="product-category">Baby Girl</p>
-                  <a href="javascript:void(0)" class="product-name">BlossomDreams Nursery Set</a>
+                  <a href="./product-detail" class="product-name">BlossomDreams Nursery Set</a>
                   <p class="product-price">₹40</p>
                   <div class="product-rating-mdiv">
                     <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -470,7 +460,7 @@
                 </div>
                 <div class="product-item-footer">
                   <p class="product-category">Baby Girl</p>
-                  <a href="javascript:void(0)" class="product-name">The Almirah Elephant Baby Bedding Set</a>
+                  <a href="./product-detail" class="product-name">The Almirah Elephant Baby Bedding Set</a>
                   <p class="product-price">₹40</p>
                   <div class="product-rating-mdiv">
                     <i class="fi fi-rr-star product-rating-icon rated"></i>

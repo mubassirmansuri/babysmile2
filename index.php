@@ -102,7 +102,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Baby Boy</p>
-                    <a href="javascript:void(0)" class="product-name">SnuggleNest Baby Blanket</a>
+                    <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
                     <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -135,7 +135,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">All</p>
-                    <a href="javascript:void(0)" class="product-name">LittleGent Swaddle Set</a>
+                    <a href="./product-detail" class="product-name">LittleGent Swaddle Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -168,7 +168,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Newborn Baby</p>
-                    <a href="javascript:void(0)" class="product-name">SweetPea Cradle Collection</a>
+                    <a href="./product-detail" class="product-name">SweetPea Cradle Collection</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -201,7 +201,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Baby Girl</p>
-                    <a href="javascript:void(0)" class="product-name">BlossomDreams Nursery Set</a>
+                    <a href="./product-detail" class="product-name">BlossomDreams Nursery Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -234,7 +234,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Baby Girl</p>
-                    <a href="javascript:void(0)" class="product-name">The Almirah Elephant Baby Bedding Set</a>
+                    <a href="./product-detail" class="product-name">The Almirah Elephant Baby Bedding Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -439,7 +439,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">All</p>
-                    <a href="javascript:void(0)" class="product-name">LittleGent Swaddle Set</a>
+                    <a href="./product-detail" class="product-name">LittleGent Swaddle Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -472,7 +472,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Newborn Baby</p>
-                    <a href="javascript:void(0)" class="product-name">SweetPea Cradle Collection</a>
+                    <a href="./product-detail" class="product-name">SweetPea Cradle Collection</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -505,7 +505,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Baby Girl</p>
-                    <a href="javascript:void(0)" class="product-name">BlossomDreams Nursery Set</a>
+                    <a href="./product-detail" class="product-name">BlossomDreams Nursery Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>
@@ -538,7 +538,7 @@
                   </div>
                   <div class="product-item-footer">
                     <p class="product-category">Baby Girl</p>
-                    <a href="javascript:void(0)" class="product-name">The Almirah Elephant Baby Bedding Set</a>
+                    <a href="./product-detail" class="product-name">The Almirah Elephant Baby Bedding Set</a>
                     <p class="product-price">₹40</p>
                     <div class="product-rating-mdiv">
                       <i class="fi fi-rr-star product-rating-icon rated"></i>

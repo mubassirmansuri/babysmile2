@@ -25,10 +25,10 @@
 		.s4 { fill: #ffbbcf}
 		.s5 { fill: rgb(254 135 171) }
 		.s6 { fill: rgb(254 115 157)}
-		.s7 { fill: rgb(254, 84, 136)}
+		.s7 { fill: rgb(239, 112, 158)}
 		.s8 { fill: #fcbaa2 }
-		.s9 { opacity: .1;fill: rgb(254, 84, 136) }
-		.s10 { fill: rgb(254, 84, 136) }
+		.s9 { opacity: .1;fill: rgb(239, 112, 158) }
+		.s10 { fill: rgb(239, 112, 158) }
 		.s11 { opacity: .3;fill: #ffffff }
 		.s12 { fill: #f9b4b4 }
 	</style>

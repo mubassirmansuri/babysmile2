@@ -10,7 +10,7 @@
       <div class="container footer-top-container">
         <div class="row">
           <div class="col-lg-4 col-12 mb-lg-0 mb-15">
-            <a href="javascript:void(0)" class="footer-logo-link">
+            <a href="./index"  class="footer-logo-link">
               <img src="./assets/images/logo.png" alt="logo" class="footer-logo-img">
             </a>
             <p class="common-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente iusto optio totam blanditiis vero officiis!</p>
@@ -39,7 +39,7 @@
               <li class="footer-link-li"><a href="./index" class="footer-link" title="Home"><i class="fi fi-rr-angle-small-right"></i>Home</a></li>
               <li class="footer-link-li"><a href="./product-list" class="footer-link" title="Products"><i class="fi fi-rr-angle-small-right"></i>Products</a></li>
               <li class="footer-link-li"><a href="./blog-list" class="footer-link" title="Blogs"><i class="fi fi-rr-angle-small-right"></i>Blogs</a></li>
-              <li class="footer-link-li"><a href="./faqs" class="footer-link" title="Faq"><i class="fi fi-rr-angle-small-right"></i>Faq</a></li>
+              <!-- <li class="footer-link-li"><a href="./faqs" class="footer-link" title="Faq"><i class="fi fi-rr-angle-small-right"></i>Faq</a></li> -->
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-md-0 mb-15">
