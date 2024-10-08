@@ -101,7 +101,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    transition: 0.3s ease;
+    // transition: 0.3s ease;
   }
   &:hover {
     background: #fff;
@@ -312,4 +312,27 @@
       line-height: 16px;
     }
   }
+}
+
+.no-record-found-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: calc(100dvh - 200px);
+  .no-record-found-img{
+    width: 100px;
+    object-fit: contain;
+  }
+  .no-record-found-content{
+    font-size: 28px;
+    line-height: 28px;
+    font-family: 600;
+    color: $primaryFontColor;
+    span{
+      color: $secondary;
+    }
+  }
+
 }

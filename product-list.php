@@ -117,194 +117,199 @@
     </div>
     <div class="product-list-mdiv sidebar-active" id="productList">
       <div class="product-list-div">
-      <div class="product-list-header">
-        <div class="product-list-header-left">
-          <a href="javascript:void(0)" class="filter-toggle-btn" onclick="toggleSidebar()"> <span><i class="fi fi-rr-plus"></i> Filter</span></a>
-          <select name="sort_by" class="form-select sort-by-select">
-            <option value="">Sort By</option>
-            <option value="">popularity</option>
-            <option value="average rating">average rating</option>
-            <option value="latest">latest</option>
-            <option value="price: low to high">price: low to high</option>
-            <option value="price: high to low">price: high to low</option>
-          </select>
+        <div class="product-list-header">
+          <div class="product-list-header-left">
+            <a href="javascript:void(0)" class="filter-toggle-btn" onclick="toggleSidebar()"> <span><i class="fi fi-rr-plus"></i> Filter</span></a>
+            <select name="sort_by" class="form-select sort-by-select">
+              <option value="">Sort By</option>
+              <option value="">popularity</option>
+              <option value="average rating">average rating</option>
+              <option value="latest">latest</option>
+              <option value="price: low to high">price: low to high</option>
+              <option value="price: high to low">price: high to low</option>
+            </select>
+          </div>
+          <div class="product-list-header-right">
+            <p class="product-list-totle-items">Showing 1-9 of 55 results Sort by latest</p>
+          </div>
         </div>
-        <div class="product-list-header-right">
-          <p class="product-list-totle-items">Showing 1-9 of 55 results Sort by latest</p>
-        </div>
-      </div>
-      <div class="row row-gap20">
-        <div class="col-lg-4 col-6">
-          <div class="product-item">
-            <div class="product-floatleft-div">
-              <div class="product-badges discount">10%</div>
-              <!-- <div class="product-badges">New</div> -->
-            </div>
-            <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
-                <i class="fi fi-rr-heart"></i>
-              </a>
-            </div>
-            <div class="product-img-div">
-              <a href="javascript:void(0)" class="product-img-link">
-                <img src="./assets/images/product1.webp" alt="demo" class="product-img">
-              </a>
-              <div class="add-cart-div">
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+        <div class="row row-gap20">
+          <div class="col-lg-4 col-6">
+            <div class="product-item">
+              <div class="product-floatleft-div">
+                <div class="product-badges discount">10%</div>
+                <!-- <div class="product-badges">New</div> -->
               </div>
-            </div>
-            <div class="product-item-footer">
-              <p class="product-category">Baby Boy</p>
-              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
-              <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
-              <div class="product-rating-mdiv">
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon"></i>
+              <div class="product-floatright-div">
+                <a href="javascript:void(0)" class="like-product-icon">
+                  <i class="fi fi-rr-heart"></i>
+                </a>
+              </div>
+              <div class="product-img-div">
+                <a href="javascript:void(0)" class="product-img-link">
+                  <img src="./assets/images/product1.webp" alt="demo" class="product-img">
+                </a>
+                <div class="add-cart-div">
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+                </div>
+              </div>
+              <div class="product-item-footer">
+                <p class="product-category">Baby Boy</p>
+                <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
+                <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                <div class="product-rating-mdiv">
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon"></i>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-6">
-          <div class="product-item">
-            <div class="product-floatleft-div">
-              <div class="product-badges discount">10%</div>
-              <!-- <div class="product-badges">New</div> -->
-            </div>
-            <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
-                <i class="fi fi-rr-heart"></i>
-              </a>
-            </div>
-            <div class="product-img-div">
-              <a href="javascript:void(0)" class="product-img-link">
-                <img src="./assets/images/product1.webp" alt="demo" class="product-img">
-              </a>
-              <div class="add-cart-div">
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+          <div class="col-lg-4 col-6">
+            <div class="product-item">
+              <div class="product-floatleft-div">
+                <div class="product-badges discount">10%</div>
+                <!-- <div class="product-badges">New</div> -->
               </div>
-            </div>
-            <div class="product-item-footer">
-              <p class="product-category">Baby Boy</p>
-              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
-              <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
-              <div class="product-rating-mdiv">
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon"></i>
+              <div class="product-floatright-div">
+                <a href="javascript:void(0)" class="like-product-icon">
+                  <i class="fi fi-rr-heart"></i>
+                </a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6">
-          <div class="product-item">
-            <div class="product-floatleft-div">
-              <div class="product-badges discount">10%</div>
-              <!-- <div class="product-badges">New</div> -->
-            </div>
-            <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
-                <i class="fi fi-rr-heart"></i>
-              </a>
-            </div>
-            <div class="product-img-div">
-              <a href="javascript:void(0)" class="product-img-link">
-                <img src="./assets/images/product1.webp" alt="demo" class="product-img">
-              </a>
-              <div class="add-cart-div">
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+              <div class="product-img-div">
+                <a href="javascript:void(0)" class="product-img-link">
+                  <img src="./assets/images/product1.webp" alt="demo" class="product-img">
+                </a>
+                <div class="add-cart-div">
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+                </div>
               </div>
-            </div>
-            <div class="product-item-footer">
-              <p class="product-category">Baby Boy</p>
-              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
-              <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
-              <div class="product-rating-mdiv">
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon"></i>
+              <div class="product-item-footer">
+                <p class="product-category">Baby Boy</p>
+                <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
+                <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                <div class="product-rating-mdiv">
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon"></i>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-6">
-          <div class="product-item">
-            <div class="product-floatleft-div">
-              <div class="product-badges discount">10%</div>
-              <!-- <div class="product-badges">New</div> -->
-            </div>
-            <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
-                <i class="fi fi-rr-heart"></i>
-              </a>
-            </div>
-            <div class="product-img-div">
-              <a href="javascript:void(0)" class="product-img-link">
-                <img src="./assets/images/product1.webp" alt="demo" class="product-img">
-              </a>
-              <div class="add-cart-div">
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+          <div class="col-lg-4 col-6">
+            <div class="product-item">
+              <div class="product-floatleft-div">
+                <div class="product-badges discount">10%</div>
+                <!-- <div class="product-badges">New</div> -->
               </div>
-            </div>
-            <div class="product-item-footer">
-              <p class="product-category">Baby Boy</p>
-              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
-              <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
-              <div class="product-rating-mdiv">
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon"></i>
+              <div class="product-floatright-div">
+                <a href="javascript:void(0)" class="like-product-icon">
+                  <i class="fi fi-rr-heart"></i>
+                </a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6">
-          <div class="product-item">
-            <div class="product-floatleft-div">
-              <div class="product-badges discount">10%</div>
-              <!-- <div class="product-badges">New</div> -->
-            </div>
-            <div class="product-floatright-div">
-              <a href="javascript:void(0)" class="like-product-icon">
-                <i class="fi fi-rr-heart"></i>
-              </a>
-            </div>
-            <div class="product-img-div">
-              <a href="javascript:void(0)" class="product-img-link">
-                <img src="./assets/images/product1.webp" alt="demo" class="product-img">
-              </a>
-              <div class="add-cart-div">
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
-                <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+              <div class="product-img-div">
+                <a href="javascript:void(0)" class="product-img-link">
+                  <img src="./assets/images/product1.webp" alt="demo" class="product-img">
+                </a>
+                <div class="add-cart-div">
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+                </div>
               </div>
-            </div>
-            <div class="product-item-footer">
-              <p class="product-category">Baby Boy</p>
-              <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
-              <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
-              <div class="product-rating-mdiv">
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon rated"></i>
-                <i class="fi fi-rr-star product-rating-icon"></i>
+              <div class="product-item-footer">
+                <p class="product-category">Baby Boy</p>
+                <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
+                <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                <div class="product-rating-mdiv">
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon"></i>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-6">
+            <div class="product-item">
+              <div class="product-floatleft-div">
+                <div class="product-badges discount">10%</div>
+                <!-- <div class="product-badges">New</div> -->
+              </div>
+              <div class="product-floatright-div">
+                <a href="javascript:void(0)" class="like-product-icon">
+                  <i class="fi fi-rr-heart"></i>
+                </a>
+              </div>
+              <div class="product-img-div">
+                <a href="javascript:void(0)" class="product-img-link">
+                  <img src="./assets/images/product1.webp" alt="demo" class="product-img">
+                </a>
+                <div class="add-cart-div">
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+                </div>
+              </div>
+              <div class="product-item-footer">
+                <p class="product-category">Baby Boy</p>
+                <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
+                <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                <div class="product-rating-mdiv">
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6">
+            <div class="product-item">
+              <div class="product-floatleft-div">
+                <div class="product-badges discount">10%</div>
+                <!-- <div class="product-badges">New</div> -->
+              </div>
+              <div class="product-floatright-div">
+                <a href="javascript:void(0)" class="like-product-icon">
+                  <i class="fi fi-rr-heart"></i>
+                </a>
+              </div>
+              <div class="product-img-div">
+                <a href="javascript:void(0)" class="product-img-link">
+                  <img src="./assets/images/product1.webp" alt="demo" class="product-img">
+                </a>
+                <div class="add-cart-div">
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="left" title="Buy Now"><i class="fi fi-rr-shopping-cart-add"></i></a>
+                  <a href="javascript:void(0)" class="add-cart-link2" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="right" title="Add To Cart"><i class="fi fi-rr-plus"></i></a>
+                </div>
+              </div>
+              <div class="product-item-footer">
+                <p class="product-category">Baby Boy</p>
+                <a href="./product-detail" class="product-name">SnuggleNest Baby Blanket</a>
+                <p class="product-price"> <span class="discount-price">₹30</span><del>₹40</del></p>
+                <div class="product-rating-mdiv">
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon rated"></i>
+                  <i class="fi fi-rr-star product-rating-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ----- no-record-found html  ----- -->
+          <!-- <div class="no-record-found-div">
+            <img src="./assets/images/icon-6.svg" alt="no-record-found" class="no-record-found-img">
+            <h5 class="no-record-found-content">No Record <span>Found</span></h5>
+          </div> -->
         </div>
-      </div>
       </div>
     </div>
   </div>

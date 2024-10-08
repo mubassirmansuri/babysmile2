@@ -17685,8 +17685,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    transition: 0.3s ease; }
+    gap: 8px; }
   .filter-toggle-btn:hover {
     background: #fff;
     border-color: #ef709e;
@@ -17858,6 +17857,24 @@ i {
       .range-slider .price-display span {
         font-size: 16px;
         line-height: 16px; } }
+
+.no-record-found-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  height: calc(100dvh - 200px); }
+  .no-record-found-div .no-record-found-img {
+    width: 100px;
+    object-fit: contain; }
+  .no-record-found-div .no-record-found-content {
+    font-size: 28px;
+    line-height: 28px;
+    font-family: 600;
+    color: #000; }
+    .no-record-found-div .no-record-found-content span {
+      color: #ef709e; }
 
 .product-page-section .product-title {
   font-size: 34px;

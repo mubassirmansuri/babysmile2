@@ -77,13 +77,13 @@
                     </div>
                     <form autocomplete="off">
                       <div class="row">
-                        <!-- <div class="col-12">
+                        <div class="col-12">
                           <div class="form-group">
                             <label class="form-label">Username</label>
                             <input type="text" name="username" placeholder="Username" class="form-control">
                           </div>
-                        </div> -->
-                        <!-- <div class="col-12 mb-15">
+                        </div>
+                        <div class="col-12 mb-15">
                           <div class="form-group">
                             <label class="form-label">Email</label>
                             <div class="position-relative input-icon-div">
@@ -91,7 +91,7 @@
                               <input type="email" name="email" placeholder="Email" class="form-control" value="">
                             </div>
                           </div>
-                        </div> -->
+                        </div>
                         <div class="col-12">
                           <div class="form-group">
                             <!-- <label class="form-label">Phone No.</label> -->

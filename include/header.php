@@ -22,15 +22,15 @@
 
 
   <!-- generic meta -->
-  <meta name="description" content="lorem" />
-  <meta name="keywords" content="Baby Smile" />
+  <meta name="description" content="Discover the Baby Smile Cloth—an ultra-soft, hypoallergenic fabric perfect for cuddling, soothing, and keeping your little one comfortable. Eco-friendly, machine washable, and available in adorable designs, it's an essential accessory for every new parent. Ideal for nap time, playtime, or as a thoughtful gift!" />
+  <meta name="keywords" content="baby smile cloth, baby soft cloth, infant care cloth, baby blanket, baby comfort cloth, newborn smile cloth, baby soothing cloth, soft baby fabric, eco-friendly baby cloth, machine washable baby cloth, baby accessory, baby gift ideas, plush baby cloth, baby hygiene products" />
   <meta name="author" content="lorem" />
 
   <!-- og meta -->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Baby Smile" />
-  <meta property="og:description" content="lorem" />
+  <meta property="og:description" content="Discover the Baby Smile Cloth—an ultra-soft, hypoallergenic fabric perfect for cuddling, soothing, and keeping your little one comfortable. Eco-friendly, machine washable, and available in adorable designs, it's an essential accessory for every new parent. Ideal for nap time, playtime, or as a thoughtful gift!" />
   <meta property="og:url" content="./index" />
   <meta property="og:site_name" content="Baby Smile" />
 
@@ -43,7 +43,7 @@
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="./index">
   <meta property="twitter:title" content="Baby Smile">
-  <meta property="twitter:description" content="lorem">
+  <meta property="twitter:description" content="Discover the Baby Smile Cloth—an ultra-soft, hypoallergenic fabric perfect for cuddling, soothing, and keeping your little one comfortable. Eco-friendly, machine washable, and available in adorable designs, it's an essential accessory for every new parent. Ideal for nap time, playtime, or as a thoughtful gift!">
   <meta property="twitter:image" content="./assets/images/og-icon.png">
 
   <!-- theme-color: for chrome mobile -->
@@ -59,9 +59,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet"> -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -106,6 +103,7 @@
                     <a class="nav-link dropdown-toggle d-xl-flex d-none" title="Products" href="./product-list.php">Products</a>
                     <div class="w-100 mt-0 megamenu-mdiv collapse"  id="collapseProducts">
                       <div class="container">
+                        <a class="megamenu-title border-0 d-block d-xl-none" title="All Products" href="./product-list.php">All <span> Products</span></a>
                         <div class="row my-4">
                           <!-- Column 1 -->
                           <div class="col-xl-3 mb-3 mb-xl-0">
